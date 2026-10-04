@@ -1,0 +1,3832 @@
+{
+  "schema": "prove.p70-full-video.v1",
+  "bindings": {
+    "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/RESULT.json": "12f3ad1b9476a4170d45e410251001481c47482e264667bda04e357e17bf635b",
+    "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/SEAL.json": "dbbc84d7beab88680ceb9b6a22f7540510205e2ec410aaa3ac120df2af0e99d3",
+    "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/BINDING.json": "1bfa5627bb02c71faecc1df59f712f9b2b528f228065defe8d4ce4f6b5a62ab4",
+    "/home/zheng/github/Interaction-RSI/tools/task_graph/p70_full_video_zh.py": "ad3754213acd6f0b3f6f4f5a65fa5f4b00d9e7ceb1a878fb0da27edb2565c7de"
+  },
+  "video_sha256": "d234d4de3eefbf06b6388557e6cef8cb183678144f3a6ef0d6d0699ce062af49",
+  "fps": 20,
+  "terminal_hold_seconds": 2,
+  "physics_steps_added": 0,
+  "handoff_audit": {
+    "full_sim_state_exact_equal": true,
+    "public_refresh_max_abs_difference": {
+      "eef_pos": 0.00012396055192089028,
+      "eef_quat_xyzw": 1.588049970361466e-05,
+      "gripper_qpos": 4.6020138869812266e-08
+    }
+  },
+  "handoff": "prefix actions + s9 t; s9 t0 replaces identical-time prefix terminal; exact sealed simulator state checked when available, otherwise proprio checked; verification post-action offset+s9+local+1",
+  "frames": [
+    {
+      "t": 0,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0000.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e9c6d48deed13cd81ff37f939e8a159076030d992dfbffeeca9a979647dde224"
+    },
+    {
+      "t": 1,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0001.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3f92393a12ab1bdd6b25ec520e3c861447afb4e5cb7381ec01b6f82c155b20dd"
+    },
+    {
+      "t": 2,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0002.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "715ecfe50207479ca2a28984522853e9a6cc0feeefdc1a90bd7ef6357fed4274"
+    },
+    {
+      "t": 3,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0003.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "726a43beffbce0fa2c1cde92e5bebcc040423888a8112838fc09f27e23da0eef"
+    },
+    {
+      "t": 4,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0004.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6879a37760115ced539de99b7d6925db2f01a76d5198ae43bc7324c5e2defab4"
+    },
+    {
+      "t": 5,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0005.npz",
+      "stage": "public_settling",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f523185075ffd296d6e71f4c136c280a9e5edeabf97d26832f6b97b39381355d"
+    },
+    {
+      "t": 6,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0006.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2bb87f4741288a6e9c2ca0de5966e382b921fd921e68e6567ad9499b71ebe331"
+    },
+    {
+      "t": 7,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0007.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "35c6e68c3af0b6cfa1e07153d040b9c8ab9413f2bbf1938743ce6336e8d6f160"
+    },
+    {
+      "t": 8,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0008.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0b5898c947f869c0059146f2fde14c01cfd069f807c704f9dfcd1eb87f2496ea"
+    },
+    {
+      "t": 9,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0009.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "89ab6da9a12dba57305b355909fca830213f2ea7e4f7fe22f610f3230fe0203c"
+    },
+    {
+      "t": 10,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0010.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ca674d654a4b3f839bd0c63cbd08bbefd7d53c518ed7a86ae967d00adeb02462"
+    },
+    {
+      "t": 11,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0011.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e7544e99e6801b5e21e3ff1bf244967d71eb1979529eaac5058d0f674b901be3"
+    },
+    {
+      "t": 12,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0012.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b4336dab100b4ce1b75a8049e4d46ca26021f556d7632dafcb93c5970fd83693"
+    },
+    {
+      "t": 13,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0013.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "09fc4454ddef173a9d6ae0ff56653ef5c6d12e338a0a270e330fdb29d288e6ff"
+    },
+    {
+      "t": 14,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0014.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b1ec99d2daa4991fd1fa5659b103ee59c1675bb0b8719da85addaed73cd15962"
+    },
+    {
+      "t": 15,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0015.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f2d217f013f0eb7b05b1ecd8664fd8308833f8c5e480b8d7c125ff8e471989d2"
+    },
+    {
+      "t": 16,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0016.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "569677dd88d7cc7fc0a7bfac55fa4b2fa32179741c81177232026f82bb1b6482"
+    },
+    {
+      "t": 17,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0017.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c4c8a4fe74012b330fbed27a5fe155d2bf0a2269dce9768a0c7f7bfd136c5af8"
+    },
+    {
+      "t": 18,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0018.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8307b12905928d88015e96d31d91f1f8312d66eb6f411cadfec311a2ce026992"
+    },
+    {
+      "t": 19,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0019.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b835a67cd6817136cc33ee407b79560ae4d0bbdfd506fdcacbefbfefd8039f38"
+    },
+    {
+      "t": 20,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0020.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "89e18d585401791e35fc9253c2cb9b840807df04dd034deebcca60d5972deac0"
+    },
+    {
+      "t": 21,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0021.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "89d56d1b21ac773ce7e969b0cc76eefd2f78299914d992f4ebab9e88b7722701"
+    },
+    {
+      "t": 22,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0022.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1afd639fad9ff4537661ba517aac3095aeb9b0cdf14547b33b1620ea5842db2b"
+    },
+    {
+      "t": 23,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0023.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f13501f8c307e49e33abf75af1d9beb8b488ad91a8784319dccbf66ed8edcbca"
+    },
+    {
+      "t": 24,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0024.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "403d08281171326cfd943f1511da6d6a3baffb9c06daec5ee9396257dc10f9ea"
+    },
+    {
+      "t": 25,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0025.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "944a7e8f4c904c688629d185c3715ea2ac38bce950b7cf3cabe84f07c63b61f8"
+    },
+    {
+      "t": 26,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0026.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "23effac00ba6288192ac05e93a528a2c3bd04be92fcc7f9a203df341aac17767"
+    },
+    {
+      "t": 27,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0027.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2bdc3014991e5a21891dedddd2644637156017e84a3f5dc174e85a6e4fe3fed3"
+    },
+    {
+      "t": 28,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0028.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "79dd8f75a515b1648033409f5cab9768e5769ed8315eb10e7bdca713764abc5f"
+    },
+    {
+      "t": 29,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0029.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "71848039e16b2dbcda95d3c03b86bbc195ce81e4ab0c88ba9e49c3c9e38025cb"
+    },
+    {
+      "t": 30,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0030.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ddba59be1776d68c9ee8c760beb5fbb3f29d9a39d51b38546d051d35c4036f10"
+    },
+    {
+      "t": 31,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0031.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7bcabc5bfa8c072bc7eee9fa72e29090639511fb36e541c422fd19a2bb254471"
+    },
+    {
+      "t": 32,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0032.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "50bdd4da7ccb36ac6855110d4d68769ce24188b199a749e0863aaebcb3d002e5"
+    },
+    {
+      "t": 33,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0033.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a9f5b0e45c0d3aa33f83ad8c9a1d1c1d8fa6b35e86d8a776e579807f400abaf1"
+    },
+    {
+      "t": 34,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0034.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "32b8ab2db20590ff6e809f1da3c2a4c71d5673d54973025591480da726aba865"
+    },
+    {
+      "t": 35,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0035.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "34fcafdff2d8ab32919d3c0aea18712050d5b6ad82170cb8ce66d145a61d3224"
+    },
+    {
+      "t": 36,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0036.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b08038c42fcaa5300cf48a6cfbf2d74b99648092cb12d07a4661a0bc1e1a085b"
+    },
+    {
+      "t": 37,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0037.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "217925dfc99d025ddd9649e3ecb4e8f4a49f694f1f2a56580afd1da9ce3197be"
+    },
+    {
+      "t": 38,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0038.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8d49679213f1af5f03fce1861205c06a7f800fe102f78bdd0d6065220a9114ba"
+    },
+    {
+      "t": 39,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0039.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c2de19a9bb2b0bfc5a07d4e89ad26ab935629a2e719e7f8b6524cb96d48da569"
+    },
+    {
+      "t": 40,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0040.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "66ab9390a82edc7d2b71281573a00c85e84b2125980bc87d13ba3a509adf699e"
+    },
+    {
+      "t": 41,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0041.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "43e309504abb0204e71a9073ba3401c914a8d5da5525c6d8fc5d1ad27df0871e"
+    },
+    {
+      "t": 42,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0042.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ce44ea24aa8463fe6b55a7c9462b4bce881cdc09412dff099d8cf50ccfa4801d"
+    },
+    {
+      "t": 43,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0043.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1b26b949a2d2daa36a72b3fae920195c8c80870be1db88e0201ced6c7f67a8d5"
+    },
+    {
+      "t": 44,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0044.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fcc71db17ca2305fd47c3937b86b3218d70225af30336c15b35cac362044b8bc"
+    },
+    {
+      "t": 45,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0045.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1496780fb8bd8e80fae8ad11d66f797a09f30d128f4f0056b6636191a0d8970d"
+    },
+    {
+      "t": 46,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0046.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f37b31e2609b14b223b7b0e7d2758c8ecbb7d0536232f9b1c42ada6cef0d8d16"
+    },
+    {
+      "t": 47,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0047.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "45ed5427494ab3b9cc1b49ea2bb8595152ae318bd6a57646206a1a039abf91f1"
+    },
+    {
+      "t": 48,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0048.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "40a90a42883207756d474687cb36ff61a2c98b3001435ac4a8dbcf35f3c1f287"
+    },
+    {
+      "t": 49,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0049.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6fdfbbd14e838c489a46489189e6db5d611e25de21c100b7111647183a6fda58"
+    },
+    {
+      "t": 50,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0050.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "880a261015cd3a18e692236d937c2121b46ef72d94429b68da608df9725726c2"
+    },
+    {
+      "t": 51,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0051.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8d28fc8d767bae33e79dd8ff4e41916001e40358546e80115dfbfa017d7171c0"
+    },
+    {
+      "t": 52,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0052.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8864540d11d0ec929c43089224d15c83d5bc7207cf5c747c563473c93ff1eda3"
+    },
+    {
+      "t": 53,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0053.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "38a8db749719034bf9309a63bbcbfe781c3fbd22b98d270fea97bbe595f55c41"
+    },
+    {
+      "t": 54,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0054.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2d36c8b0f4ef7962ffdc363be77dd57ab3205e94bf024fdde035c49ae02c5f7e"
+    },
+    {
+      "t": 55,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0055.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e86193143fba709b8f06f8ac7e4070c1f1e44ed7a03a40eaa9f81e3860eeae28"
+    },
+    {
+      "t": 56,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0056.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e74f5bb6d87c8f201b395babca513416e9db0e2ade1eb641a0e15c4daab82687"
+    },
+    {
+      "t": 57,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0057.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6fc71a5465b0f51ab79000e3bf5877e3060a26c7a60ece6feb32fd11f8440907"
+    },
+    {
+      "t": 58,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0058.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "05efdeb0147b35c13a44584f7e2e13e984e0f0dcc54ba6d3b3cc95bc2068a032"
+    },
+    {
+      "t": 59,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0059.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "47d48f4cf142e66c9cae26d65a2e08d08ccb18465bd53768eb36247bd7afdfa8"
+    },
+    {
+      "t": 60,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0060.npz",
+      "stage": "approach_book",
+      "controller": "Code",
+      "update": false,
+      "sha256": "232caec03412fc01dd7dbd0513857d7144aef93686bc766bcc84005e8620c7ec"
+    },
+    {
+      "t": 61,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0061.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "6eb08e5557b0cc6d529f4d7ba4c8379fee3b926e121959fb7ca0c88e62172797"
+    },
+    {
+      "t": 62,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0062.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "1fc63dfc24787c1a2df1228eabdb7efbcf0c97a9105c2e613d2c671eb40b7d59"
+    },
+    {
+      "t": 63,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0063.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "26f33b75ccac60ea2c4c0616bce64dc55592f25a4263e320c85d8caa78e9edd4"
+    },
+    {
+      "t": 64,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0064.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "577d153456c3b3c1bcd506f3beb5cf70dc86ccff7977da38e462bec939b82932"
+    },
+    {
+      "t": 65,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0065.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "fb889be7dbcab69b25eb2d40843dabceeafc11a8413423781d12ba1b48f1c9a1"
+    },
+    {
+      "t": 66,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0066.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c957c2f429a37051accf0be81801ac1e3d30912eb1dca0de46c7603ef1f393e5"
+    },
+    {
+      "t": 67,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0067.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "d8d91004e561b5865895103f3d6d1f274a360bcb537a486b0e23086cd6ab97ae"
+    },
+    {
+      "t": 68,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0068.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "5097679121ece1f3291809fd9d01d63b227f8bce96c88637f9c295346b6bdf1c"
+    },
+    {
+      "t": 69,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0069.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "02e6d747fd869a8e0c07fc9d7174a022d60ae6c9d35e6736cf543cff2a5a60e1"
+    },
+    {
+      "t": 70,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0070.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "8fc67eaffc00321d55986f03ee375b1603516a4f4aaa3d5760f31f0e48847e1e"
+    },
+    {
+      "t": 71,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0071.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "385d33479678bc916dfa3881838d0a30d9619fcad1eedc96877a9925bb1328e1"
+    },
+    {
+      "t": 72,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0072.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "f4408c15573ee40c1c3e113ebe12740077d0aec2971a4f924e6da808b356f4d2"
+    },
+    {
+      "t": 73,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0073.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "a7b2c771581c1d6de80a5f676b575603694dc7e0621e51b6f8f6a71193570e50"
+    },
+    {
+      "t": 74,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0074.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "5896694f5b083fcbada0499d6bcb16eefba837d3f3d79ba60c800b6a84b02d8e"
+    },
+    {
+      "t": 75,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0075.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "2d0bb438e0694ea224e5da1b55b265e0208d87a03d485137d78c04cc58d9e6df"
+    },
+    {
+      "t": 76,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0076.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "6be9e6fb054a9d277074c085790c31c11f0f50156ee906bbfc07feb2cc84ebc1"
+    },
+    {
+      "t": 77,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0077.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "b8a03b7bbc4fd8f85eaf468de149c1c3ff41830c4e58d99b4528848712a827ab"
+    },
+    {
+      "t": 78,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0078.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "8e718f0544c6cd0c24ee8232c285bef9420c3d6cb839fd6a00d6b35f0ed2b8fb"
+    },
+    {
+      "t": 79,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0079.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "962c3758bf011403b07c72b9e4d1ba0dfbc0a4e49eb65a4c47b035cf58a4d207"
+    },
+    {
+      "t": 80,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0080.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c537d094767d5806e11405c46537be19265a1d1d6d6092b2463ea0a7f7f83056"
+    },
+    {
+      "t": 81,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0081.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "68660ad3d073b5e1768295c984723d86e1cad3b5c7523b7b85862ad8fd33561d"
+    },
+    {
+      "t": 82,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0082.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c3871920b7163c464aac4c2fb385bfc386f4958697c3e1a6c52ab305eb41e73c"
+    },
+    {
+      "t": 83,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0083.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "00f3413ba5af558fb55a1f126768ed4de9957bec4d5f9516ba58da045122fde7"
+    },
+    {
+      "t": 84,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0084.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "d8b24571008585baa217378029f46becf2683c44146eb50097dfd9cf31dcc4f6"
+    },
+    {
+      "t": 85,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0085.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "5eb6f9cb23f588f0dcbd2de16c9b0893d2d8982d41c5004adc53c9f09139abb8"
+    },
+    {
+      "t": 86,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0086.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "26d732d1c5e5827b93100e572d2f1e47ae54b1732c67788bffd3358a38f85c33"
+    },
+    {
+      "t": 87,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0087.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "e793874e6f34d89f85f342695451393eb1a6dacd3456ee5fb323a2efbf12d162"
+    },
+    {
+      "t": 88,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0088.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "71545ee34f3e08ed8f0a5f023969aac59d85f1a972a64b860df4dcb21ac750f5"
+    },
+    {
+      "t": 89,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0089.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "6618180a25395054bbf9c7c682e75064571b83145854286269e8c38d7a9ea0d9"
+    },
+    {
+      "t": 90,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0090.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "24ab9912ca9a967d0d6394c7edfe03143b31413de2d13e936aa0c41b8b34bdbf"
+    },
+    {
+      "t": 91,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0091.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "af9a9dfcc5032e006a9913ad755f9fe81d3b14353f6c0055a28f5ac5593c146c"
+    },
+    {
+      "t": 92,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0092.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "8aa375aa104821e009eed77ab90e72f4e7cba7b86e120837b13d26126c7325a3"
+    },
+    {
+      "t": 93,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0093.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "d0753887f5c66e35922baf148acfd016b986fe0a96512aeae1561c248ba4876a"
+    },
+    {
+      "t": 94,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0094.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c587fffb6536c93ad4ae063b1aa9f036e4f79b2cc098e3581f2238f04d1bd513"
+    },
+    {
+      "t": 95,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0095.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "413188a8b95f521cfe8b8f8d2956838ce7effa4eab39dbfa369a3f4e81083ca8"
+    },
+    {
+      "t": 96,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0096.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "6e336299c8f628ad10476f0d95b37ccb43182e8e69404a717c335a7e942ee433"
+    },
+    {
+      "t": 97,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0097.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "19dbe32c3bb4312081f3ca50746099a40791aeea045576ed6da546934b3d8374"
+    },
+    {
+      "t": 98,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0098.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "8fbf9e628d426bb180ee4228cefaec0fc233d98a297ab81162874fdc9c3e0e15"
+    },
+    {
+      "t": 99,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0099.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c6def1ad3f134dbe0476b7e9927139bcfe58546ef40d61a4624d1efea17c5c7e"
+    },
+    {
+      "t": 100,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0100.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "579a435eb50c5aaaeaa37f02ff9bd048e94b49c9697eeb0b3ae416795dec718f"
+    },
+    {
+      "t": 101,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0101.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "2e4d1b05a27d7e924c871b31415e9773717b1b35a48f461203a7c6a037928dbf"
+    },
+    {
+      "t": 102,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0102.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c88386ec5df8094f248424965f096b398a02499288eeffd9148c8e3103e6ced7"
+    },
+    {
+      "t": 103,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0103.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "b85cfbebc4f5502fe002745928a15b866dbb8fb7f3a39919975ba2ff7617c45d"
+    },
+    {
+      "t": 104,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0104.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "19b46d016efa1486754ce75534683c7b843e277c9b534f9f3f89468ccff60bd8"
+    },
+    {
+      "t": 105,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0105.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "e2850a0857602642ea0c281d121efdc727b95d44e3f6d76d60f511e0597b6535"
+    },
+    {
+      "t": 106,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0106.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "2bc20888b99c16fc54e0c06a9315da21bbbaaae51b52c167a7971701eb4ff03a"
+    },
+    {
+      "t": 107,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0107.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "d3cf0c33ca53a53bac201fe3651374680776d89834e40f9da54bd58c3adeb161"
+    },
+    {
+      "t": 108,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0108.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "2c0d27cb7f29e4471962bd4a31922a1f6ed31c09ca089f428490a2d28f5f8703"
+    },
+    {
+      "t": 109,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0109.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "3832902811b97f9a522ee600f5f8d41ce34edb85c567b143e452f3dd4525a65a"
+    },
+    {
+      "t": 110,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0110.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "3bafc0db52decbd0d01719331d72548c09562ef42f2b40f2fff69c8884ebf091"
+    },
+    {
+      "t": 111,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0111.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "eccb61e87832ecb40290ff0e5cbc9c475f2c4a31139953f5312b605ea56e2502"
+    },
+    {
+      "t": 112,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0112.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "e55e51445a2b8fab9ab15e0f767881c29f1c890bb819fdff4fdd12c2a853b808"
+    },
+    {
+      "t": 113,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0113.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "9aa4b199d287bc45f36b55b90c63b79a70c5759d6bd2de6777be7e0752b4b652"
+    },
+    {
+      "t": 114,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0114.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "c58eaff2f01951ae01d7d51f763958cbe5bf89be0e9ac9a770cc0350f9a9cebc"
+    },
+    {
+      "t": 115,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0115.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "47d0df6134523d4db94213a1e013545047390f815e5fa75d4bbd3b79bef94d58"
+    },
+    {
+      "t": 116,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0116.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "3061e6106bc209d0b88552cf276de0ba5a5cf046659c2717849af3d79f4db7f8"
+    },
+    {
+      "t": 117,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0117.npz",
+      "stage": "approach_book",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "97d64645f9bf0d9077c761024f5dbf1d773bffa5f7e20bb2f56d2fb83661c797"
+    },
+    {
+      "t": 118,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0118.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "da1e2a16dd2b43c4aaaf06aa56f48d3d4fad824d7799c64f3c5f0f5d73f9c41a"
+    },
+    {
+      "t": 119,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0119.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "d86b54052d8a4b81caa9b3706ec8b7538e9109f16f5ef3bd05150fc7753097ac"
+    },
+    {
+      "t": 120,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0120.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "3ef651dd5ff43fa45c95ae65105b2fac6951ed2e07d37258d72a173b55d89655"
+    },
+    {
+      "t": 121,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0121.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "eaf3da8945003046d7b2ba11ed54dc9f2eb1cd675665334e2fda07acc83cb4ba"
+    },
+    {
+      "t": 122,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0122.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "87cd75ab654187e361b93e28c4769836489f1a91e4f8e5c01e7b3a216cb05566"
+    },
+    {
+      "t": 123,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0123.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "bdceaef83d7e7007a83327fa66a0ac1e8b45a1e11b9fba16b777f75d41598f77"
+    },
+    {
+      "t": 124,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0124.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "2bb751e3c0af25635bfff0a6c89b03aeb9675065145656667e02f1f1e16cb558"
+    },
+    {
+      "t": 125,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0125.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "8b72429bbc66505468bde02fe3d19e59b198e89522f9cf911e6eaba18e40fc78"
+    },
+    {
+      "t": 126,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0126.npz",
+      "stage": "short_grasp",
+      "controller": "grasp MLP",
+      "update": false,
+      "sha256": "93857de1ce79d464389122925812a1785b5a3beacd428fc235aa727daef0a15a"
+    },
+    {
+      "t": 127,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0127.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6dd43a19e034cf264c646e45ede553a9c409ec8bd7f3a7d9938dfd55c286c3b2"
+    },
+    {
+      "t": 128,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0128.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4908f7659c8f2e18d8669e68aa1df73f1d5a68664cbdac4d46dfcebebd05d718"
+    },
+    {
+      "t": 129,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0129.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b2b7770ba371d6a4c9d404e51b2731f3681b11b3602a50f2aefb1eed6abd5107"
+    },
+    {
+      "t": 130,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0130.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6950bb7da5742da5edf1092b23a4189dc4450c16aea5a0b6eb897068bd69f994"
+    },
+    {
+      "t": 131,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0131.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c92449e3daa1050a14e85b51ce099a641f9a50c9ac8408c9732df399552d857a"
+    },
+    {
+      "t": 132,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0132.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "06a32a336c6ad15d67fb899aaec2f3214f41030221f5d2c0ee9e2bd57126ae35"
+    },
+    {
+      "t": 133,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0133.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "85507e13fe4e0ca34cee44349fbe360cee5749d4a7feb7bcc503d27735aaf0b0"
+    },
+    {
+      "t": 134,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0134.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "53d3e7365c014a29c835c2927c724b937de61c2b17a85d40ab272b814ce41a45"
+    },
+    {
+      "t": 135,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0135.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1fdb6053e23c2e6a85289cf1f69bf7ade31569960567891453b359cb92cc1169"
+    },
+    {
+      "t": 136,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0136.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f27b1d645586a243473f58b479446cd95c45d18b06b82181df46660da01afef2"
+    },
+    {
+      "t": 137,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0137.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "992f4b5088058d5c909909e28b00381d14917d40c7481c6fc9c0e5bfdd5781b9"
+    },
+    {
+      "t": 138,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0138.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "93be162044aa6c38470159d8dbfb5036cdbc40c305a0ac138f6fe0ea86657007"
+    },
+    {
+      "t": 139,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0139.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6d9caec5da39eede0e1fa829f85c3d4175a28afcc0f2f98b37e2ed3043044de9"
+    },
+    {
+      "t": 140,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0140.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b5fa0e70af36e8bf33d6802d8f6fb9de0a9b2049ed25aea628ad6823dd812336"
+    },
+    {
+      "t": 141,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0141.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0f9fe7d1b0197cec5a987b324f9199845e837f1e680a4a6e7336f15d77506af1"
+    },
+    {
+      "t": 142,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0142.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f415455eb6b950033ab9246a063a2ce5373f3d44051bebfb5629fbe4a6b8d433"
+    },
+    {
+      "t": 143,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0143.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ef6fce9443e335b33f66de0a6c653b2c18ce5c4b0fc98aaae80554e372af1a4e"
+    },
+    {
+      "t": 144,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0144.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "28a147b30ceebf46f76aa997249bc81e0dd068015577dc56baf53e77ae59f7fa"
+    },
+    {
+      "t": 145,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0145.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f7ae34e70168087c6f70b536eb64f36b10628b760da73c8dc4413e70e0052b71"
+    },
+    {
+      "t": 146,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0146.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ffb51d872d6b001e1613e9d7a567eb061dcd3bd2be85f6916678d6ab6793b6b3"
+    },
+    {
+      "t": 147,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0147.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c71967b715f381755a5bcfdef1dc2ac6f06e7fcf971ca2aa052c2f1b61f87e09"
+    },
+    {
+      "t": 148,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0148.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1a9390f25ca86893626aaee6be67664196b3a173f9aae3cedaf0c6ba45b59aa6"
+    },
+    {
+      "t": 149,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0149.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "31388b99657dfbfad3896cae2ec914a9b6b80ff27d158ccdbc519bade1f18186"
+    },
+    {
+      "t": 150,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0150.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8ddf77b279f6c7c0829f4ab8dc64c9edaf49ef8ddbb57dc995e8de3283dc361c"
+    },
+    {
+      "t": 151,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0151.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "14c947b392a06c69e65d55da6b132ddcbf1393d0f975a7c5072daaf191ba13ae"
+    },
+    {
+      "t": 152,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0152.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "24b624df063715c47a073b6f702537749385549a6de8b088a0d6aff12298ff7e"
+    },
+    {
+      "t": 153,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0153.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0342798952cbc21ea1dc0474ed57e3efdf15173ffd448dc4d15d8a3a88c517aa"
+    },
+    {
+      "t": 154,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0154.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "45a1a31f4908fc87bece20e848caeaacef36b5b8fe18c4432a5d2003bebd2781"
+    },
+    {
+      "t": 155,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0155.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f89ebc7f186b47eadd6eb7ebb08664207973cc541fc7ea5dbda5cfe6ebb5239b"
+    },
+    {
+      "t": 156,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0156.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "916d03d325783c3d7f528657361fc9e579589c501ba1e203c85300f49bd16a2b"
+    },
+    {
+      "t": 157,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0157.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fef55f7ebf051baf4f47a36f3e65da1de6145e180d2c01f76d6db992dac21e70"
+    },
+    {
+      "t": 158,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0158.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "87d6f826cba4787ab01ee591682d18b7cc437b6c6283a5a886061ff67f31186e"
+    },
+    {
+      "t": 159,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0159.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6f68b4080d09ef79e5e8d7c866d953e34da78d355f28ce9cbccc040ce26006c6"
+    },
+    {
+      "t": 160,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0160.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c7dbe22f06cebab060922c951e95a1ccd5dd9bcc5979ded8049f95ef8dcef010"
+    },
+    {
+      "t": 161,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0161.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "736db2fc95b880bafa028c9f7f99feed6a594e0d73000fc7f460b12c954e2a1e"
+    },
+    {
+      "t": 162,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0162.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6c40c5ba80465abf0664e970ba987421b6f06d6368950921d0e999d027e0b0c2"
+    },
+    {
+      "t": 163,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0163.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "845d0796de6eae828620cd76d0147d685308faba6b4e050082cb760067f06af3"
+    },
+    {
+      "t": 164,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0164.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "77788af398401842263b687dbf61ff75dea2ceb660bb851687f7f0cd2f1baee1"
+    },
+    {
+      "t": 165,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0165.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4cd25f7250608d0b798c88ddce26fef0905e35c3bcd58e507174a484fba2b3ed"
+    },
+    {
+      "t": 166,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0166.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d4b486f007360ea8dd9f8f228582a16b2346c9db41a57fbda6360828b80a2082"
+    },
+    {
+      "t": 167,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0167.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d0489eeef9264abefba0f33672c3e7af48feec2574cfa054cc70d15cf70852a3"
+    },
+    {
+      "t": 168,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0168.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "786850d926d9d150e6092f344fe0fffc72c4e110eaff6a31c6004d24ac6d67ea"
+    },
+    {
+      "t": 169,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0169.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8d8fd5f7deca2250ceda77561962ff1d8c00b62b97b28430ee08d8ca59c3204c"
+    },
+    {
+      "t": 170,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0170.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e1d930240bde7903d491b2c627a3f8410a9b8b75a3fe41e6e933ca6c4eced835"
+    },
+    {
+      "t": 171,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0171.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d705262de8146b5b4fe39f72f5ceae31f959a3e43c1e8ed4381b43cf07f60f67"
+    },
+    {
+      "t": 172,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0172.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "246c713b7dba1af8760ac909a7b64a984a10395d9201a8f83f6fa4655cc4869f"
+    },
+    {
+      "t": 173,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0173.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9ee718642fa82d65e97ada3d636de66415941225e2393eaeb849bf5d0ce9292f"
+    },
+    {
+      "t": 174,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0174.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9916ad4ee784bbc74e0628533149e44fe34fa13d40fd26116d170bcb3ecc40b7"
+    },
+    {
+      "t": 175,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0175.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "aa02e9395b1397f03fa52e17d70503aa45452aca9ba832ca35522ff671a0b792"
+    },
+    {
+      "t": 176,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0176.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6be21d19b3b85bc80b4ed48b5f033173e701f1633e3cfa68b2c339c25409c723"
+    },
+    {
+      "t": 177,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0177.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "20f944f9351dc555ad2f68e87ee43800eee861c3f1bb8b27653d95d0d3ff7b37"
+    },
+    {
+      "t": 178,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0178.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8da0317a8b7860b479025e433086ea352eb039e7988a5a382e05775c83ce91f0"
+    },
+    {
+      "t": 179,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0179.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0b40e5a522b9472ca47e4c34970f83533170dac09aa6c58c537d74548b0e073d"
+    },
+    {
+      "t": 180,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0180.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "66390c141a30bc6ed2c95823d453858bd6b47347884ffa8c5430075099606bb4"
+    },
+    {
+      "t": 181,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0181.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "176a58a5d76df2f05c9bd079eeab856db2f6eec7a50f1c75ee91da2c4a7990eb"
+    },
+    {
+      "t": 182,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0182.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e683d095df0cae4f3a9ff3675fefa1d2a5fb3076d0576f4f11ea2d53fc76abc8"
+    },
+    {
+      "t": 183,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0183.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "416041d88bf192e35129abd8fbe2e9cf4628c1cc32bb397a85a85e3a36eacbed"
+    },
+    {
+      "t": 184,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0184.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0e6c692daeb249d5c4f53fc5b35c0457863b7739c27c59ba17b2ee64d36e28d1"
+    },
+    {
+      "t": 185,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0185.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e40457e707d4b4258028d559c93562db8461d62d0d26644ea8e01654793be507"
+    },
+    {
+      "t": 186,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0186.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "43c1d5d1a08286165c477f7573ef5d02128bced495ba1a60ca641d6d8050e385"
+    },
+    {
+      "t": 187,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0187.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d71232e229eed8f769ce348f541bd046c59752c8b80962813915aa70e907147e"
+    },
+    {
+      "t": 188,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0188.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "022046740bfdc9c04cc910ec9a3ab48e808e41854e807c3cc2110b457d7ef7ef"
+    },
+    {
+      "t": 189,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0189.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "af282ce638e31c49c8a5c69578eb29af88c437519e3caf22bf0a1f38c8b86003"
+    },
+    {
+      "t": 190,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0190.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "88f786e656c4d47275d9ba5dea6cb0ba86f3b43427481d6d97de555b68c9a84c"
+    },
+    {
+      "t": 191,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0191.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "566b5e154b91de888f18dfdd16678e9827e4b7d7aa6430b3a8b14f1cb02d7b2a"
+    },
+    {
+      "t": 192,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0192.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9dbcff716d9546ff45b359009153087e66e53b4ee3c4e4ad49bc8188fbdf4388"
+    },
+    {
+      "t": 193,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0193.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "24ec5aaa46e32b90efc4fd0d51aacf8f1b21f744d8cd0c656371eeb91c60d199"
+    },
+    {
+      "t": 194,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0194.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "285f012d611796d7f795d277cb49396ecfaa0369b53e517005234afe7e9f6bfd"
+    },
+    {
+      "t": 195,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0195.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8647041da1937d1422f3372012d85488b84c4d7b331b57d3e21e7c68011523eb"
+    },
+    {
+      "t": 196,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0196.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ddf2f952e63727d1a8c0c815ca73a66eed1e012079a72700f1503b7ca854a0a3"
+    },
+    {
+      "t": 197,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0197.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3c49189ddfaa3d2a7b1379982e46e0ca7f058ebdab8fbbb00d4ab8a79ffb010f"
+    },
+    {
+      "t": 198,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0198.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4b21c1dd5b3dc59fb865a20c1c759b2d3a6138a53ae2a6d994785571d0e57290"
+    },
+    {
+      "t": 199,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0199.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3c343c0dce42ca28e335c6587be52e2267dec753257c17d50fefb66aff4c2001"
+    },
+    {
+      "t": 200,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0200.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a8029bad790c000f6907e6b0e38c176d83f98050d25a548b85204fdfc5c8967f"
+    },
+    {
+      "t": 201,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0201.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c142abc6a8874559e8ecc15d8df8fb22a3309755acc59893574afea8edfad5a7"
+    },
+    {
+      "t": 202,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0202.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4f65ad7b2570e89ea5203221cba44db42cdfe3205991e0b86b6f2e3b7b674f9b"
+    },
+    {
+      "t": 203,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0203.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c1bed2c8d7257be881bbf91007c6dbd519b96188dd1e84b0ace6f72300fe9abc"
+    },
+    {
+      "t": 204,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0204.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "75d050d4ffcf6b058fb644c7ff2c94b1d8a3f8944cfc164d0b0047e4dd8bbf67"
+    },
+    {
+      "t": 205,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0205.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3921aa5041c1fb6015a355ba9a44390696052cd22211f02837fb58388ce69d82"
+    },
+    {
+      "t": 206,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0206.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "61bf3dc77a3491ba6722f6ce3e059699d2e7f055e6272ac0122f2f85d3ee6252"
+    },
+    {
+      "t": 207,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0207.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6aad56385b5e2c4571204a5bf466b9544979834ef0525e5ef0fa5ea926c1c878"
+    },
+    {
+      "t": 208,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0208.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a0de51c2928bc857aadf8c635203d3d14c38f71bbc2987ba9b476231be7d8550"
+    },
+    {
+      "t": 209,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0209.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7085c2032006659b3590a90c76f01741320406b8596eba73761998b26b34deb7"
+    },
+    {
+      "t": 210,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0210.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f2e9695d2e450fd850e18fcf2b4dae5f53970e4c1bed5d6aabe400b8832cabc0"
+    },
+    {
+      "t": 211,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0211.npz",
+      "stage": "lift_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "31995f7bf4c24077cdfd7725b9ea8e2c13209eff778fb6bb2be37cba344b1708"
+    },
+    {
+      "t": 212,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0212.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ad8eae91487385887d3ff350b1c47ab70d6c2cb6164b4462bbf2912f547a2db0"
+    },
+    {
+      "t": 213,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0213.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f5275876264466ab297dc155d4df71c631a26d78b7d183db60c857a5b45d8106"
+    },
+    {
+      "t": 214,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0214.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "66fe82624a8308b30c9c7d48d9d28950607034514c5696fd3861d77454bf1f11"
+    },
+    {
+      "t": 215,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0215.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3898c0af69f23b37977cca99c95c0b84e261d77c71046768cdb02b64938a0717"
+    },
+    {
+      "t": 216,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0216.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ff578c654e638acbc104a81c6d9f9916b6232452db9a8f78a6ec3f9c1b320ba8"
+    },
+    {
+      "t": 217,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0217.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3868a3ebb92c83c5323ff0e7b96d554d851765d76805fd302204155067611682"
+    },
+    {
+      "t": 218,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0218.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8c3575a602dd088bc1f90e58524c6408474378c5f361648ce5d56f88b7d9751c"
+    },
+    {
+      "t": 219,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0219.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f7fa4a7a596f64237ff69bf023f1f8704a96d6632dbc7b4b12363835c2be72ec"
+    },
+    {
+      "t": 220,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0220.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0b35172de35fc77270b632019a20a44e50fad2150311016be83feac83d459500"
+    },
+    {
+      "t": 221,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0221.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a439da51d0f02c562eca39a791fc453ff46f8ef4f7629c4a761451da234fa280"
+    },
+    {
+      "t": 222,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0222.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3e69a8ea86d838b06f0a54435fe634af77b7aa181742189b31ace00ed3fdf7e3"
+    },
+    {
+      "t": 223,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0223.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fe8c1a28c1d79fa68b55b37b1958ec5499a52475f5e4368f281c596d147bbbb8"
+    },
+    {
+      "t": 224,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0224.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "961722bff6c959b4f72939eeb4037a26c058bfc67273ec291ff86d1d8da8ccd1"
+    },
+    {
+      "t": 225,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0225.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2435196cc59c9a514fe6b46f7b332eb239e6a84688de6fa6ccdf4ed6eeef6492"
+    },
+    {
+      "t": 226,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0226.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c98efb00fd6a44b7dd7f99e1b8f18ad967c9d3dc5362bc909db81029a76d8ec5"
+    },
+    {
+      "t": 227,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0227.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f6daedfb8db5b027032b9c409dfd6b595d4ce2be47ea94cd6c47052f369b39cf"
+    },
+    {
+      "t": 228,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0228.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "afffced91fddba749a47a83a1a6092daaf7c233a042b096ddb1c0b6a93992514"
+    },
+    {
+      "t": 229,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0229.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "371c663d34b9c4af6d6425b6c2f4c6fca7e51e372a208e7582fae0c4d576b80a"
+    },
+    {
+      "t": 230,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0230.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "405815fd17a061e3610b9575cab8c4a2511085e86493879e0c6a6c76f0ac167b"
+    },
+    {
+      "t": 231,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0231.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4c411e8a984621626a28e56e315bd40b1671def39d1cd9800dd53a5ceb3bfd50"
+    },
+    {
+      "t": 232,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0232.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "71c7ec389873b28485aa99b22e54674b5a1a04f0a7b57805bc357ad078effe28"
+    },
+    {
+      "t": 233,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0233.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e9007e16a0763ea6c890fbb1dea99ad505ae38020654273168cb968f2a218204"
+    },
+    {
+      "t": 234,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0234.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ee6637f07e90f2d644f6559a413d2eb523b129118fba84803144b36c2288d057"
+    },
+    {
+      "t": 235,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0235.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ca271776a37d16f99c75ea3fde80dd5fda586eb937430b983ac8fd3d79ce87d4"
+    },
+    {
+      "t": 236,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0236.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0630a5549f0fb0f948019d286d274b55ff259933820933a9b524b76865a5bbce"
+    },
+    {
+      "t": 237,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0237.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b3c3826bcd54c339e4421a54926f1e32ef856f7535d0d7568a0ae9c9b88400e3"
+    },
+    {
+      "t": 238,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0238.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "03ba71916b14f70f02dea31abdfa059bfc2a19225ab0a62dad2b0f4af29ad0b0"
+    },
+    {
+      "t": 239,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0239.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d78b01e2dc58b2632852c12b8e0452e500862f4d9d637a0b8116d62156ddd60a"
+    },
+    {
+      "t": 240,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0240.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "670204c80662d9f0eed90bd71ff2c055dd872a86eb0f779549c94bdc44ffe3fd"
+    },
+    {
+      "t": 241,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0241.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ca84434d8d20b2634d3eeee7175466064a795b5fbab092b6f2f1ec17e078c265"
+    },
+    {
+      "t": 242,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0242.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c7f7d5754ee92f3ef06beba8536c5747d6ebcf137d5d3529d2c7ff6e2ec2a281"
+    },
+    {
+      "t": 243,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0243.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "5669b5e6cd830b4bf605d3ce01cd3a16c64fa387c9469e19cbf02fc5225b7941"
+    },
+    {
+      "t": 244,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0244.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "21c497a26544b8b22abacc1b5517d617a8b519c6c6de1c33de61590cae655b72"
+    },
+    {
+      "t": 245,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0245.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6d3f9816ddfa4ca766b9807c15e40b532027993211407949ee058abda2182fc5"
+    },
+    {
+      "t": 246,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0246.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9f5c5e8cb8b0998af287093291f7eb154864ffa3e9d6318d32a9c183c0e4df00"
+    },
+    {
+      "t": 247,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0247.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0e28d9e1d4e394ed28a36eb42666e4c161e3e8af3b495d00c5c50ef83d1b1c15"
+    },
+    {
+      "t": 248,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0248.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "5c05cc319b663e7ca5db7e79ee29c7e4cf2152841a85b58b9866091aa2822382"
+    },
+    {
+      "t": 249,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0249.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0f892dcbf0057d4fbbf165afbbe4627a1e1251fca41ca585b79708c0e49d886d"
+    },
+    {
+      "t": 250,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0250.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "18accd701139b90d572d89329a2ca354aa2a8428d03da2a5f463803a4f3deab1"
+    },
+    {
+      "t": 251,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0251.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2f561cf3c19666d0e38afc2d897489213d770fbf2d73f815253865e1a939ea8b"
+    },
+    {
+      "t": 252,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0252.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6084a668e296f207f5fbfff8629d5a786e474d3687339a1f632bf2afee81e373"
+    },
+    {
+      "t": 253,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0253.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3d3d9868b91346773c783a74f5872dada66a2f7d0766e6bf73f670e99f402419"
+    },
+    {
+      "t": 254,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0254.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6e22e914015b2f1d1f8bd45eacddcb010b9dcd29b9cb55e7ca1285aa0d3b0bad"
+    },
+    {
+      "t": 255,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0255.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bac3ba4ca2cb805763f12a5953ed2449625e6d2d80a64bbc3d7125ffc628fd96"
+    },
+    {
+      "t": 256,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0256.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7b2e187e356d70ae938ccfc9fb563b4fb235cd1c883c2d611e96e47b83d0d345"
+    },
+    {
+      "t": 257,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0257.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7007e51652929d48052d1e67e1bcb6576750da4a77da98d18bd49672ed7a1a40"
+    },
+    {
+      "t": 258,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0258.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1f549d2fe34601c659b78e888286ced76d86127bcd56851a96252c2317fa702e"
+    },
+    {
+      "t": 259,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0259.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "5fcb30b759aa07054a8ef7abbc37f9510294b91fcf5661da1d008b692a10bb9c"
+    },
+    {
+      "t": 260,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0260.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9a44e3e1e34f6957119081a494377076ed50359ab8f0aa9a3b108f830c361610"
+    },
+    {
+      "t": 261,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0261.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4f22f2affdbccf7f23b371d0fb5ceca4a0b3318e4cf7abec0118206bae3a9590"
+    },
+    {
+      "t": 262,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0262.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9d5116319c5ae5ae8abf16d9aba5ae202c3efa6d8e860b60d3b5b48bfe83bc45"
+    },
+    {
+      "t": 263,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0263.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0dd434ca2bda843765957d7dce7850fa5082f07b622b6c4d7d13abcbadc5a55a"
+    },
+    {
+      "t": 264,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0264.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "5984b5868b1e7d82d8fbf39a8e7f6e0943d1b6388957bf36caad2d95dc0763b5"
+    },
+    {
+      "t": 265,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0265.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6abc8c13ed875f56d05153b5862f0dfcab40eaf6c7d236d0f26b2d5d79f08eee"
+    },
+    {
+      "t": 266,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0266.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4f2e3477dddda9dbfbf7ea3bd0dd5f9cccbe9d81de5775718453abf7bee723d0"
+    },
+    {
+      "t": 267,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0267.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a13fbc50ced2b7167a60e1adf48a234383518d18f6f9c97351b2b659fecdb0d0"
+    },
+    {
+      "t": 268,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0268.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "163f62d960f612b6d19e5a1a4c64a3aedfa6d7ddd53f917220e7fa57911e87f8"
+    },
+    {
+      "t": 269,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0269.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f2f1be1cc44b7e286727f7e23d1e36e98907d5f756f54e1cc8c3d86f4671b4f0"
+    },
+    {
+      "t": 270,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0270.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "dbb602b7d59e7a8a580b816d90c723f6a1d77b8eae0d3987a4ea6ea10fc2a25a"
+    },
+    {
+      "t": 271,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0271.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "dd18a14f8ccc33f7a9d8f321816ec0b31fca91f4ff1812f10e9287e4ca8d99ca"
+    },
+    {
+      "t": 272,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0272.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1f2a9d6bd51e05ac3a41fe9856383307a92300729b91e7e2e22a9b7cffd5a6be"
+    },
+    {
+      "t": 273,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0273.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c019ce23ae0f54f3f3a9788e0f3f0040adf8c9ae629b41e26c2cb0d6b19c0e87"
+    },
+    {
+      "t": 274,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0274.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b3c68508314ea1633b0c53c656423c4c4ee6969f5636ed9eae1931a0a380dcaf"
+    },
+    {
+      "t": 275,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0275.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0dea1d4813beef78cff6be7851bb1906d2e9443b205c2b8066f5e2b4847b0112"
+    },
+    {
+      "t": 276,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0276.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0ef6c704808175112d9237ae27a18fa8931b23dacbd6860a0bdb238024e77037"
+    },
+    {
+      "t": 277,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0277.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0399d069e7c934209e59065bf72fedbb27ac1dcb97c23ea229e6f294bf425c9f"
+    },
+    {
+      "t": 278,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0278.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b0f671ad3358e75a306f6d8bc694c26e019c410cd803f82ff8119ec632dd35cd"
+    },
+    {
+      "t": 279,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0279.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0bed2592859843db3f9be33a4b12d1cf6f6503cf2862b8e018fad88a7c5d13b6"
+    },
+    {
+      "t": 280,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0280.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e666a9c10f99c2aca2cf62cf5cfb9d7c359f308a1ad719fea998b8b2ddf01801"
+    },
+    {
+      "t": 281,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0281.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e216966a26e011ed80ea8b3a9a62ceb6ce78fc1f5201dc647276ea5795b67210"
+    },
+    {
+      "t": 282,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0282.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7d9de8a5294e1ed1100292ad03ba64e4807aa79fd6140d5024915bf48b860492"
+    },
+    {
+      "t": 283,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0283.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e3c46b4f0cf00ecb195f9659b9fcfe881d9e50fccbb77fbb322efa5742e9cd29"
+    },
+    {
+      "t": 284,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0284.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "40ae6fbbd4b97f77dc745b5c23d161e1bc63fe081e7b0f1b5d83e54ece6cfe1f"
+    },
+    {
+      "t": 285,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0285.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "01c889abf3c14b9951e8f433abec89ddf249292814e037497af86475af2d0f55"
+    },
+    {
+      "t": 286,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0286.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4a4c51cfd6ac8dc22ec4c357559ac2eae5943bbbb05501156306a5b184fdb449"
+    },
+    {
+      "t": 287,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0287.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "62e83af32b88192d8931d32e2af27af9ade14e34283fd6362fe4442ab987dc46"
+    },
+    {
+      "t": 288,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0288.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8cc894588e55a9f29b5947341da1999a15eed93f8fbdb7e357ca3c5e7e9f729f"
+    },
+    {
+      "t": 289,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0289.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e6029f9e35f53e80c55ae92ecbc3a581a87bbde2e06edc4891dd3c0b0b5a05b0"
+    },
+    {
+      "t": 290,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0290.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "28b08f02db15a0b4af794fdd9e7182e50a7726606f4932711240dd25e318d9ee"
+    },
+    {
+      "t": 291,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0291.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9d39d70b79f6c9ba1529c48f0d5f65a41acecdabca05bdc9c018f79201a71d42"
+    },
+    {
+      "t": 292,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0292.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "51fb09f562d0d41f8a5c212f4ca77d260662a32ab657507b537a821704a8e649"
+    },
+    {
+      "t": 293,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0293.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e2d6e43075479f5c18b42e737e295d5683adcdc5d1cc17dd2e4ebdce106525b4"
+    },
+    {
+      "t": 294,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0294.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2e3afe919f6605e284fc779ee1087e520313d04b11bbf44512f91bdc360c3a27"
+    },
+    {
+      "t": 295,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0295.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "60a85451969445e3493e6c902171b844301792b1f7b8a1d538d5aab9607d4e43"
+    },
+    {
+      "t": 296,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0296.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "876c5890ca255d61f2b8ee6e1ffb160603f906771651915817a180f24bb8141e"
+    },
+    {
+      "t": 297,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0297.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "df603f6d7f5cec87824fcaa1df95824bb717aaa204b92540a5eef7aeb8085295"
+    },
+    {
+      "t": 298,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0298.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e7beb329b852ed9f957dbe475bfaff2cf971740f9043b98b631454bdfeb1b05b"
+    },
+    {
+      "t": 299,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0299.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f6dcd6f91e1215087a5ec77faeae0b955f6c78f1f29fb1783312aa1b15324dae"
+    },
+    {
+      "t": 300,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0300.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6e51881bc695f971ff56c3349d1a2cb40c02bde2d3d957c4084097cbb6936e77"
+    },
+    {
+      "t": 301,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0301.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9111c3372229c3554be67cd867afc22a5155d8b7efa7b554a9a347a44ad563e7"
+    },
+    {
+      "t": 302,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0302.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "12aa1d0b91cb7eeb2f9b50cef881813a2af09db560c2e937601470df1c496c9c"
+    },
+    {
+      "t": 303,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0303.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "56600c78b9e9d84a8ae4314cc7b162974ec4b34433ea208d695a1a3658d1e4b8"
+    },
+    {
+      "t": 304,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0304.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "86048b6aac3bb3c448d48832f07d50566f6e1bda33abb4630c0d164b2df10bb4"
+    },
+    {
+      "t": 305,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0305.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "237e0b9730deb74158e121b10ba8eb6f7dd1fadda8d8200d93983b156367f2d0"
+    },
+    {
+      "t": 306,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0306.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "70147dbfb5a958241e03a67b9f3f9123957cca7545f9fdaba29fea7574e80283"
+    },
+    {
+      "t": 307,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0307.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b40d4a661c02b140d0f3f401ce5af52aa1eb1bc51e4a579bad036ac1dda43710"
+    },
+    {
+      "t": 308,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0308.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fd7d534cb40124661797af87ea95f5252c29fde62c6b8810447190925366e3a0"
+    },
+    {
+      "t": 309,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0309.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "94db69315d27f8bb24afffc56e1e37d0e2ffa4d9519d9de2d57eb7f205b79fa5"
+    },
+    {
+      "t": 310,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0310.npz",
+      "stage": "orient_clear",
+      "controller": "Code",
+      "update": false,
+      "sha256": "cafe6d08a5fe70ba7552f6021ea98152a56db864b834bd60026863e2725a206b"
+    },
+    {
+      "t": 311,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0311.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0640563677b0636a037aa012a762f8572d49e86668d704e64efa89f1671111cd"
+    },
+    {
+      "t": 312,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0312.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c390d84ef6e11757e2552b6376758541b39b90fb03d3d8d1e9cfee63a434847f"
+    },
+    {
+      "t": 313,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0313.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "31b972e12b1d66d894f4fbba6015efe13dfc19776bedf869503977bb031112a2"
+    },
+    {
+      "t": 314,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0314.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ebf4aa03158bf9e944328e60301d189794b0b22ffa0fe0135ffd101bf9652968"
+    },
+    {
+      "t": 315,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0315.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "67a61a5f0c40944701308da838b51edddc81573f2436f36c185c98a5b98d5727"
+    },
+    {
+      "t": 316,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0316.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ea28c9653bf7009c58bb55ab1c588b51170ffeff83c8d9ef0f7fa5b9b102e486"
+    },
+    {
+      "t": 317,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0317.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "58226e63ad1663b33548267031da38adacd25debfbef42a48bfd6b9436506593"
+    },
+    {
+      "t": 318,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0318.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "de699aa2ae615aa78276fad28bceea5e88b629477db70fa8aec97b95f37b9a6e"
+    },
+    {
+      "t": 319,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0319.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6e64b47d74021e11189cd1ad3d4e36a1acc6342de178b0e08bb6fd171107b6e0"
+    },
+    {
+      "t": 320,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0320.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d93163183514c91064d27fa59d65ed158541a26ecb9381a6de03dbe2ac52c492"
+    },
+    {
+      "t": 321,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0321.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8e68cbc12d466c45d3c5f6dde3776512d197aab7f06e7c18d6c5ab4ff308753a"
+    },
+    {
+      "t": 322,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0322.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2f3513088b57f2e13b69a011fb4d972bb0d1b8e4c9fdc8222020f93112029a2b"
+    },
+    {
+      "t": 323,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0323.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f3c585d13c7254229253b35b699959715a64c3c4301436e1097c55774e0458a6"
+    },
+    {
+      "t": 324,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0324.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "dc98815061f8c2445d426fc77cf706a9fc24c30f083b7a2e4cdc7eca9861ff46"
+    },
+    {
+      "t": 325,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0325.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1ae9a799db6acacc444d35da49f9ed9fafff8434035be59e228a539ddcf9618a"
+    },
+    {
+      "t": 326,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0326.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "eb230154c390904f828e5236351ba01448ed78c47516a3551cfcc96b8296faad"
+    },
+    {
+      "t": 327,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0327.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d3ddf463df89e0e423727f22ae9a540364ccc346a08c8477c4748edde2c20cbf"
+    },
+    {
+      "t": 328,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0328.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "979391f491491b74185562ea3bfaf8048ed1fb0b9dc507053d4ce8f1416d3ed8"
+    },
+    {
+      "t": 329,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0329.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1d8f9e5da6365089502dffc2d68e4a777436992aa4ce01a6ebe6cbc72b53b566"
+    },
+    {
+      "t": 330,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0330.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "651f9b22969137eac626686e0982a6e892967a46914d65c5e66e09cb5392ceb4"
+    },
+    {
+      "t": 331,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0331.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8044854a32b19fc599879a85d2bb0ab892b6d4cc646b93064551c5b20f6c7db0"
+    },
+    {
+      "t": 332,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0332.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "eb4fbd34bc576bf829d8d8d58057e7d7d4fb55143c25cca1efffe09527e66f15"
+    },
+    {
+      "t": 333,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0333.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "13f5ae6bd380064b64593113ea853e926cf5c892bd2de64b39fbb1b1ad27a2b5"
+    },
+    {
+      "t": 334,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0334.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2dc2e61dc1604cca885238ffda8e8ea987143434fb835b5e93e28092922329d2"
+    },
+    {
+      "t": 335,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0335.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1637338f525369457cbccc8ec64f736ecf30d647f47da4a582a83d99bb7f82f2"
+    },
+    {
+      "t": 336,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0336.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2cea7f091c0bdbc9af4dfaa01b3ecd8f380b042b51f84b9e0c98873ab10c392e"
+    },
+    {
+      "t": 337,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0337.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3564e955171765fe6b72f96b9f9317683feab978ccc3c8aaf52cf274edf8ee0d"
+    },
+    {
+      "t": 338,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0338.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "94020029e5b402fb7db9b07a936b8494ad6b786cdda7cadc226b012d50df4ac5"
+    },
+    {
+      "t": 339,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0339.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e6036a575587505f4fd40c1efc183e40897bd89a7d76b185efbd1a586cc7688b"
+    },
+    {
+      "t": 340,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0340.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "56ed3ea507eb5003f44a300405e4b37216fb2fe3fbe28c596d5c24f0b1950b10"
+    },
+    {
+      "t": 341,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0341.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4ed8811112b213ab2abb6ba6ed4c0049e14c6e1c8fed869e49c3ec947249399d"
+    },
+    {
+      "t": 342,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0342.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "97564fe3393bc41ad23c6568555ec740181e87e05e68163efe830e2029761c74"
+    },
+    {
+      "t": 343,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0343.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4ba3d95ac784a45a44889adc9c3cc97b0dd8dbdc2767ebcddbbede97c589ff1e"
+    },
+    {
+      "t": 344,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0344.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "051c3cfe178d16d015eff1d2a299c2573258119abe68713ef82b805e36df0c8c"
+    },
+    {
+      "t": 345,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0345.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b3ca3a8708ca0d14930d1e250cc1b99c4db35c177565cd13ae6272a37febd159"
+    },
+    {
+      "t": 346,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0346.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1f7d88d5cf04ac6e8dd8ce49ce3ac7f3031b6867f3816b0179d53042f4b5ae60"
+    },
+    {
+      "t": 347,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0347.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "603f12a0506780193d7067b7a59106f5481f229fdcf53d435119717bc8c6392e"
+    },
+    {
+      "t": 348,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0348.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c46aac865931b41d51838551df714f262cd7ad8d595175c7622f30482d20050c"
+    },
+    {
+      "t": 349,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0349.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d545fcc8266617941cb0980d941cd9e76bdd90b4b76ae7410160d66da97698c8"
+    },
+    {
+      "t": 350,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0350.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bbd6b727c9aedffe51953624297b8c53b8b5ea6c5c65330e6c0fa87154adff6b"
+    },
+    {
+      "t": 351,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0351.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "94faec7b734f908a8f644756c026cb7a94a089d790b57b1f2adb06c41abfac8e"
+    },
+    {
+      "t": 352,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0352.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "82bdd0e17ae3650f1fea50c6c827b2fde9370cc3cfbea7e192a25ddf37055693"
+    },
+    {
+      "t": 353,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0353.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "15ece535beb88c8b6747bf9997fd6e5be5a7a732f946371398cda04cc2ae22d4"
+    },
+    {
+      "t": 354,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0354.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "1861f70d72b24420298b17719574d712450859a3b8bd66826714faf6bea4aad8"
+    },
+    {
+      "t": 355,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0355.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ba75a698d21fb7ee9199637724889e36c026a1366fd7336593ac082b0319c620"
+    },
+    {
+      "t": 356,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0356.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b7e2f25fa967aa84252c8c4013200cb8221f868b3564a534f79deb6285796584"
+    },
+    {
+      "t": 357,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0357.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3ded47ef207be1f08fb32fab1a477d6ff2af26f882cef1f2d49189926ef3f5fe"
+    },
+    {
+      "t": 358,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0358.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "833541511413a4ad8248b3574c12ea4a3a42c333b1edd9e58fc94471ca770532"
+    },
+    {
+      "t": 359,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0359.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c970b3bdf613acf2438be596c142bd665b837982e0a08dd46d89b329ee5b38e7"
+    },
+    {
+      "t": 360,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0360.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "362a1eb9aaa191bb095b4d391d7517175e7fa3bd63f242e3d4418a1b467d7e73"
+    },
+    {
+      "t": 361,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0361.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "704663ec78a769287c2c83d2813727d27d0f794ddd96e93397b3293f1a20947a"
+    },
+    {
+      "t": 362,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0362.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "16eb4daaaf2a7858afa113b57136e485968206ed6a1604ebd18c8b078f66a14a"
+    },
+    {
+      "t": 363,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0363.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "aef5e09b3335225478935fcbe70905b0f70c0908eac14f95638cccd97968a4f5"
+    },
+    {
+      "t": 364,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0364.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "08112f883de4a0d1eb201fdc437c93c1dbe834e14c1a5f6a10a4d0154c6e34be"
+    },
+    {
+      "t": 365,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0365.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bd3f8eba5a8ac38b2e147c68d61d6e13ccd9c6452af76e9b2a2f8444855f7a0d"
+    },
+    {
+      "t": 366,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0366.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "7858e1b2d5a5ba37b88907c42c1120918f5ffd92015842cf205627c3b8b26783"
+    },
+    {
+      "t": 367,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0367.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "193a120949314f7b08f1f159e1e63ea06359f7529a27cf72e2398699d855e75a"
+    },
+    {
+      "t": 368,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0368.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2c69167f9ed348fa9db525323aeaff05140839611a47606fa44e52061afde545"
+    },
+    {
+      "t": 369,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0369.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "dab6433a496f2478a7928284350a283315bd570e7b64508b0c5449bedfe55174"
+    },
+    {
+      "t": 370,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0370.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b921f6f17a7d04862ace2a2f6b90cf4c3a1dbaf14bce7816f177b58c7e9185df"
+    },
+    {
+      "t": 371,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0371.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f44897cb326831f30de244f7efecede87156fca90a917307ab98b41ec70afb0d"
+    },
+    {
+      "t": 372,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0372.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4d8598c90c5a19f807ca561afa0b685e61afc956bfdf7e230b7e37a380e190da"
+    },
+    {
+      "t": 373,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0373.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "341231c9348a6cce0948f64df60bfb454ee90a35e202f56a923ab11447a13364"
+    },
+    {
+      "t": 374,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0374.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "246f4460dfe37a38a716da679a4aca9b440652a9517b3858a95ba08000774c29"
+    },
+    {
+      "t": 375,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0375.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0a724ca69032c8991db4b8528817edf420ce4333a1857574221c6910913317a8"
+    },
+    {
+      "t": 376,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0376.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8714953ed238cc2e5ce2a05362d594cee94864dbb38634e48ec287b6ba98edfa"
+    },
+    {
+      "t": 377,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0377.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "da039470c87c0db6affb73c3ba8dceee58a339b844f80db630f263acf89a06b9"
+    },
+    {
+      "t": 378,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0378.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a2bff8a747c0dd50dcb58fe00868e57a7b1bc9c775bdc0a6cc69e8b39c24cdf1"
+    },
+    {
+      "t": 379,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0379.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bc3428cd73a21430ec440a9aa79b8b12dd6240a0e3ba0fc2c4a2fc1c37f70cb8"
+    },
+    {
+      "t": 380,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0380.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3a03e688f13a22186fec78ce2da0f714fbdbfe089b6005311c6122c48e0fc56f"
+    },
+    {
+      "t": 381,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0381.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "479dfeaebd262f789c87c289986c5d94f90393b8f07c2cd9fb8fb1bc01f0e677"
+    },
+    {
+      "t": 382,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0382.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b3f60dd54f16480b9b935e55f3399ae342f6ae9f743bcc84ceed67fb8786cd81"
+    },
+    {
+      "t": 383,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0383.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c3506eb6aa32f90dfd56a7eb4f4155eeae513a39c24dfede0939e381514f82b2"
+    },
+    {
+      "t": 384,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0384.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3f77e342bb51167d1e10199aa9cbacc4c1c267fbcd28f71eb02376bd5119dac7"
+    },
+    {
+      "t": 385,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0385.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9f2fa5e075d0d9b2a887d91537339cf5961927a9ca11bcad9d27b4507c4b7046"
+    },
+    {
+      "t": 386,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0386.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f536b8a8bc1cd7c47c553ef9688d1f38d2011902d3d627e86ea8efcfd51eb206"
+    },
+    {
+      "t": 387,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0387.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d87248e7ed3899f0cbf05f736f69cce5a7ec81363ad6fe9be7ef695195d8a8f0"
+    },
+    {
+      "t": 388,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0388.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d7f7ebeb2f06623eed0aa9498727f00dfe6ee6d476f047c557fdb345dd24e615"
+    },
+    {
+      "t": 389,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0389.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "479fdb639ced8c4d9fd030da38fa377491322bc8f85ea30dfb963c372f4349b3"
+    },
+    {
+      "t": 390,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0390.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d1f022d5e9ba7b35e57dce416b52459a711906a4bbf71c157901608b38fc54e1"
+    },
+    {
+      "t": 391,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0391.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "e38b4273bbf1c3726279e62cbdced452f196878d3856be577390e25d268915cf"
+    },
+    {
+      "t": 392,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0392.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "772b92d09ab855957fa5eb2fd5bb8f4ef4048c017c77fca50c55d7f0d6149c17"
+    },
+    {
+      "t": 393,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0393.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "6f0130a276eb619db4ff436e1ddcd28845007d1323bb6986cde934165d35b99a"
+    },
+    {
+      "t": 394,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0394.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "cb52cdaaad785bffde734818d77681229a974847a072d656e47724c1a1ee6705"
+    },
+    {
+      "t": 395,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0395.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "cf8de3a468c835f61ad9d99f1cf12076fd500b10fcd995677e5a03bbd402aa19"
+    },
+    {
+      "t": 396,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0396.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "67f60dc0cde374e4c01f076efa1d27359395d337487275800e3af1b8cea7e1f3"
+    },
+    {
+      "t": 397,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0397.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "430e2a939aaf81caff0fbb795b4b46d6d02ee5d8617b69d26199a5f26f8ff876"
+    },
+    {
+      "t": 398,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0398.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3d49630ab0415adf7da6aab539b0febe84db4f4fbfe64c7e49de039f04b3a3c7"
+    },
+    {
+      "t": 399,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0399.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fe3f842e6473e82d0d4bcff1d7190375ac3531ae8ededfa35c51533e07252ac5"
+    },
+    {
+      "t": 400,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0400.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a51376916cb03b7e766ae11959cf5b813aa5b1b715b46920f7a70e9903f5a8d9"
+    },
+    {
+      "t": 401,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0401.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "78f201f21018d205634f8c395953af2a5846fbc5d7a11df574147cc30e435e8f"
+    },
+    {
+      "t": 402,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0402.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c5f3f4a80f11d01d8af9dbf3a4578a879d7fba90e7684f8f00f05cd255a8d750"
+    },
+    {
+      "t": 403,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0403.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "91863591d667ceb145f2ee22fa39f750877cf6070e8e6e3fe6b5e1fc6a8ba634"
+    },
+    {
+      "t": 404,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0404.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "03b09c8e25fc5f2bfcabad5df8c90627fd70e77d9f1609f07b6702887a2447d9"
+    },
+    {
+      "t": 405,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0405.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "d629dbde9c0e2fc190cec8a217f03cf3f2302ff8759bc8cb7567309834a96b0b"
+    },
+    {
+      "t": 406,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0406.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ea6a2419d6833fd392522b211db926e72390405bffeeb933ef73af6424b48f1c"
+    },
+    {
+      "t": 407,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0407.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bc3009e1844ca1d0b0053359628d17eee20fa67c06974e676ffc2e1551936bc0"
+    },
+    {
+      "t": 408,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0408.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "30808e5925414cb800ed940779eaf58a25924ba26b84c3bf161513133f81266d"
+    },
+    {
+      "t": 409,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0409.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "30f018215c91ff145e0aa1473093ffbe604b56f7dc183310f415b82bdc7e7079"
+    },
+    {
+      "t": 410,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0410.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bfa1df139f2deb2bbe74c6441c30fb53f4a92478143e23d2cd1875607ea37720"
+    },
+    {
+      "t": 411,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0411.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "519846f58b305c636ec66fdcdc7a4b67ff31bb75d23f65af5a930fe2681a05fe"
+    },
+    {
+      "t": 412,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0412.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "175c5570fb129dab55abd10233ad13b85bd4bef321ee234459aacf3621b65c05"
+    },
+    {
+      "t": 413,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0413.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "f83d8babda71f2c60e3388fdccd9c3c962c177600f453c188bac9305eabbe1b9"
+    },
+    {
+      "t": 414,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0414.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c27c13aab076f13bd4c4ed5561009409faff60ba51827ca7e906f74611c7f5db"
+    },
+    {
+      "t": 415,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0415.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "49928783a7c7069d416927673d5fbf3ba0c9f322f87ee2b038c848ee741281fa"
+    },
+    {
+      "t": 416,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0416.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ed0e6560d54ce2c2ba4723f5711f1ee185b7845fc630f6ee28a31ec5f2aca9e9"
+    },
+    {
+      "t": 417,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0417.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "5951dfb0c4f031b535770738e92a063ad249ff0d52c4b3032e1d2a4cdcbd804f"
+    },
+    {
+      "t": 418,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0418.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a6b4f60e8db1c583b5234a90d3f3b66db5419eb3711f86024305942dcedf8535"
+    },
+    {
+      "t": 419,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0419.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ddde415f9cc238b90436034ce2f5b2baf5d545185b9c5b22c23ba08854416f47"
+    },
+    {
+      "t": 420,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0420.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b285f1872b8e343f532bcd1cd4eea0640fea4e7f5a47fe7bafb7510bc916e9ac"
+    },
+    {
+      "t": 421,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0421.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a450d6c7d387dc15490b8aa4986ab48f32624bfe237794643090cbae373d6237"
+    },
+    {
+      "t": 422,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0422.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ccc309d7f472e75b8b634ee437242a6987c1c1f9996dafa450a1bd3a2968ae97"
+    },
+    {
+      "t": 423,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0423.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8c425e265c6eebf165b2a5daa2d50420930e753b7243f79549fde5ede913e9bc"
+    },
+    {
+      "t": 424,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0424.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "2c1289861279e4614e49b6ef1faddab390f9cf91be7d90b08068bd7fa7099577"
+    },
+    {
+      "t": 425,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0425.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "4c5f5a57a0424713d8ef13dbef6e322ce54651b53187b90520de85ff3a2d408b"
+    },
+    {
+      "t": 426,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0426.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "00289fe13ffac8ecbfbab6726cd73d64f273aa36313e49d9afc356d1a1171cc2"
+    },
+    {
+      "t": 427,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0427.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "cded5c71e1571d2d80c49e45018113ffbb9e81db66c4bca338c8ac7b5ccf78a4"
+    },
+    {
+      "t": 428,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0428.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0edf39bb2e40da8f2a123aca86f5216336d89c4efb06805211ed82007a9f09d3"
+    },
+    {
+      "t": 429,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0429.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "07af00bc52ca8d5e7b3900d1f3b093b0284478f846cce3ae1e397e711d98827f"
+    },
+    {
+      "t": 430,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0430.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "881102382e2392da384dff58a6e245ea82b5d2360e9f843fb2d75ee2a4234e0d"
+    },
+    {
+      "t": 431,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0431.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b3f42c55ab177ed0afeadc890bc293b5788b09d18dad611b5bd1bae18629fbb0"
+    },
+    {
+      "t": 432,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0432.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bbc67c0fb2bdd1bfdc42bf6463552c98cb9e6b7d7c450aa3aa6aea82cb5f8331"
+    },
+    {
+      "t": 433,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0433.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ad3eec08db689cd70cb758c93b02179d8e5f63eaaccaaf8f8895db9e67ef5ab2"
+    },
+    {
+      "t": 434,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0434.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "c5c64595ddab640583f5f2ffbe77967f20bb9ab8b00a4273c8a74afc16ed23c4"
+    },
+    {
+      "t": 435,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0435.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "72e2d0b57d3592e1a1f843c87bb1aa8a2151d94a101bf0da66901c9800d7f10a"
+    },
+    {
+      "t": 436,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0436.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fbdf0db395d4769cfb811a8afa53a885dff187247aa93bfbe00046e65f7edc43"
+    },
+    {
+      "t": 437,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0437.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "675a543d61102177b5582cd6857eca3530380e3b0e1aadc439d23b76e83b1ba9"
+    },
+    {
+      "t": 438,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0438.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "59cc9ca7e697280230677c06a139034fee671cde9510c78f4289bf27f6cf6a2e"
+    },
+    {
+      "t": 439,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0439.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b195f5ccad0041d6c30f4ec7854cbf1236add1792c74d3c13d843cd21c93bf70"
+    },
+    {
+      "t": 440,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0440.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "b19410e6c2828b749029766043055b75192197b91937e0b273d295544474c763"
+    },
+    {
+      "t": 441,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0441.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "fbadeb2739ddc15dbb0dd9527c6a1f2e0bac3ab6ca5b5822fdcec66b3bc31d5d"
+    },
+    {
+      "t": 442,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0442.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "75e4104d513c19ac8ed82065ae61c97b8e3e4f8c269561ac16eb8dec64f9c262"
+    },
+    {
+      "t": 443,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0443.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "bc94052decade5cbde633941358e889811955308d903976b38a32c87b9a454c3"
+    },
+    {
+      "t": 444,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0444.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "53d478a92137e9d1e309ce6d49c4762e91c8d409363213429d713561aa67a842"
+    },
+    {
+      "t": 445,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0445.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "251d48c0fc53511f17a300b10f08f9e1e1bb0732df35fa50df209fe238ee9d48"
+    },
+    {
+      "t": 446,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0446.npz",
+      "stage": "transport_above_caddy",
+      "controller": "Code",
+      "update": false,
+      "sha256": "ac1ba8227fa15710a9ea11f64352bf71199cffd72c633e9d15aa5cb63942ad45"
+    },
+    {
+      "t": 447,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0447.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "8cf344d52595d027b975ab27c972f80e42e07b35acd4746439b79144be931b93"
+    },
+    {
+      "t": 448,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0448.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "0500b4f6a4c4cdee45e2a681b445bf2af2b2e0460634336295c4732f265ed63a"
+    },
+    {
+      "t": 449,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0449.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "9c0533eb2d74552988820f354891985d50e77a4b4bc484bc883b40558dad6610"
+    },
+    {
+      "t": 450,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0450.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a6c7c99fe1a0cae4f3071ff4450bd4010e915c2d4faf36fa8dd28be74739dd93"
+    },
+    {
+      "t": 451,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0451.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "a406e9b2bf5fd77e4d698c7544a6eb684841d91e422b08af053289fc7b849f37"
+    },
+    {
+      "t": 452,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0452.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "74c7083d5208af170e3dbe22f98dec133f1b1d00a1628aed742ec58e2c428388"
+    },
+    {
+      "t": 453,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0453.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "11db5e63c9d3c6ebba8b62f3af885eb292dcaa62687844cb87baf05bc79c7ce7"
+    },
+    {
+      "t": 454,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0454.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "3e34e6be2b5c08d8ad207839a72ae91a782ba8c7ac10d45dcde134644ad95de9"
+    },
+    {
+      "t": 455,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/prefix/public/frame_0455.npz",
+      "stage": "near_entry",
+      "controller": "Code",
+      "update": false,
+      "sha256": "357d4b996e7d9ffe8a47230e021adb91200fb23f1f1d6ae0a8dea5b4646da840"
+    },
+    {
+      "t": 456,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0000.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": false,
+      "sha256": "fa81e38adddf32e55ae5a1d3f8269ac9a037829b76615526c0c345c717ede5f9"
+    },
+    {
+      "t": 457,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0001.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "60713a922bf4f98ee330d0e36cf7f3df7f4fb5003ede70084c4bae41c22b65be"
+    },
+    {
+      "t": 458,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0002.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "8eef5cdd25631af05ec3b2f61cf19f56e78c8ace89311dd8d048d519f506b288"
+    },
+    {
+      "t": 459,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0003.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "91dcba5de768f0d94a114ca87ebfefcba9bf75e47770104b4c337d6813de7429"
+    },
+    {
+      "t": 460,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0004.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "ec8965c5ed295dc41979deab177a31de1b3877592e66db3a15808f0d5a0209bd"
+    },
+    {
+      "t": 461,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0005.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "9f6c86b50dc57b4f8e8fcaf5e22a16cf51b837c78984b1748e31720064eda58d"
+    },
+    {
+      "t": 462,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0006.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "a227180e1dc47d5bdde5e527500f935313e46f65eab64adc299e681aee2cfa2b"
+    },
+    {
+      "t": 463,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0007.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "806817b2d8b8b2b7de2ed338f6a853b13408a40b90ca6a74b957d3aa2fffd50e"
+    },
+    {
+      "t": 464,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0008.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "532dceb5af695f4d2b715fabdeef2274e42aef8933675850970ab2a8c1238d46"
+    },
+    {
+      "t": 465,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0009.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "c8492908cd2d5689f03ae5b05689cf9457c127bd8c5d1bfedfc129358e5736c5"
+    },
+    {
+      "t": 466,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0010.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "418ae7437c19500d9af19001ee701cc3ad20d6b1db2b31ca5e972f1c0fc79264"
+    },
+    {
+      "t": 467,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0011.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "4a1663a49b33b649724af3b311a9aa1e5e60c2e97a00314c0553e6b43f8e1325"
+    },
+    {
+      "t": 468,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0012.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "f2afbeef191fbb23ceb4729384669da6cf450b0ce857e9de6079c48ac62a53e7"
+    },
+    {
+      "t": 469,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0013.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "c8759dfde2170b11f30a04970a41d95b07249ea04b4c290330b05349a8127d04"
+    },
+    {
+      "t": 470,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0014.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "adeac26a67bbc3a51a5586ffa95bb76c6ffd25e9eff6f3cfc22dfeca71f20ed7"
+    },
+    {
+      "t": 471,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0015.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "f4e7243e76067fef53bffcb50ae7cfdab748a77fb768744b0d68830dd639c40d"
+    },
+    {
+      "t": 472,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0016.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "29454766a3ec83c9f6e18c9b141f8d9951da8889c8622c5d2acb469ab30a86b2"
+    },
+    {
+      "t": 473,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0017.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "7689630e3f6a30f1eabbbb5e1f39b2635e0711bee43fcdd2f508d0ca05a2266e"
+    },
+    {
+      "t": 474,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0018.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "3ba85ee0d86597ee8451fe127c6e3c6ecc0a0d2a6a926971df7655463eeb2ddc"
+    },
+    {
+      "t": 475,
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/s9/public/frame_0019.npz",
+      "stage": "p68_insert",
+      "controller": "P68 FastAdapter",
+      "update": true,
+      "sha256": "694d9871c5ad6744ed12f863cabab88a0fa122526997a2f5106b3797dce13117"
+    }
+  ]
+}

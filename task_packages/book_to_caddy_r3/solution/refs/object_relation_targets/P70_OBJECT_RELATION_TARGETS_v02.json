@@ -1,0 +1,264 @@
+{
+  "T_back_site_book_entry": [
+    [
+      -0.9999975111039844,
+      0.0009047404659371098,
+      -0.002039419163123029,
+      -0.00031753172621190595
+    ],
+    [
+      0.001007228853468456,
+      0.9987070111718208,
+      -0.05082608903193447,
+      0.015660569379444045
+    ],
+    [
+      0.0019907977974566262,
+      -0.050828016692909476,
+      -0.9987054367746236,
+      -0.08578568021175048
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_back_site_book_final": [
+    [
+      -0.9999975111039844,
+      0.0009047404659371098,
+      -0.002039419163123029,
+      -0.0003175317262118921
+    ],
+    [
+      0.001007228853468456,
+      0.9987070111718208,
+      -0.05082608903193447,
+      0.015660569379444045
+    ],
+    [
+      0.0019907977974566262,
+      -0.050828016692909476,
+      -0.9987054367746236,
+      0.03513304733531164
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_caddy_body_back_site": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.03364
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -0.0006400000000000017
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.08557999999999999
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "back_halfsize": [
+    0.02775,
+    0.06216,
+    0.06046
+  ],
+  "book_geometry": {
+    "center": [
+      -0.00047,
+      -0.01215,
+      0.06937
+    ],
+    "halfsize": [
+      0.01434,
+      0.05519,
+      0.0672
+    ],
+    "source": "evaluations/fast_adapter_p53_micro_insert_v01/remote_results_v01/full_successor_v01/FULL_TASK_FREEZE.json",
+    "source_sha256": "843fa1d9edb70e9a38def10a946b74d34bcca462d2b3aa18a3d674034197bdcd"
+  },
+  "caddy_back_site_demo_z": 0.97258,
+  "caddy_body_demo_z": 0.887,
+  "micro_relation": {
+    "back_halfsize": [
+      0.02775,
+      0.06216,
+      0.06046
+    ],
+    "book_collision_center": [
+      -0.00047,
+      -0.01215,
+      0.06937
+    ],
+    "book_collision_halfsize": [
+      0.01434,
+      0.05519,
+      0.0672
+    ],
+    "demonstrated_clearance_bottom": 0.10333812129220175,
+    "final_caddy_book": [
+      [
+        -0.9999975111039844,
+        0.0009047404659371098,
+        -0.002039419163123029,
+        -0.0003175317262118921
+      ],
+      [
+        0.001007228853468456,
+        0.9987070111718208,
+        -0.05082608903193447,
+        0.015660569379444045
+      ],
+      [
+        0.0019907977974566262,
+        -0.050828016692909476,
+        -0.9987054367746236,
+        0.03513304733531164
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "footprint_center_xy_correction": [
+      0.014794152169374866,
+      -0.009134147883763433
+    ],
+    "margin_rule": "20 percent of minimum nominal footprint-to-mouth halfwidth slack",
+    "mouth_clearance_margin": 0.0007222806417444953,
+    "nominal_projected_halfwidth": [
+      0.014526945903308074,
+      0.058548596791277524
+    ],
+    "original_final_caddy_book": [
+      [
+        -0.9999975111039844,
+        0.0009047404659371098,
+        -0.002039419163123029,
+        -0.015111683895586758
+      ],
+      [
+        0.001007228853468456,
+        0.9987070111718208,
+        -0.05082608903193447,
+        0.024794717263207477
+      ],
+      [
+        0.0019907977974566262,
+        -0.050828016692909476,
+        -0.9987054367746236,
+        0.03513304733531164
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_frames": [
+      {
+        "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0191.npz",
+        "sha256": "a0a8697beec2d02c32c8355acc5841d2a035444c913c57284cc11a6b17225b03"
+      },
+      {
+        "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0234.npz",
+        "sha256": "52c2d31b136378b3e6091df1fa08bbce213e2c8600bb87b58ddd5c550bc1744b"
+      }
+    ]
+  },
+  "mouth_clearance_margin": 0.0007222806417444953,
+  "names": {
+    "back_site": "desk_caddy_1_back_contain_region",
+    "book_body": "black_book_1_main",
+    "caddy_body": "desk_caddy_1_main"
+  },
+  "safety_heights": {
+    "book_bottom_entry_world_z": 1.0570825000000001,
+    "book_bottom_min_world_z": 1.06963,
+    "caddy_collision_rim_world_z": 1.05529,
+    "note": "Entry bottom = fixed cabinet maximum collision top + half original near tolerance; transport minimum = same top + minimum book collision halfsize. Native vertical geometry fixed; runtime XY grounded."
+  },
+  "schema": "prove.p70-object-relation-targets.v1",
+  "source": "Original demo fixed grasp/goal relations and previously qualified P53 centered geometry; no current episode pose used.",
+  "source_frames": {
+    "234": {
+      "path": "evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0234.npz",
+      "sha256": "52c2d31b136378b3e6091df1fa08bbce213e2c8600bb87b58ddd5c550bc1744b"
+    },
+    "56": {
+      "path": "evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0056.npz",
+      "sha256": "399b3feb289c7aeb49bba3f06349de226654e6ad8b79e728b61c72e70d09f0b2"
+    }
+  },
+  "status": "root_reviewed_before_physics",
+  "derivation_check": {
+    "entry_footprint_slack": [
+      0.013223054096691913,
+      0.003611403208722462
+    ],
+    "required_margin": 0.0007222806417444953,
+    "entry_gap": 0.0017925,
+    "near_gap_max": 0.00717,
+    "old_near_position_tolerance": 0.003585
+  },
+  "source_bindings": [
+    {
+      "path": "evaluations/fast_adapter_p53_micro_insert_v01/remote_results_v01/full_successor_v01/FULL_TASK_FREEZE.json",
+      "sha256": "843fa1d9edb70e9a38def10a946b74d34bcca462d2b3aa18a3d674034197bdcd"
+    },
+    {
+      "path": "evaluations/outer_rsi_p69_book_v01/r2_grounding_reference_v01/demo_initial/private/geometry_0000.json",
+      "sha256": "251b36063e87a1cbdcd36476eae5698e9473e1c788be67cf442273751c8ae7ec"
+    }
+  ],
+  "T_world_caddy_demo": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      -0.393895
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      -0.133322
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.887
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "caddy_grounding_rule": "P69 caddy PCA estimates only relative changes: body XY = demo body XY + delta_xy; body R = Rz(delta_yaw) @ demo body R. Never interpret raw current PCA yaw/centroid as body frame.",
+  "supersedes_for_later_versions": "P70_OBJECT_RELATION_TARGETS_v01.json; Q0/Q0b unchanged"
+}

@@ -1,0 +1,131 @@
+{
+  "approach_gate": {
+    "position_m": 0.025,
+    "rotation_rad": 0.25
+  },
+  "budget": {
+    "full_task_total_actions": 720,
+    "p68_micro_actions": 24,
+    "prefix_actions": 696,
+    "stage_upper_bound_note": "4x16 relation-check emphasis; budgets are upper bounds, success requires boolean relation/hold facts"
+  },
+  "claims": [
+    "P70 complete continuous task development; frozen beforeeachbatch. Not fresh held-out and no gradient-only causal claim.",
+    "public settled initial grounding plus rigid-held proprioception propagation",
+    "short approach/grasp MLP trained on synthetic relative-error teacher labels; not an RGB end-to-end learned skill",
+    "unchanged P68 short Insert; no gradient causal comparison in this qualification",
+    "R3 changes outer graph clearance recovery only; same frozen grasp/P68 weights; Boolean supervisor remains explicitly allowed; no size or gradient-only claim."
+  ],
+  "freeze_orient_goal": true,
+  "gains": {
+    "max_action": 1.0,
+    "position_gain": 1.0,
+    "rotation_gain": 1.0,
+    "rotation_scale": 0.5,
+    "translation_scale": 0.05
+  },
+  "grasp_policy": {
+    "checkpoint": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/final.pt",
+      "sha256": "0115fac96833dcb26f400c1e4442b5c32f8e369e1197a2da6146b1c8f0fa4155"
+    },
+    "demo_relations": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/DEMO_RELATIONS.json",
+      "sha256": "0413732524197e2a00c027392c2f6894a21807206d5237bc2038f82c13e197fb"
+    },
+    "device": "cpu",
+    "module": "prove.task_graph.p70_grasp_policy_v02",
+    "phase_to_goal": {
+      "approach_book": "pregrasp frame56 after above_current_book gate",
+      "short_grasp": "grasp frame67 stable relation"
+    },
+    "runtime": "v02 equilibrium-corrected object-relative grasp MLP",
+    "training_freeze": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/TRAINING_FREEZE.json",
+      "sha256": "e438f926cbfbea265cfee2275b892283c4837da4609ece1481fef09f461a9811"
+    },
+    "training_receipt": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/TRAINING_RECEIPT.json",
+      "sha256": "df5cdc6fe3baa276b4751049cbd68c9a56f02bfc5110bb44747bfcc4df26213f"
+    }
+  },
+  "grounding_reference": {
+    "path": "evaluations/outer_rsi_p69_book_v01/r2_grounding_reference_v01/GROUNDING_REFERENCE_R2_FINAL.json",
+    "sha256": "3ddaa381b5299803e2b3e4bae317c9a4c7e4a0d4e5f1e8c0b84a08977b50aecd"
+  },
+  "heights": {
+    "book_body_z": 0.8829597034738329,
+    "caddy_body_z": 0.887
+  },
+  "lift_clearance_refinement": true,
+  "object_relation_targets": {
+    "path": "evaluations/outer_rsi_p70_object_graph_v01/P70_OBJECT_RELATION_TARGETS_v02.json",
+    "sha256": "1b4db1c655632d45216c91df20c1010500fb6f574734f3aae8192a4760ac735d"
+  },
+  "offsets": {
+    "approach_clearance_z": 0.0672,
+    "rule": "Above-pregrasp clearance equals largest native book collision halfsize; held lift/transport derived from full rotated collision vertices and cabinet rim, no fixed displacement search"
+  },
+  "placement_verification_max_actions": 3,
+  "runtime_inputs": [
+    "public_masks",
+    "camera",
+    "proprio"
+  ],
+  "schema": "prove.p70-object-controller-config.v1",
+  "stage_budgets": {
+    "approach_book": 160,
+    "lift_clear": 128,
+    "near_entry": 88,
+    "orient_clear": 160,
+    "short_grasp": 48,
+    "transport_above_caddy": 240
+  },
+  "stage_ids": [
+    {
+      "entry": "first valid public settled book/caddy grounding",
+      "exit": "StageJudge grasp_ready true after v02 pregrasp relation; internal above_current_book gate precedes MLP",
+      "id": "approach_book"
+    },
+    {
+      "entry": "pregrasp reached/open gripper",
+      "exit": "StageJudge attached true: 3-frame bilateral contact and stable EEF-book relation",
+      "id": "short_grasp"
+    },
+    {
+      "entry": "attached true; capture T_eef_book and freeze lift book goal",
+      "exit": "attached && clear_of_table && actual book bottom at or above frozen cabinet collision top plus minimum book halfsize",
+      "id": "lift_clear",
+      "substage": "If attached but clearance false after public EEF reaches frozen lift goal, once expand clearance by the existing geometry tolerance; independent original clearance gate remains required."
+    },
+    {
+      "entry": "lift_clear",
+      "exit": "attached && safe book bottom height && book orientation matches entry orientation within original tolerance",
+      "id": "orient_clear"
+    },
+    {
+      "entry": "orient_clear",
+      "exit": "StageJudge above_destination_vicinity true",
+      "id": "transport_above_caddy"
+    },
+    {
+      "entry": "above destination vicinity",
+      "exit": "StageJudge near_entry true using P53/P54 mouth geometry",
+      "id": "near_entry"
+    },
+    {
+      "entry": "near_entry",
+      "exit": "unchanged P68 micro runtime",
+      "id": "p68_insert"
+    },
+    {
+      "controller": "Code stationary closed hold; no z or weight updates; at most3 within total720",
+      "entry": "P68 exhausted24 actions but current official goal, bilateral contact and correct target all hold",
+      "exit": "three NEW post-action frames pass original goal+bilateral hold; failure on relation/contact loss",
+      "id": "verify_placement"
+    }
+  ],
+  "stage_qualification": "R3 final permitted outer update: return to R0 direct-close and no held calibration; once-only relation-gated lift refinement; same10 explore. Final Code verification unchanged from R2; total720 and P68 H24 unchanged.",
+  "status": "root_reviewed_qualification_candidate_before_physics",
+  "task": "P70 object-centric book-to-caddy full prefix plus unchanged P68 micro insert"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "graph-self-adapter.dashboard.v1",
+  "headline": "Graph Self Adapter 独立项目：源码、模型与任务方案已验收",
+  "summary": "后续 Task Graph、阶段控制和 Adapter 代码／实验统一在本项目开发。255 项离线检查、真实 CPU 模型加载及标准场景零积分编译通过；五份任务权重和必要演示通过 Git LFS 保存。历史 P70/P68 结果保留，本次迁移没有新增物理回合。",
+  "bindings": {
+    "task_graph": {
+      "path": "task_packages/book_to_caddy_r3/solution/graph/task_graph.json",
+      "sha256": "339f1ad6a75275fe22e8b9d015faef5c41a026f64f106b5dd4761a938fda95f4"
+    },
+    "readme": {
+      "path": "README.md",
+      "sha256": "b9353f9c5684c08af954885d26be37d6896e0f50ed20132b4a35a76b3a0ec372"
+    },
+    "engineering_acceptance": {
+      "path": "migration/ACCEPTANCE.json",
+      "sha256": "5e4c5bc56f1bceea409d7fbf6f07d0aa8592006b4a73153c85b916a8a7e7049c"
+    },
+    "science_report": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/ROOT_REPORT_ZH.md",
+      "sha256": "82c2d28c41dda333b27865fe4c833c7e9b41a3333e61569f59f02b549ddd3bd3"
+    },
+    "video": {
+      "path": "media/book_to_caddy_r3_full_task.mp4",
+      "sha256": "d234d4de3eefbf06b6388557e6cef8cb183678144f3a6ef0d6d0699ce062af49"
+    }
+  }
+}

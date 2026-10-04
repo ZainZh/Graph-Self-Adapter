@@ -1,0 +1,16 @@
+{
+  "schema": "prove.p70-final-local-metadata-return.v1",
+  "cells": 40,
+  "result_and_seal_hashes_verified": 80,
+  "sealed_json_jsonl_verified": 480,
+  "server_sealed_artifacts_verified": 36584,
+  "server_audit_sha256": "d6ab92352c998e653a081171b41c4317eb1ad2f18912917fcc779c53834d05ef",
+  "raw_archive_status": "started_not_yet_complete",
+  "raw_archive_service": "prove-p70-remaining-archive-v01.service",
+  "raw_archive_directory": "evaluations/outer_rsi_p70_object_graph_v01/archive_return_v01",
+  "physics_service_result": "success",
+  "physics_service_state": "inactive/dead",
+  "compute_apps_after_completion": [],
+  "p70_physics_workers_after_completion": [],
+  "timestamp_unix": 1791002069.5778778
+}

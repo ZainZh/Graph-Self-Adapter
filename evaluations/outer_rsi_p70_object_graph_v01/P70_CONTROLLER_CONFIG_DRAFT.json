@@ -1,0 +1,145 @@
+{
+  "approach_gate": {
+    "position_m": 0.025,
+    "rotation_rad": 0.25
+  },
+  "budget": {
+    "full_task_total_actions": 720,
+    "p68_micro_actions": 24,
+    "prefix_actions": 696,
+    "stage_upper_bound_note": "4x16 relation-check emphasis; budgets are upper bounds, success requires boolean relation/hold facts"
+  },
+  "caddy_grounding_rule": "body pose = T_world_caddy_demo translated by visual delta_xy and yaw-rotated by visual delta_yaw; never use PCA current_yaw as body yaw",
+  "claims": [
+    "development draft only",
+    "no formal rollout before Root result-free freeze",
+    "current private object pose is forbidden as action input",
+    "boolean supervisor facts are stage judges only"
+  ],
+  "gains": {
+    "max_action": 1.0,
+    "position_gain": 1.0,
+    "rotation_gain": 1.0,
+    "rotation_scale": 0.5,
+    "translation_scale": 0.05
+  },
+  "grasp_policy": {
+    "checkpoint": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/final.pt",
+      "sha256": "0115fac96833dcb26f400c1e4442b5c32f8e369e1197a2da6146b1c8f0fa4155"
+    },
+    "demo_relations": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/DEMO_RELATIONS.json",
+      "sha256": "0413732524197e2a00c027392c2f6894a21807206d5237bc2038f82c13e197fb"
+    },
+    "device": "cpu",
+    "module": "prove.task_graph.p70_grasp_policy_v02",
+    "phase_to_goal": {
+      "approach_book": "pregrasp frame56 after above_current_book gate",
+      "short_grasp": "grasp frame67 stable relation"
+    },
+    "runtime": "v02 equilibrium-corrected object-relative grasp MLP",
+    "training_freeze": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/TRAINING_FREEZE.json",
+      "sha256": "e438f926cbfbea265cfee2275b892283c4837da4609ece1481fef09f461a9811"
+    },
+    "training_receipt": {
+      "path": "evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/TRAINING_RECEIPT.json",
+      "sha256": "df5cdc6fe3baa276b4751049cbd68c9a56f02bfc5110bb44747bfcc4df26213f"
+    }
+  },
+  "grasp_policy_api": {
+    "checkpoint_pending": true,
+    "command_signature": "GraspPolicy.command(T_world_book,T_world_eef,gripper_qpos,goal_book_eef,close:bool)->(OSC7,diagnostics)",
+    "features": [
+      "book_frame_dp/.05:3",
+      "book_frame_rotvec/.5:3",
+      "gripper_qpos/.04:2"
+    ],
+    "forbidden": [
+      "demo index at runtime",
+      "progress scalar",
+      "current private object pose"
+    ],
+    "output": "local6 transformed to world; explicit gripper -1/+1 from close flag",
+    "owner": "p64_cup",
+    "phase_to_goal": {
+      "approach_book": "frame56_pregrasp",
+      "short_grasp": "frame67_stable_grasp"
+    },
+    "planned": true,
+    "synthetic_examples": 30000,
+    "train_seed": 70010,
+    "updates": 1200
+  },
+  "grounding_reference": {
+    "path": "evaluations/outer_rsi_p69_book_v01/r2_grounding_reference_v01/GROUNDING_REFERENCE_R2_FINAL.json",
+    "sha256": "3ddaa381b5299803e2b3e4bae317c9a4c7e4a0d4e5f1e8c0b84a08977b50aecd"
+  },
+  "heights": {
+    "book_body_z": 0.8829597034738329,
+    "caddy_body_z": 0.887
+  },
+  "object_relation_targets": {
+    "path": "evaluations/outer_rsi_p70_object_graph_v01/P70_OBJECT_RELATION_TARGETS_v02.json",
+    "sha256": "1b4db1c655632d45216c91df20c1010500fb6f574734f3aae8192a4760ac735d"
+  },
+  "offsets": {
+    "approach_clearance_z": 0.08,
+    "lift_clearance_z": 0.18
+  },
+  "runtime_inputs": [
+    "public_masks",
+    "camera",
+    "proprio"
+  ],
+  "schema": "prove.p70-object-controller-config.v1",
+  "stage_budgets": {
+    "approach_book": 160,
+    "lift_clear": 96,
+    "near_entry": 88,
+    "orient_clear": 64,
+    "short_grasp": 48,
+    "transport_above_caddy": 240
+  },
+  "stage_ids": [
+    {
+      "entry": "first valid public settled book/caddy grounding",
+      "exit": "StageJudge grasp_ready true after v02 pregrasp relation; internal above_current_book gate precedes MLP",
+      "id": "approach_book"
+    },
+    {
+      "entry": "pregrasp reached/open gripper",
+      "exit": "StageJudge attached true: 3-frame bilateral contact and stable EEF-book relation",
+      "id": "short_grasp"
+    },
+    {
+      "entry": "attached true; capture T_eef_book and freeze lift book goal",
+      "exit": "StageJudge clear_of_table && attached",
+      "id": "lift_clear"
+    },
+    {
+      "entry": "lift_clear",
+      "exit": "StageJudge attached && clear_of_table after entry-orientation routing",
+      "id": "orient_clear"
+    },
+    {
+      "entry": "orient_clear",
+      "exit": "StageJudge above_destination_vicinity true",
+      "id": "transport_above_caddy"
+    },
+    {
+      "entry": "above destination vicinity",
+      "exit": "StageJudge near_entry true using P53/P54 mouth geometry",
+      "id": "near_entry"
+    },
+    {
+      "entry": "near_entry",
+      "exit": "unchanged P68 micro runtime",
+      "id": "p68_insert"
+    }
+  ],
+  "stage_qualification": "train initial IDs 20,2,12,26 only before full development freeze",
+  "status": "draft_q1_ready_for_root_freeze_review_no_physics",
+  "task": "P70 object-centric book-to-caddy full prefix plus unchanged P68 micro insert"
+}

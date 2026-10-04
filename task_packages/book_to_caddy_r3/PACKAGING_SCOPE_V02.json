@@ -1,0 +1,45 @@
+{
+  "schema": "prove.task-package-engineering-scope.v2",
+  "date": "2026-10-03",
+  "supersedes": "PACKAGING_SCOPE.json",
+  "reason": "User clarified that the reusable artifact is the learned task solution, not an environment or shared-model distribution.",
+  "selected_version": "P70_R3",
+  "include": [
+    "Object-centric task graph with stage entry, exit, failure and solver routing",
+    "Frozen task controller configuration and stage-local adaptation settings",
+    "Task-trained grasp, precision, action, feedback and relation-encoder checkpoints",
+    "Task-specific visual references, learned priors and version provenance",
+    "One-command launcher, integrity inventory and declared external dependency bindings"
+  ],
+  "external_reused_dependencies": [
+    "Installed Interaction-RSI runtime at the recorded source version",
+    "Installed standard LIBERO task, simulator assets and initial-state dataset",
+    "Shared frozen DINO and pretrained LiLa assets",
+    "Python environment, vision dependency overlay and GPU drivers"
+  ],
+  "exclude": [
+    "Copies of standard simulator meshes and textures",
+    "Copies of shared pretrained base models",
+    "Full training/demo datasets, experiment videos and raw rollout archives",
+    "Python environments or full third-party dependency trees"
+  ],
+  "launch_contract": {
+    "default_cell": 7,
+    "init_id": 7,
+    "execution_seed": 70037,
+    "total_max_actions": 720,
+    "micro_max_actions": 24,
+    "network_weights_frozen": true,
+    "adaptation": "Original P68 stage-local z only",
+    "output": "New run directory; preserve existing results and original research artifacts.",
+    "no_training_or_agent_needed": true
+  },
+  "acceptance": {
+    "checks": "Package contents, model integrity, active graph/config consistency, installed dependencies and launch bindings",
+    "prior_attempt": "runs/engineering_cell7_v01/ABORT.json",
+    "prior_attempt_status": "Scene-loading path error before task execution; retained, not a task failure.",
+    "maximum_remaining_full_launches": 1,
+    "remaining_launch_scope": "Same historical cell7 only, after infrastructure checks; no success-seeking retry or new research conditions.",
+    "scientific_interpretation": "Engineering reuse only; does not change P70 sample counts or claims."
+  }
+}

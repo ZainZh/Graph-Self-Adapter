@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "action_heads_cpu_load": true,
+    "bound_files_valid": true,
+    "cells_and_budgets_unchanged": true,
+    "controller_cpu_load": true,
+    "controller_parameters_unchanged": true,
+    "encoder_cpu_load": true,
+    "initial_stage": "approach_book",
+    "installed_scene_compiles": true,
+    "model_nq": 23,
+    "model_nv": 21,
+    "runtime_frozen_source_hashes": 16,
+    "shared_dino_or_simulator_assets_in_solution": false,
+    "task_checkpoint_count": 5
+  },
+  "metadata_only_revision": "Corrected graph routing labels to frozen runtime and recorded tested external package versions; all model, controller, reference and runtime bytes unchanged.",
+  "original_preflight_manifest_sha256": "df18e71031532030d88c2104f094e46be0bdc6c8ca427aa2b784da1cc7dd42d6",
+  "schema": "prove.task-solution.root-preflight.v1",
+  "scope": "No physics, no new task result",
+  "simulation_steps": 0,
+  "solution_manifest_sha256": "06ac971d9e062bbe9951ee2d3743bfda828c757ca9231e10210177046bcaf569"
+}

@@ -1,0 +1,239 @@
+{
+  "schema": "prove.p70-final-paired-summary.v1",
+  "groups": {
+    "R0": {
+      "n": 10,
+      "strict": 8,
+      "native": 8,
+      "s9_strict": 8,
+      "strict_from_verification": 0,
+      "verification_actions": 0,
+      "p68_entered": 8,
+      "actions": 3959,
+      "seal_files": 8126
+    },
+    "R1": {
+      "n": 10,
+      "strict": 4,
+      "native": 4,
+      "s9_strict": 4,
+      "strict_from_verification": 0,
+      "verification_actions": 0,
+      "p68_entered": 10,
+      "actions": 4666,
+      "seal_files": 9562
+    },
+    "R2": {
+      "n": 10,
+      "strict": 4,
+      "native": 4,
+      "s9_strict": 4,
+      "strict_from_verification": 0,
+      "verification_actions": 5,
+      "p68_entered": 10,
+      "actions": 4671,
+      "seal_files": 9587
+    },
+    "R3": {
+      "n": 10,
+      "strict": 9,
+      "native": 9,
+      "s9_strict": 9,
+      "strict_from_verification": 0,
+      "verification_actions": 0,
+      "p68_entered": 9,
+      "actions": 4544,
+      "seal_files": 9309
+    }
+  },
+  "pairs": [
+    {
+      "baseline": "R0",
+      "candidate": "R1",
+      "rescues": [],
+      "harms": [
+        46,
+        9,
+        17,
+        18
+      ],
+      "ties": 6
+    },
+    {
+      "baseline": "R1",
+      "candidate": "R2",
+      "rescues": [],
+      "harms": [],
+      "ties": 10
+    },
+    {
+      "baseline": "R0",
+      "candidate": "R2",
+      "rescues": [],
+      "harms": [
+        46,
+        9,
+        17,
+        18
+      ],
+      "ties": 6
+    },
+    {
+      "baseline": "R0",
+      "candidate": "R3",
+      "rescues": [
+        7
+      ],
+      "harms": [],
+      "ties": 9
+    },
+    {
+      "baseline": "R1",
+      "candidate": "R3",
+      "rescues": [
+        46,
+        9,
+        7,
+        17,
+        18
+      ],
+      "harms": [],
+      "ties": 5
+    },
+    {
+      "baseline": "R2",
+      "candidate": "R3",
+      "rescues": [
+        46,
+        9,
+        7,
+        17,
+        18
+      ],
+      "harms": [],
+      "ties": 5
+    }
+  ],
+  "failures": [
+    {
+      "version": "R0",
+      "index": 2,
+      "init_id": 41,
+      "prefix_stop": "lift_clear_budget",
+      "s9_stop": "lift_clear_budget",
+      "actions": 229
+    },
+    {
+      "version": "R0",
+      "index": 7,
+      "init_id": 7,
+      "prefix_stop": "lift_clear_budget",
+      "s9_stop": "lift_clear_budget",
+      "actions": 223
+    },
+    {
+      "version": "R1",
+      "index": 1,
+      "init_id": 46,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 471
+    },
+    {
+      "version": "R1",
+      "index": 2,
+      "init_id": 41,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 504
+    },
+    {
+      "version": "R1",
+      "index": 3,
+      "init_id": 9,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 461
+    },
+    {
+      "version": "R1",
+      "index": 7,
+      "init_id": 7,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 493
+    },
+    {
+      "version": "R1",
+      "index": 8,
+      "init_id": 17,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 485
+    },
+    {
+      "version": "R1",
+      "index": 9,
+      "init_id": 18,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 457
+    },
+    {
+      "version": "R2",
+      "index": 1,
+      "init_id": 46,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 472
+    },
+    {
+      "version": "R2",
+      "index": 2,
+      "init_id": 41,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 505
+    },
+    {
+      "version": "R2",
+      "index": 3,
+      "init_id": 9,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 461
+    },
+    {
+      "version": "R2",
+      "index": 7,
+      "init_id": 7,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 494
+    },
+    {
+      "version": "R2",
+      "index": 8,
+      "init_id": 17,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 486
+    },
+    {
+      "version": "R2",
+      "index": 9,
+      "init_id": 18,
+      "prefix_stop": "near_entry_ready",
+      "s9_stop": "micro_budget24",
+      "actions": 458
+    },
+    {
+      "version": "R3",
+      "index": 2,
+      "init_id": 41,
+      "prefix_stop": "transport_above_caddy_budget",
+      "s9_stop": "transport_above_caddy_budget",
+      "actions": 562
+    }
+  ]
+}

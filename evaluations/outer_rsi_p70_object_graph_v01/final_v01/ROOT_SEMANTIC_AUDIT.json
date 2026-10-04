@@ -1,0 +1,342 @@
+{
+  "all_checks_pass": true,
+  "all_original_initial_restores_one": true,
+  "authority": "Root independent audit of complete local metadata plus server-sealed raw hash receipt",
+  "no_later_restores_or_retries": true,
+  "physical_count": 40,
+  "r0_successes_preserved_identical_public": [
+    8,
+    46,
+    9,
+    11,
+    5,
+    38,
+    17,
+    18
+  ],
+  "rows": [
+    {
+      "actions": 422,
+      "complete": true,
+      "init_id": 8,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R0"
+    },
+    {
+      "actions": 450,
+      "complete": true,
+      "init_id": 46,
+      "p68_actions": 20,
+      "updates": 20,
+      "version": "R0"
+    },
+    {
+      "actions": 229,
+      "complete": false,
+      "init_id": 41,
+      "p68_actions": 0,
+      "updates": 0,
+      "version": "R0"
+    },
+    {
+      "actions": 437,
+      "complete": true,
+      "init_id": 9,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R0"
+    },
+    {
+      "actions": 411,
+      "complete": true,
+      "init_id": 11,
+      "p68_actions": 17,
+      "updates": 17,
+      "version": "R0"
+    },
+    {
+      "actions": 445,
+      "complete": true,
+      "init_id": 5,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R0"
+    },
+    {
+      "actions": 441,
+      "complete": true,
+      "init_id": 38,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R0"
+    },
+    {
+      "actions": 223,
+      "complete": false,
+      "init_id": 7,
+      "p68_actions": 0,
+      "updates": 0,
+      "version": "R0"
+    },
+    {
+      "actions": 465,
+      "complete": true,
+      "init_id": 17,
+      "p68_actions": 21,
+      "updates": 21,
+      "version": "R0"
+    },
+    {
+      "actions": 436,
+      "complete": true,
+      "init_id": 18,
+      "p68_actions": 20,
+      "updates": 20,
+      "version": "R0"
+    },
+    {
+      "actions": 442,
+      "complete": true,
+      "init_id": 8,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R1"
+    },
+    {
+      "actions": 471,
+      "complete": false,
+      "init_id": 46,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 504,
+      "complete": false,
+      "init_id": 41,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 461,
+      "complete": false,
+      "init_id": 9,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 432,
+      "complete": true,
+      "init_id": 11,
+      "p68_actions": 17,
+      "updates": 17,
+      "version": "R1"
+    },
+    {
+      "actions": 461,
+      "complete": true,
+      "init_id": 5,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R1"
+    },
+    {
+      "actions": 460,
+      "complete": true,
+      "init_id": 38,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R1"
+    },
+    {
+      "actions": 493,
+      "complete": false,
+      "init_id": 7,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 485,
+      "complete": false,
+      "init_id": 17,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 457,
+      "complete": false,
+      "init_id": 18,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R1"
+    },
+    {
+      "actions": 442,
+      "complete": true,
+      "init_id": 8,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R2"
+    },
+    {
+      "actions": 472,
+      "complete": false,
+      "init_id": 46,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 505,
+      "complete": false,
+      "init_id": 41,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 461,
+      "complete": false,
+      "init_id": 9,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 432,
+      "complete": true,
+      "init_id": 11,
+      "p68_actions": 17,
+      "updates": 17,
+      "version": "R2"
+    },
+    {
+      "actions": 461,
+      "complete": true,
+      "init_id": 5,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R2"
+    },
+    {
+      "actions": 460,
+      "complete": true,
+      "init_id": 38,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R2"
+    },
+    {
+      "actions": 494,
+      "complete": false,
+      "init_id": 7,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 486,
+      "complete": false,
+      "init_id": 17,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 458,
+      "complete": false,
+      "init_id": 18,
+      "p68_actions": 24,
+      "updates": 24,
+      "version": "R2"
+    },
+    {
+      "actions": 422,
+      "complete": true,
+      "init_id": 8,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R3"
+    },
+    {
+      "actions": 450,
+      "complete": true,
+      "init_id": 46,
+      "p68_actions": 20,
+      "updates": 20,
+      "version": "R3"
+    },
+    {
+      "actions": 562,
+      "complete": false,
+      "init_id": 41,
+      "p68_actions": 0,
+      "updates": 0,
+      "version": "R3"
+    },
+    {
+      "actions": 437,
+      "complete": true,
+      "init_id": 9,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R3"
+    },
+    {
+      "actions": 411,
+      "complete": true,
+      "init_id": 11,
+      "p68_actions": 17,
+      "updates": 17,
+      "version": "R3"
+    },
+    {
+      "actions": 445,
+      "complete": true,
+      "init_id": 5,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R3"
+    },
+    {
+      "actions": 441,
+      "complete": true,
+      "init_id": 38,
+      "p68_actions": 18,
+      "updates": 18,
+      "version": "R3"
+    },
+    {
+      "actions": 475,
+      "complete": true,
+      "init_id": 7,
+      "p68_actions": 19,
+      "updates": 19,
+      "version": "R3"
+    },
+    {
+      "actions": 465,
+      "complete": true,
+      "init_id": 17,
+      "p68_actions": 21,
+      "updates": 21,
+      "version": "R3"
+    },
+    {
+      "actions": 436,
+      "complete": true,
+      "init_id": 18,
+      "p68_actions": 20,
+      "updates": 20,
+      "version": "R3"
+    }
+  ],
+  "schema": "prove.p70-root-final-semantic-audit.v1",
+  "strict_success_requires_three_distinct_executed_observations": true,
+  "total_limit720_micro24_pass": true
+}

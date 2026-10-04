@@ -1,0 +1,816 @@
+{
+  "attempts_per_cell": 1,
+  "automatic_retries": 0,
+  "cells": [
+    {
+      "arm": "bc",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 0,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 1,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 2,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 3,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 4,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 5,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 6,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 7,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 8,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 9,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 10,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 11,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 12,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 13,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 14,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 15,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 16,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 17,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 18,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 19,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 20,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 21,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 22,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 23,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 24,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 25,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 26,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 27,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 28,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 29,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 30,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 31,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 32,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 33,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 34,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 35,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 36,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 37,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 38,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 39,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 40,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 41,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    }
+  ],
+  "code_max_actions": 120,
+  "graph_change": "Insert public EEF-only s8a Approach after s8 endpoint; retain P53/P54 prefix, model, references, thresholds, budgets and three Boolean supervisor gates",
+  "initial_restores": 1,
+  "later_restores": 0,
+  "micro_max_actions": 24,
+  "parent": {
+    "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p54_book_scale_v01/BINDING_v01.json",
+    "sha256": "b4d6f0a5e54b87e58f60eb52f4f29cc65895eb85078ff17a00ab29f1fe816897"
+  },
+  "prefix_max_actions": 400,
+  "qualification": "Two nominal original-initial-state real prefix+Code runs (scale1.0 and0.9), no teacher/neural s9; both near_ready required before queue",
+  "runtime_boundary": "No object scale or continuous private geometry enters s8a command; private geometry is diagnostic only",
+  "schema": "prove.p55-public-relation-approach.v1",
+  "seed": 54,
+  "sources": {
+    "/home/ubuntu/github/prove-p52-stage-local/prove/task_graph/p55_relation_approach.py": "1be202e6c50aa4edef212026f0a2e96352a1189912c0ec6f1f8c555afafc16e0",
+    "/home/ubuntu/github/prove-p52-stage-local/tools/task_graph/p55_relation_approach.py": "6b8be6bb3509120af34a7ebb77d376135b33819ef373e1ee9d5f25ad307f01b0"
+  },
+  "task_graph": {
+    "code_supervisor_gates": [
+      "near_ready",
+      "structural_stop",
+      "code_completed_goal"
+    ],
+    "graph_id": "libero_book_caddy_p53_micro_v03_frozen_neural_full_v01_public_relation_s8a",
+    "nodes": [
+      {
+        "backend": "public_code_pose_path",
+        "id": "s7",
+        "next": "s8",
+        "reference_end": 1,
+        "reference_start": 0,
+        "skill": "Align",
+        "target_rule": "raise_current_xy_orientation_to_public_max_z_then_reference41",
+        "termination": "public_endpoint_reached"
+      },
+      {
+        "backend": "public_code_pose_path",
+        "id": "s8",
+        "next": "s8a",
+        "reference_end": 2,
+        "reference_start": 2,
+        "skill": "Approach",
+        "target_rule": "public_reference57_plus_one_position_tolerance_z",
+        "termination": "public_endpoint_reached"
+      },
+      {
+        "backend": "public_ref41_ref57_axis",
+        "id": "s8a",
+        "lateral_alignment": "hold_public_ref57_axis",
+        "next": "s9",
+        "orientation": "hold_public_ref57",
+        "reference_axis": "unit_vector_public_ref41_to_ref57",
+        "skill": "Approach",
+        "termination": "original_near_ready"
+      },
+      {
+        "backend": "frozen_stage_policy",
+        "id": "s9",
+        "max_actions": 24,
+        "next": null,
+        "skill": "Insert",
+        "termination": "original_goal_and_contact_hold3"
+      }
+    ],
+    "prefix_budget": 400,
+    "prefix_nodes": [
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 30,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 0
+        },
+        "goal_relation": "above_grasp_approach",
+        "id": "s1",
+        "invariants": [],
+        "next_stage": "s2",
+        "no_progress_budget": 20,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "open_gripper",
+            "value": true
+          }
+        ],
+        "skill": "Move",
+        "step_budget": 180,
+        "target": "black_book_1",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "above_grasp_approach",
+            "value": true
+          }
+        ]
+      },
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 57,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 30
+        },
+        "goal_relation": "grasp_ready",
+        "id": "s2",
+        "invariants": [],
+        "next_stage": "s3",
+        "no_progress_budget": 20,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "open_gripper",
+            "value": true
+          }
+        ],
+        "skill": "Approach",
+        "step_budget": 162,
+        "target": "black_book_1",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "grasp_ready",
+            "value": true
+          }
+        ]
+      },
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 68,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 57
+        },
+        "goal_relation": "attached",
+        "id": "s3",
+        "invariants": [],
+        "next_stage": "s4",
+        "no_progress_budget": 11,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "grasp_ready",
+            "value": true
+          }
+        ],
+        "skill": "Grasp",
+        "step_budget": 66,
+        "target": "black_book_1",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ]
+      },
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 85,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 68
+        },
+        "goal_relation": "clear_of_table",
+        "id": "s4",
+        "invariants": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "next_stage": "s5",
+        "no_progress_budget": 17,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "skill": "Lift",
+        "step_budget": 102,
+        "target": "study_table",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "clear_of_table",
+            "value": true
+          }
+        ]
+      },
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 130,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 85
+        },
+        "goal_relation": "above_destination_vicinity",
+        "id": "s5",
+        "invariants": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "next_stage": "s6",
+        "no_progress_budget": 20,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "skill": "Move",
+        "step_budget": 270,
+        "target": "desk_caddy_1_back_contain_region",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "above_destination_vicinity",
+            "value": true
+          }
+        ]
+      },
+      {
+        "actor": "panda_gripper",
+        "evidence": {
+          "end_step": 200,
+          "provenance": "root-reviewed development annotation; see ROOT_DECOMPOSITION.json for hashes, timing and boundary uncertainty",
+          "source": "evaluations/fast_adapter_p48_task_graph_v01/demo_review_v01/agentview/ACTION_PROPRIO.json",
+          "start_step": 130
+        },
+        "goal_relation": "aligned_with_back_compartment",
+        "id": "s6",
+        "invariants": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "next_stage": "s7",
+        "no_progress_budget": 20,
+        "object": "black_book_1",
+        "object_part": null,
+        "preconditions": [
+          {
+            "op": "eq",
+            "signal": "attached",
+            "value": true
+          }
+        ],
+        "skill": "Align",
+        "step_budget": 420,
+        "target": "desk_caddy_1_back_contain_region",
+        "termination": [
+          {
+            "op": "eq",
+            "signal": "aligned_with_back_compartment",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "signal": "public_insert_entry_domain",
+            "value": true
+          }
+        ]
+      }
+    ],
+    "public_action_inputs": [
+      "robot0_eef_pos",
+      "robot0_eef_quat"
+    ],
+    "schema": "prove.p55-relation-taskgraph.v1",
+    "shared_code_budget": 120,
+    "supervisor_routing_only": [
+      "near_ready",
+      "structural_stop",
+      "code_completed_goal"
+    ]
+  },
+  "total_max_actions": 544,
+  "zero_qualification": {
+    "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p54_book_scale_v01/geometry_qualification_v01/RESULT.json",
+    "sha256": "4112fc1d649a591ec64f6b2f456a19e82d5cb82cb8181e1804c042a738a79120"
+  }
+}

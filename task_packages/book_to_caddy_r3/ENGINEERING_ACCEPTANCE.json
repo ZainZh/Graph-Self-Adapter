@@ -1,0 +1,99 @@
+{
+  "schema": "prove.task-solution.engineering-acceptance.v1",
+  "completed_utc": "2026-10-03T11:42:01.987459+00:00",
+  "status": "passed",
+  "scope": {
+    "path": "task_packages/book_to_caddy_r3/PACKAGING_SCOPE_V02.json",
+    "sha256": "31186c415ec81826f7e95a260a2fd6f0496153b19669a10807003417793c3acd"
+  },
+  "solution_manifest": {
+    "path": "task_packages/book_to_caddy_r3/solution/MANIFEST.json",
+    "sha256": "06ac971d9e062bbe9951ee2d3743bfda828c757ca9231e10210177046bcaf569"
+  },
+  "release": {
+    "path": "task_packages/book_to_caddy_r3/solution/RELEASE.json",
+    "sha256": "0b4c25bd4110b3d0a78a37970636563ffb4314398c0fcbaa89b68691120dbb6e"
+  },
+  "preflight": {
+    "path": "task_packages/book_to_caddy_r3/TASK_SOLUTION_PREFLIGHT.json",
+    "sha256": "737ef2d9c5b0a631a4e298b053a79af2cb61efa51c57a665f46a42e7981204f6"
+  },
+  "moved_package_check": {
+    "path": "task_packages/book_to_caddy_r3/TASK_SOLUTION_CHECK.json",
+    "sha256": "5a8f9c64337106f388c05e3fcfe7f6bbefc0fa01313718a56d9077daa427761a"
+  },
+  "task_models": 5,
+  "package_payload_bytes": 182104371,
+  "shared_simulator_and_base_models_copied": false,
+  "runtime_reused": "Installed Interaction-RSI, LIBERO, DINO, pretrained LiLa and Python runtime",
+  "physical_launches_total": 2,
+  "first_launch": {
+    "classification": "packaging_scene_loading_abort_before_task_actions",
+    "artifact": {
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_cell7_v01/ABORT.json",
+      "sha256": "494bad762fca08b36f0d5a0802537702bea022f84e82a429476662a17183b60c"
+    }
+  },
+  "final_launch": {
+    "classification": "engineering_replay_of_opened_cell",
+    "copied_task_package": "/tmp/book_to_caddy_r3_task_release_20261003",
+    "result": {
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/RESULT.json",
+      "sha256": "12f3ad1b9476a4170d45e410251001481c47482e264667bda04e357e17bf635b"
+    },
+    "seal": {
+      "path": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/SEAL.json",
+      "sha256": "dbbc84d7beab88680ceb9b6a22f7540510205e2ec410aaa3ac120df2af0e99d3"
+    },
+    "sealed_files_checked": 973,
+    "cell": {
+      "execution_seed": 70037,
+      "index": 7,
+      "init_id": 7,
+      "init_index": 7,
+      "split": "test",
+      "state_sha256": "2f359eaf0499d91a9e34f60059daf9c65b871bdc754a2860f66f07dfd1597fa8",
+      "version": "R3"
+    },
+    "graph_complete": true,
+    "official_success": true,
+    "total_actions": 475,
+    "prefix_actions": 456,
+    "short_insert_actions": 19,
+    "short_insert_z_updates": 19,
+    "initial_restores": 1,
+    "later_restores": 0,
+    "scope_training": false
+  },
+  "archive": {
+    "path": "task_packages/book_to_caddy_r3/book_to_caddy_r3_task.tar.gz",
+    "sha256": "6504c9b4afbc9e3e0d530caeac9e97cdd3d87cf896ee5515ba7730f2ddc8682d",
+    "bytes": 166539292,
+    "files": 33
+  },
+  "scientific_note": "No new independent sample or update to original P70 success rates; the engineering replay preserves the accepted task behavior.",
+  "checks": {
+    "focused_tests_passed": 28,
+    "test_files": [
+      "tests/test_book_r3_task_bundle.py",
+      "tests/test_adapter_dashboard.py",
+      "tests/test_serve_dashboard.py"
+    ],
+    "shell_syntax": "passed",
+    "documentation_links": "passed",
+    "scoped_diff_check": "passed",
+    "dashboard_rebuilt": true
+  },
+  "presentation": {
+    "video": {
+      "path": "task_packages/book_to_caddy_r3/presentation_task_replay_v02/full_task.mp4",
+      "sha256": "d234d4de3eefbf06b6388557e6cef8cb183678144f3a6ef0d6d0699ce062af49"
+    },
+    "manifest": {
+      "path": "task_packages/book_to_caddy_r3/presentation_task_replay_v02/MANIFEST.json",
+      "sha256": "eb2b09c51a9fef016d3d75efa8f158edfecb87b1bc474a747a9d79ecc7675b7c"
+    },
+    "annotated": true,
+    "additional_physics_steps": 0
+  }
+}

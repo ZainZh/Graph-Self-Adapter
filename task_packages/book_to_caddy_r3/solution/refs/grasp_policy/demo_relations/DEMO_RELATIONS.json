@@ -1,0 +1,99 @@
+{
+  "schema": "prove.p70-demo-grasp-relations.v1",
+  "relations": {
+    "pregrasp": {
+      "frame": 56,
+      "T_book_eef": [
+        [
+          0.06547515798202166,
+          0.997848203107108,
+          0.003459370338953118,
+          0.006621740889503139
+        ],
+        [
+          0.9954637505892052,
+          -0.06507809081442094,
+          -0.06940290598253195,
+          -0.01129308978494803
+        ],
+        [
+          -0.06902843580800203,
+          0.007987844005909003,
+          -0.9975827130609445,
+          0.1275528108486227
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "gripper_qpos": [
+        0.039864404635410015,
+        -0.03982813061729622
+      ],
+      "demo_action": [
+        -0.1125,
+        -0.08839285714285716,
+        -0.4741071428571428,
+        0.005,
+        0.0,
+        -0.047857142857142855,
+        -1.0
+      ]
+    },
+    "grasp": {
+      "frame": 67,
+      "T_book_eef": [
+        [
+          0.158269147607272,
+          0.9873438811540739,
+          -0.010145800277832169,
+          0.009007262129514068
+        ],
+        [
+          0.9854642644678461,
+          -0.15859360144370777,
+          -0.06089542706938088,
+          -0.016124770699682267
+        ],
+        [
+          -0.06173378631280733,
+          -0.00036045627277984157,
+          -0.9980925857347905,
+          0.10581168152967213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "gripper_qpos": [
+        0.006638500745709586,
+        -0.025853672216578884
+      ],
+      "demo_action": [
+        0.0,
+        0.0,
+        0.17410714285714288,
+        -0.0007142857142857143,
+        0.045,
+        -0.020714285714285713,
+        1.0
+      ]
+    }
+  },
+  "files": {
+    "/home/zheng/github/Interaction-RSI/data/sources/libero_one_shot_p48/book_demo_0.hdf5": "92cf890a794a2c3bfe47cb68f0109f76901c3251f7331f6c03c10e258b30b94c",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/BINDING.json": "a4decb47d6b2cf86510ac6b766c23ef87915e4d5be18f1e0c2ec5eb6fa96608a",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/FRAMES.jsonl": "fe8cd67333f5e496d6bc9789495e2f815a1a42ce643fd96e13c14d744401d48c",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/SUPERVISOR_NAMES.json": "6dd06416c7e35efe62e9f0c5b2529a2e9e9132c285446d58b57f5beb893fbdf3",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0056.npz": "399b3feb289c7aeb49bba3f06349de226654e6ad8b79e728b61c72e70d09f0b2",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0067.npz": "f8e43d94f30093167ca0ef48be6e617f6700548283c9e53815090c954acd9cac"
+  },
+  "authority": "Root preselected demo56 pregrasp and demo67 stable closed grasp; demo GT is fixed training prior, never current runtime object GT",
+  "semantic_note": "Closing includes the relative descent between these fixed targets; no best-frame selection or absolute demo waypoint following"
+}

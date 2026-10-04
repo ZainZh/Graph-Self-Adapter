@@ -1,0 +1,49 @@
+{
+  "schema": "prove.p70-grasp-training-freeze.v1",
+  "status": "frozen_before_optimizer",
+  "config": {
+    "version": "v02",
+    "equilibrium_correction": "same-grip f(error)-f(zero)",
+    "gripper_sampling": "independent left U(0,.045),right U(-.045,0)",
+    "seed": 70010,
+    "updates": 1200,
+    "batch_size": 256,
+    "learning_rate": 0.002,
+    "synthetic_train_samples": 30000,
+    "synthetic_validation_samples": 3000,
+    "validation_seed": 70011,
+    "position_range_m": 0.04,
+    "rotation_range_rad": 0.35,
+    "fine_fraction": 0.3333333333333333,
+    "fine_position_range_m": 0.004,
+    "fine_rotation_range_rad": 0.04,
+    "translation_step_cap_m": 0.01,
+    "rotation_step_cap_rad": 0.05,
+    "osc_translation_scale": 0.05,
+    "osc_rotation_scale": 0.5,
+    "pregrasp_frame": 56,
+    "grasp_frame": 67,
+    "hidden": [
+      64,
+      64
+    ],
+    "inputs": "book-frame position/rotvec target error6 + gripper proprio2; no path index/progress",
+    "outputs": "book-frame OSC6, rotated to world; explicit graph phase supplies open/close channel"
+  },
+  "files": {
+    "/home/zheng/github/Interaction-RSI/data/sources/libero_one_shot_p48/book_demo_0.hdf5": "92cf890a794a2c3bfe47cb68f0109f76901c3251f7331f6c03c10e258b30b94c",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/BINDING.json": "a4decb47d6b2cf86510ac6b766c23ef87915e4d5be18f1e0c2ec5eb6fa96608a",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/FRAMES.jsonl": "fe8cd67333f5e496d6bc9789495e2f815a1a42ce643fd96e13c14d744401d48c",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/SUPERVISOR_NAMES.json": "6dd06416c7e35efe62e9f0c5b2529a2e9e9132c285446d58b57f5beb893fbdf3",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0056.npz": "399b3feb289c7aeb49bba3f06349de226654e6ad8b79e728b61c72e70d09f0b2",
+    "/home/zheng/github/Interaction-RSI/evaluations/fast_adapter_p48_task_graph_v01/gt_replay_v01/frame_0067.npz": "f8e43d94f30093167ca0ef48be6e617f6700548283c9e53815090c954acd9cac",
+    "/home/zheng/github/Interaction-RSI/evaluations/outer_rsi_p70_object_graph_v01/PLAN.md": "feb5505001ed3ecfaba5b008850607d65c0961da8da47ffd0a0351d5175ba86b",
+    "/home/zheng/github/Interaction-RSI/prove/task_graph/p70_grasp_policy_v02.py": "b0aa7d01a2b0563a503203bcc8883437772d6b02561ea28dbe3d691d711d8fee",
+    "/home/zheng/github/Interaction-RSI/tools/task_graph/p70_train_grasp_v02.py": "f85820647693d80c039b0a45d08368db2b826d19832076750050fa5fc7cfe807",
+    "/home/zheng/github/Interaction-RSI/evaluations/outer_rsi_p70_object_graph_v01/training/grasp_seed70010_v02/DEMO_RELATIONS.json": "0413732524197e2a00c027392c2f6894a21807206d5237bc2038f82c13e197fb"
+  },
+  "authorization": "Root explicit user-scoped training: seed70010,30000 synthetic rows,1200updates; no physical execution",
+  "data_kind": "synthetic_relative_SE3_error_teacher_labels; not simulator trajectories or task success",
+  "physical_steps": 0,
+  "rollout_validation": "Required later on predeclared training states; not supplied by fit metrics"
+}

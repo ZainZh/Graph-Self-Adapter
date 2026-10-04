@@ -1,0 +1,145 @@
+{
+  "automatic_retry": false,
+  "cell": {
+    "execution_seed": 70037,
+    "index": 7,
+    "init_id": 7,
+    "init_index": 7,
+    "split": "test",
+    "state_sha256": "2f359eaf0499d91a9e34f60059daf9c65b871bdc754a2860f66f07dfd1597fa8",
+    "version": "R3"
+  },
+  "full_task_success_evidence": true,
+  "graph_complete": true,
+  "init_state": {
+    "id": 7,
+    "split": "test",
+    "state_flattened": [
+      0.0,
+      0.04039530906162194,
+      -0.13064530780688952,
+      0.003359887959091209,
+      -2.4310812748205217,
+      -0.017025139402773132,
+      2.2228165171347753,
+      0.7612117711105527,
+      0.020833,
+      -0.020833,
+      -0.19455190751209156,
+      0.15060395907748267,
+      0.937,
+      -0.6790942509349134,
+      0.0,
+      0.0,
+      0.7340510870144864,
+      -0.08477988520623829,
+      0.01844703104679781,
+      0.937,
+      -0.7071067811865475,
+      0.0,
+      0.0,
+      0.7071067811865476,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "state_sha256": "2f359eaf0499d91a9e34f60059daf9c65b871bdc754a2860f66f07dfd1597fa8"
+  },
+  "later_state_restores": 0,
+  "official_success": true,
+  "original_initial_restores": 1,
+  "placement_verification": {
+    "actions": 0,
+    "enabled": false,
+    "graph_complete": false,
+    "precondition": {
+      "budget_limit": 3,
+      "finger_contacts": [
+        true,
+        true
+      ],
+      "official_success": true,
+      "s9_stop_reason": "official_goal_contact_hold",
+      "wrong_target": false
+    },
+    "stop_reason": "verification_precondition_failed",
+    "updates": 0
+  },
+  "prefix": {
+    "actions": 456,
+    "qualified": true,
+    "settling": {
+      "actions": 6,
+      "last_centroid": [
+        312.4580956559895,
+        279.8091268100044
+      ],
+      "stable": true
+    },
+    "stage": "p68_insert",
+    "stage_entries": [
+      {
+        "reason": "grasp_ready",
+        "stage": "short_grasp",
+        "t": 112
+      },
+      {
+        "reason": "attached",
+        "stage": "lift_clear",
+        "t": 121
+      },
+      {
+        "reason": "lift_clear",
+        "stage": "orient_clear",
+        "t": 206
+      },
+      {
+        "reason": "orient_clear",
+        "stage": "transport_above_caddy",
+        "t": 305
+      },
+      {
+        "reason": "above_destination_vicinity",
+        "stage": "near_entry",
+        "t": 441
+      },
+      {
+        "reason": "near_entry",
+        "stage": "p68_insert",
+        "t": 450
+      }
+    ],
+    "stop_reason": "near_entry_ready"
+  },
+  "s9": {
+    "actions": 19,
+    "graph_complete": true,
+    "native_instant_ever": true,
+    "official_success": true,
+    "stop_reason": "official_goal_contact_hold",
+    "updates": 19
+  },
+  "schema": "prove.p70-object-centric-result.v1",
+  "seal_sha256": "dbbc84d7beab88680ceb9b6a22f7540510205e2ec410aaa3ac120df2af0e99d3",
+  "stage_qualification_only": false,
+  "strict_from_verification": false,
+  "total_actions": 475
+}

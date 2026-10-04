@@ -1,0 +1,200 @@
+{
+  "schema": "graph-self-adapter.evidence-copy.v1",
+  "source_root": "/home/zheng/github/Interaction-RSI",
+  "copied": [
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/ROOT_REPORT_ZH.md",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/ROOT_REPORT_ZH.md",
+      "sha256": "82c2d28c41dda333b27865fe4c833c7e9b41a3333e61569f59f02b549ddd3bd3",
+      "bytes": 8290
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/ROOT_FINAL_ACCEPTANCE.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/ROOT_FINAL_ACCEPTANCE.json",
+      "sha256": "ffabaef1231fe39a9a1212b0d3aea2aae3fdd5128877e5d6dbfcac5357f337d3",
+      "bytes": 2648
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/PLAN.md",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/PLAN.md",
+      "sha256": "feb5505001ed3ecfaba5b008850607d65c0961da8da47ffd0a0351d5175ba86b",
+      "bytes": 6534
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/FINAL_REGRESSION_SCOPE.md",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/FINAL_REGRESSION_SCOPE.md",
+      "sha256": "a03b334b7928ca4fedcb81047dfdd3d01121194438d3068896a83dca9d434e8e",
+      "bytes": 2097
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/LOCAL_RETURN_RECEIPT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/LOCAL_RETURN_RECEIPT.json",
+      "sha256": "c543249bc4f392300f168bb0960d44810a66807eaffa6994a5f20af8c558e024",
+      "bytes": 710
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/ROOT_REPORT_ZH.md",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/ROOT_REPORT_ZH.md",
+      "sha256": "76d06bfcde8433ccc40e26af225bfe1aefee713af04838743677d7ff99bef446",
+      "bytes": 4296
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/PLAN.md",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/PLAN.md",
+      "sha256": "10ebe5da839020619da8e07e1f04452428b059bf37d25d105d0d8a02ce392116",
+      "bytes": 4504
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/INSERT_SCOPE.json",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/INSERT_SCOPE.json",
+      "sha256": "08d98d090328b4a135d7a5941fca28f6454714d1f510a10d5126202c4269adf6",
+      "bytes": 10962
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/PAIRED_SUMMARY.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/PAIRED_SUMMARY.json",
+      "sha256": "33fa65b298291dcfd6c373eb441d34b9963110930889f9b1c2fd9af097b43582",
+      "bytes": 4622
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R0/RETURN_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R0/RETURN_AUDIT.json",
+      "sha256": "1f03a747d157fe222d6a675d14b7666400303c03a1766745db57241287441ecc",
+      "bytes": 4737
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R1/RETURN_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R1/RETURN_AUDIT.json",
+      "sha256": "7c3a2b8398ac238bebdf81874ae6b3598d0b95480a2dac81e5596a1eb9ef99af",
+      "bytes": 4713
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R2/REMOTE_RETURN_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R2/REMOTE_RETURN_AUDIT.json",
+      "sha256": "657aeb6f95af6e474deeecfeebc9627d01652b06e2e53ebd35017fc633313c0d",
+      "bytes": 9469
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R3/RETURN_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R3/RETURN_AUDIT.json",
+      "sha256": "74085cb2e3f8cd8adcd93c3b3d68eb2b5e2f716c5f945a47ab5dbbfc163f16d2",
+      "bytes": 5816
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R3/DEVELOPMENT_PAIRED_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/full_development/R3/DEVELOPMENT_PAIRED_AUDIT.json",
+      "sha256": "891631832a096c8f0144e4dc015e17041cafec6148c835f188bab85af60bbe83",
+      "bytes": 15495
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/DEVELOPMENT_SELECTION.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/DEVELOPMENT_SELECTION.json",
+      "sha256": "b6a85f743250ede8a11988e22aabf0ff8a17b64f6bdf8f74ea6ffc52b0331be0",
+      "bytes": 954
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/R0_CELL003_DIAGNOSTIC.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/R0_CELL003_DIAGNOSTIC.json",
+      "sha256": "305e90a83e20bfc961f7a5fb3f95d6cb3c1104c1185d2ce29120c4d0e220a3a7",
+      "bytes": 25602
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/R3_RELATION_REFINEMENT_SCOPE.md",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/R3_RELATION_REFINEMENT_SCOPE.md",
+      "sha256": "4c7c522d0a4cccb604c44659c42b8ae222d40beb44359fd8fcdb0804e517d983",
+      "bytes": 2033
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/R0_R1_PAIRED_DIAGNOSTIC.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/R0_R1_PAIRED_DIAGNOSTIC.json",
+      "sha256": "606e3242772c80e5d3b56adde8b289fd760753dd6ff029df4025dd5860241e63",
+      "bytes": 86187
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/presentation_full_zh_v01/index.html",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/presentation_full_zh_v01/index.html",
+      "sha256": "4fadf2debab6eb6531fc3b9fa0a36f6ec62409cf37dd1d7aab177c0aae1fde7b",
+      "bytes": 178
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/presentation_rescue_init33_v01/paired/index.html",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/presentation_rescue_init33_v01/paired/index.html",
+      "sha256": "284c33868073af4c334d703e6cec13a0bc1e39477cb05107f6bb40068926fb5f",
+      "bytes": 302
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/RETURN_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/RETURN_AUDIT.json",
+      "sha256": "d6ab92352c998e653a081171b41c4317eb1ad2f18912917fcc779c53834d05ef",
+      "bytes": 23606
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/ROOT_SEMANTIC_AUDIT.json",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/final_v01/ROOT_SEMANTIC_AUDIT.json",
+      "sha256": "5fa974fb82793a4b4bbbd86443674f28c744d842dca46045f1cbab7570e96c82",
+      "bytes": 6449
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/inspection_v01/RAW_RESULTS.json",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/inspection_v01/RAW_RESULTS.json",
+      "sha256": "62b66c37f1bab749b3bfc2990dcd3a6f6308c42755388ce4628b9541ed44ff50",
+      "bytes": 183872
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/inspection_v01/SUMMARY.json",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/inspection_v01/SUMMARY.json",
+      "sha256": "041f6fe8b3f1617219ca9312c5ebed7bf8b7fbb00313ab7d470c718ea67ea7bb",
+      "bytes": 14141
+    },
+    {
+      "original": "evaluations/fast_adapter_p68_cross_task_reference_v01/return_audit_v01/REMOTE_RETURN_AUDIT.json",
+      "destination": "evaluations/fast_adapter_p68_cross_task_reference_v01/return_audit_v01/REMOTE_RETURN_AUDIT.json",
+      "sha256": "1a66a0b33db23dea96d6c5509d940c2e7b909bc3d5c4ed315091084703791704",
+      "bytes": 31287
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/presentation_full_zh_v01/full_task.mp4",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/presentation_full_zh_v01/full_task.mp4",
+      "sha256": "0a256303de44f27c9fa8bb61500f7a381cf4d6445c33a8de7e5bee15b7f07802",
+      "bytes": 1065538
+    },
+    {
+      "original": "evaluations/outer_rsi_p70_object_graph_v01/presentation_rescue_init33_v01/paired/full_task.mp4",
+      "destination": "evaluations/outer_rsi_p70_object_graph_v01/presentation_rescue_init33_v01/paired/full_task.mp4",
+      "sha256": "a239e7746e4e822203329d5d42963aaf592bea9a154b85cc803c7e163d4dbdd9",
+      "bytes": 1872631
+    },
+    {
+      "original": "task_packages/book_to_caddy_r3/presentation_task_replay_v02/full_task.mp4",
+      "destination": "media/book_to_caddy_r3_full_task.mp4",
+      "sha256": "d234d4de3eefbf06b6388557e6cef8cb183678144f3a6ef0d6d0699ce062af49",
+      "bytes": 1168330
+    },
+    {
+      "original": "task_packages/book_to_caddy_r3/presentation_task_replay_v02/MANIFEST.json",
+      "destination": "migration/historical_engineering/MANIFEST.json",
+      "sha256": "eb2b09c51a9fef016d3d75efa8f158edfecb87b1bc474a747a9d79ecc7675b7c",
+      "bytes": 151287
+    },
+    {
+      "original": "task_packages/book_to_caddy_r3/runs/engineering_task_cell7_v02/cell_007/RESULT.json",
+      "destination": "migration/historical_engineering/RESULT.json",
+      "sha256": "12f3ad1b9476a4170d45e410251001481c47482e264667bda04e357e17bf635b",
+      "bytes": 3097
+    },
+    {
+      "original": "task_packages/book_to_caddy_r3/TASK_SOLUTION_CHECK.json",
+      "destination": "migration/historical_engineering/TASK_SOLUTION_CHECK.json",
+      "sha256": "5a8f9c64337106f388c05e3fcfe7f6bbefc0fa01313718a56d9077daa427761a",
+      "bytes": 1264
+    },
+    {
+      "original": "task_packages/book_to_caddy_r3/TASK_SOLUTION_PREFLIGHT.json",
+      "destination": "migration/historical_engineering/TASK_SOLUTION_PREFLIGHT.json",
+      "sha256": "737ef2d9c5b0a631a4e298b053a79af2cb61efa51c57a665f46a42e7981204f6",
+      "bytes": 1000
+    }
+  ],
+  "omitted": [],
+  "note": "Exact historical evidence bytes. Raw frames, datasets and full return archives are not a full backup. This migration is not a new rollout."
+}

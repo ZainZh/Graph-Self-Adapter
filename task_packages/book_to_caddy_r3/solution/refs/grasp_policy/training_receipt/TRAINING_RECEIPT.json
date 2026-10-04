@@ -1,0 +1,131 @@
+{
+  "schema": "prove.p70-grasp-synthetic-fit-receipt.v2",
+  "zero_error_check": {
+    "grips": 256,
+    "exact_zero": true,
+    "closed_demo_actual_command_zero": true
+  },
+  "fixed_error_grip_dependence": {
+    "translation_step_spread_mm_max": 0.09525532368570566,
+    "rotation_step_spread_deg_max": 0.032332244565935885
+  },
+  "elapsed_seconds": 1.2476221749093384,
+  "optimizer_steps": 1200,
+  "seed": 70010,
+  "train_synthetic_rows": 30000,
+  "validation_synthetic_rows": 3000,
+  "real_new_trajectories": 0,
+  "physical_steps": 0,
+  "task_success_evaluated": false,
+  "validation_action_component_rmse": [
+    0.006723715923726559,
+    0.006273732054978609,
+    0.005765955429524183,
+    0.0056480118073523045,
+    0.005378150846809149,
+    0.005982769653201103
+  ],
+  "validation_equivalent_position_step_error_mm_mean": 0.42143455357290804,
+  "validation_equivalent_rotation_step_error_deg_mean": 0.24940258264541626,
+  "validation_position_step_error_mm_p95": 0.9685361444950104,
+  "actual_command_wiring": {
+    "passed": true,
+    "frame_equivariance": true,
+    "open_close_channels": true,
+    "frozen_reload_exact": true,
+    "sample": {
+      "controller": "p70_v02_equilibrium_corrected_grasp_mlp",
+      "features": [
+        -0.11999999731779099,
+        0.10000000149011612,
+        -0.1599999964237213,
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        -0.75
+      ],
+      "current_book_eef": [
+        [
+          0.158269147607272,
+          0.9873438811540739,
+          -0.010145800277832169,
+          0.015007262129514068
+        ],
+        [
+          0.9854642644678461,
+          -0.15859360144370777,
+          -0.06089542706938088,
+          -0.021124770699682268
+        ],
+        [
+          -0.06173378631280733,
+          -0.00036045627277984157,
+          -0.9980925857347905,
+          0.11381168152967214
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "goal_book_eef": [
+        [
+          0.158269147607272,
+          0.9873438811540739,
+          -0.010145800277832169,
+          0.009007262129514068
+        ],
+        [
+          0.9854642644678461,
+          -0.15859360144370777,
+          -0.06089542706938088,
+          -0.016124770699682267
+        ],
+        [
+          -0.06173378631280733,
+          -0.00036045627277984157,
+          -0.9980925857347905,
+          0.10581168152967213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_action": [
+        -0.09236521273851395,
+        0.075612872838974,
+        -0.12046303600072861,
+        -0.0031119079794734716,
+        0.0005355075118131936,
+        -0.00011156481195939705
+      ],
+      "actual_action": [
+        -0.09236521273851395,
+        0.075612872838974,
+        -0.12046303600072861,
+        -0.0031119079794734716,
+        0.0005355075118131936,
+        -0.00011156481195939705,
+        1.0
+      ],
+      "close": true,
+      "network_weights_frozen": true,
+      "source": "public_book_estimate_and_robot_proprioception",
+      "waypoint_index_used": false,
+      "equilibrium_correction": "f(error,grip)-f(0,grip)"
+    }
+  },
+  "limits": "Teacher distillation accuracy only; no physical grasp/entry qualification or success evidence.",
+  "files": {
+    "SYNTHETIC_DATA.npz": "b48902127c9ee4f748dd58f9802cfaab579c6173b9209cab13376b75bc10dc4e",
+    "final.pt": "0115fac96833dcb26f400c1e4442b5c32f8e369e1197a2da6146b1c8f0fa4155",
+    "TRAINING_FREEZE.json": "e438f926cbfbea265cfee2275b892283c4837da4609ece1481fef09f461a9811",
+    "DEMO_RELATIONS.json": "0413732524197e2a00c027392c2f6894a21807206d5237bc2038f82c13e197fb"
+  }
+}

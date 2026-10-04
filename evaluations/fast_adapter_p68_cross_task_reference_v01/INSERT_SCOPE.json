@@ -1,0 +1,446 @@
+{
+  "schema": "prove.p68-insert-scope.v1",
+  "created_utc": "2026-09-30T10:57:19.388670+00:00",
+  "status": "result_free_development_scope",
+  "task": "insert",
+  "conditions": [
+    {
+      "split": "id",
+      "condition_seed": 680100,
+      "family": 0,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680100,
+        "split": "id",
+        "half": [
+          0.012384244448213,
+          0.009662912490201625
+        ],
+        "clearance": [
+          0.0020718379660340357,
+          0.0018584704658283653
+        ],
+        "length": 0.0589109033174722,
+        "center": [
+          0.0031816396661701676,
+          -0.01841894124215719,
+          0.10340787713975483
+        ],
+        "angles": [
+          -0.6503660675480738,
+          2.0106437032582747,
+          0.09531809980679817
+        ]
+      }
+    },
+    {
+      "split": "id",
+      "condition_seed": 680101,
+      "family": 1,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680101,
+        "split": "id",
+        "half": [
+          0.013488242422323542,
+          0.007502375967374484
+        ],
+        "clearance": [
+          0.002745632322501904,
+          0.0022355295793449097
+        ],
+        "length": 0.04990901391433203,
+        "center": [
+          -0.02112799742383438,
+          0.00832291902642833,
+          0.09302992693254508
+        ],
+        "angles": [
+          -1.375121266966893,
+          2.179617010804442,
+          -5.076881478106321
+        ]
+      }
+    },
+    {
+      "split": "id",
+      "condition_seed": 680102,
+      "family": 2,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680102,
+        "split": "id",
+        "half": [
+          0.011400424712554551,
+          0.009847047729903023
+        ],
+        "clearance": [
+          0.002154132269601276,
+          0.0017953550448494941
+        ],
+        "length": 0.05947379847280945,
+        "center": [
+          0.011225044409551722,
+          -0.011654693193542105,
+          0.09582111869807508
+        ],
+        "angles": [
+          -2.250534629567831,
+          -3.77109147155997,
+          7.562557306027074
+        ]
+      }
+    },
+    {
+      "split": "id",
+      "condition_seed": 680103,
+      "family": 3,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680103,
+        "split": "id",
+        "half": [
+          0.0125708763791305,
+          0.0071300246005182935
+        ],
+        "clearance": [
+          0.0017487227461364893,
+          0.002272732137612698
+        ],
+        "length": 0.051179197260303046,
+        "center": [
+          -0.004578954318915807,
+          -0.010029499871895366,
+          0.0988700961642276
+        ],
+        "angles": [
+          -3.7335616212943554,
+          -4.230273527044032,
+          7.15543321993578
+        ]
+      }
+    },
+    {
+      "split": "size",
+      "condition_seed": 680200,
+      "family": 0,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680200,
+        "split": "size",
+        "half": [
+          0.01795715444990885,
+          0.014011223110792356
+        ],
+        "clearance": [
+          0.0020718379660340357,
+          0.0018584704658283653
+        ],
+        "length": 0.08542080981033469,
+        "center": [
+          0.0031816396661701676,
+          -0.01841894124215719,
+          0.10340787713975483
+        ],
+        "angles": [
+          -0.6503660675480738,
+          2.0106437032582747,
+          0.09531809980679817
+        ]
+      }
+    },
+    {
+      "split": "size",
+      "condition_seed": 680201,
+      "family": 1,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680201,
+        "split": "size",
+        "half": [
+          0.019557951512369134,
+          0.010878445152693001
+        ],
+        "clearance": [
+          0.002745632322501904,
+          0.0022355295793449097
+        ],
+        "length": 0.07236807017578144,
+        "center": [
+          -0.02112799742383438,
+          0.00832291902642833,
+          0.09302992693254508
+        ],
+        "angles": [
+          -1.375121266966893,
+          2.179617010804442,
+          -5.076881478106321
+        ]
+      }
+    },
+    {
+      "split": "size",
+      "condition_seed": 680202,
+      "family": 2,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680202,
+        "split": "size",
+        "half": [
+          0.016530615833204098,
+          0.014278219208359382
+        ],
+        "clearance": [
+          0.002154132269601276,
+          0.0017953550448494941
+        ],
+        "length": 0.08623700778557371,
+        "center": [
+          0.011225044409551722,
+          -0.011654693193542105,
+          0.09582111869807508
+        ],
+        "angles": [
+          -2.250534629567831,
+          -3.77109147155997,
+          7.562557306027074
+        ]
+      }
+    },
+    {
+      "split": "size",
+      "condition_seed": 680203,
+      "family": 3,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680203,
+        "split": "size",
+        "half": [
+          0.018227770749739223,
+          0.010338535670751525
+        ],
+        "clearance": [
+          0.0017487227461364893,
+          0.002272732137612698
+        ],
+        "length": 0.07420983602743941,
+        "center": [
+          -0.004578954318915807,
+          -0.010029499871895366,
+          0.0988700961642276
+        ],
+        "angles": [
+          -3.7335616212943554,
+          -4.230273527044032,
+          7.15543321993578
+        ]
+      }
+    },
+    {
+      "split": "position",
+      "condition_seed": 680300,
+      "family": 0,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680300,
+        "split": "position",
+        "half": [
+          0.012384244448213,
+          0.009662912490201625
+        ],
+        "clearance": [
+          0.0020718379660340357,
+          0.0018584704658283653
+        ],
+        "length": 0.0589109033174722,
+        "center": [
+          0.05607789252704101,
+          -0.01841894124215719,
+          0.10340787713975483
+        ],
+        "angles": [
+          -0.6503660675480738,
+          2.0106437032582747,
+          0.09531809980679817
+        ]
+      }
+    },
+    {
+      "split": "position",
+      "condition_seed": 680301,
+      "family": 1,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680301,
+        "split": "position",
+        "half": [
+          0.013488242422323542,
+          0.007502375967374484
+        ],
+        "clearance": [
+          0.002745632322501904,
+          0.0022355295793449097
+        ],
+        "length": 0.04990901391433203,
+        "center": [
+          -0.04563664809289472,
+          0.00832291902642833,
+          0.09302992693254508
+        ],
+        "angles": [
+          -1.375121266966893,
+          2.179617010804442,
+          -5.076881478106321
+        ]
+      }
+    },
+    {
+      "split": "position",
+      "condition_seed": 680302,
+      "family": 2,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680302,
+        "split": "position",
+        "half": [
+          0.011400424712554551,
+          0.009847047729903023
+        ],
+        "clearance": [
+          0.002154132269601276,
+          0.0017953550448494941
+        ],
+        "length": 0.05947379847280945,
+        "center": [
+          0.011225044409551722,
+          0.04059839542740095,
+          0.09582111869807508
+        ],
+        "angles": [
+          -2.250534629567831,
+          -3.77109147155997,
+          7.562557306027074
+        ]
+      }
+    },
+    {
+      "split": "position",
+      "condition_seed": 680303,
+      "family": 3,
+      "evaluator_configuration": {
+        "task": "insert",
+        "seed": 680303,
+        "split": "position",
+        "half": [
+          0.0125708763791305,
+          0.0071300246005182935
+        ],
+        "clearance": [
+          0.0017487227461364893,
+          0.002272732137612698
+        ],
+        "length": 0.051179197260303046,
+        "center": [
+          -0.004578954318915807,
+          -0.052955122403210576,
+          0.0988700961642276
+        ],
+        "angles": [
+          -3.7335616212943554,
+          -4.230273527044032,
+          7.15543321993578
+        ]
+      }
+    }
+  ],
+  "arms": [
+    "frame_fixed",
+    "reference_fixed",
+    "entry_once",
+    "continuous"
+  ],
+  "cells": 48,
+  "steps_per_episode": 240,
+  "common_observation_prefix_steps": 12,
+  "network_training_updates": 0,
+  "checkpoint_selection": "P61 task_trained_lila final and P50 existing final; no new model selection",
+  "orientation": "All strata in each family share ID angles from the original +/-5,+/-5,+/-10 degree prior; runtime retains learned rotation, no GT/nominal rotation injection.",
+  "position": "Only one horizontal center coordinate replaced by signed40..60mm; other dimensions remain paired ID values. Original ID x/y support +/-25mm.",
+  "size": "Peg half cross-section and length multiplied1.45; slot still built by original simulator from peg half size plus unchanged clearance. No force/mass/gain shift.",
+  "runtime_truth": false,
+  "feedback": "Allowed currentRGB, visible masks, calibrated camera and own robot state. Hidden config stays in environment/evaluation.",
+  "reference": "First causally admitted finite contour reference; fixed after selection. C/D first update only t>=12 with new valid feedback and at least3 causal observations. Only D continues at later eligible events.",
+  "update": "Original P62 translation_size5 Gauss-Newton:3 steps, active latent indices0,1,2,6,7; unchanged curvature scale, damping, clipping and step size.",
+  "control": "Original frozen P50 and physical/evaluation contract, no evaluator rotation override or teacher action.",
+  "scope": "Bounded development with four related families per stratum, not independent heldout confirmation, not complete LIBERO graph.",
+  "reporting": "All48 seals/results before outcome analysis. Each group n4; paired wins/harms, native/strict success, entry/phases, mechanical failures, feedback and command audit; descriptive only.",
+  "resource_assignment": {
+    "gpu2": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "gpu3": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ]
+  },
+  "max_workers_per_gpu": 1,
+  "cpu_threads": 1,
+  "automatic_retries": 0,
+  "first_cell_alone": true,
+  "unpromoted": true,
+  "preselected_videos": [
+    {
+      "split": "id",
+      "seed": 680100
+    },
+    {
+      "split": "size",
+      "seed": 680200
+    }
+  ]
+}

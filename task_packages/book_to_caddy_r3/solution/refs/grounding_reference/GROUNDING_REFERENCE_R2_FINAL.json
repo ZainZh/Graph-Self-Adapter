@@ -1,0 +1,95 @@
+{
+  "notes": "Root accepted settled book silhouette helper; caddy remains view0 planar. Runtime reads public view0 mask/K/camera pose and proprio only; current private object pose is forbidden.",
+  "role_calibration": {
+    "book": {
+      "book_reference": {
+        "path": "evaluations/outer_rsi_p69_book_v01/r2_book_silhouette_v01/BOOK_REFERENCE.json",
+        "sha256": "996684b807c77717f76b4be288ad3f735b8e7ea051debe9960fc1b0812a28305"
+      },
+      "call_policy": "call exactly once after public settling gate; invalid/nonconverged fit fails prefix without GT fallback",
+      "observer": "rigid3d_silhouette",
+      "planar_initializer": {
+        "demo_pose_xy_yaw": [
+          -0.15003903847090566,
+          0.15693635868975472,
+          -0.3057507755512998
+        ],
+        "mask_bias_xy_yaw": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "plane_world_z": 1.0195297104020198,
+        "symmetry_yaw_period": 3.141592653589793
+      },
+      "planar_initializer_min_points": 32
+    },
+    "caddy": {
+      "demo_mask_points": 4096,
+      "demo_pca_eigenvalues": [
+        0.011213606845796892,
+        0.016454284901388373
+      ],
+      "demo_pose_xy_yaw": [
+        -0.3967342298133801,
+        -0.13855588752646483,
+        1.35573647217476
+      ],
+      "mask_bias_xy_yaw": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer": "view0_planar",
+      "plane_world_z": 0.97184,
+      "pose_source": "public_view0_mask_plane_centroid_pca",
+      "symmetry_yaw_period": 3.141592653589793
+    }
+  },
+  "role_order": [
+    "gripper",
+    "book",
+    "caddy"
+  ],
+  "runtime_forbidden": [
+    "current_episode_private_pose",
+    "eval_private_pose",
+    "test_seed_or_split_truth"
+  ],
+  "schema": "prove.p69-grounding-reference.v1",
+  "settling_gate": {
+    "action": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "centroid": "visible mask pixel mean",
+    "max_open_steps": 12,
+    "min_open_steps_before_lock": 5,
+    "role": "book",
+    "stable_frames": 3,
+    "stable_pixel_max": 1.0,
+    "view": 0
+  },
+  "source_demo": {
+    "private_geometry": {
+      "authority": "demo_static_shape_pose_calibration",
+      "path": "evaluations/outer_rsi_p69_book_v01/r2_grounding_reference_v01/demo_initial/private/geometry_0000.json",
+      "sha256": "251b36063e87a1cbdcd36476eae5698e9473e1c788be67cf442273751c8ae7ec"
+    },
+    "public_frame": {
+      "path": "evaluations/outer_rsi_p69_book_v01/r2_grounding_reference_v01/demo_initial/public/frame_0000.npz",
+      "sha256": "0b8254153ad377cb29e37ebfb7062e207541c880b76d2fd41cd63f48644c950e"
+    },
+    "visual_reference": "caddy and the book coarse initializer use public view0 masks; final book silhouette uses fixed training-demo body pose and native 3D box prior as its coordinate reference. Runtime never reads current episode body pose.",
+    "zero_actions": true
+  },
+  "status": "ready_for_root_result_freeze_review",
+  "views": [
+    0
+  ]
+}

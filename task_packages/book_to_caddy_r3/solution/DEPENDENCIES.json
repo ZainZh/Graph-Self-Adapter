@@ -1,0 +1,39 @@
+{
+  "dino_expected_files": {
+    "config.json": "135ecd23e34a70b6fbed8b083fdecb319b7e3a54e3d849258bbe4ddcf1783bb5",
+    "model.safetensors": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+    "preprocessor_config.json": "960c41d1f3a7778b936365769a2d90550b318a6c0a53a0296957adacfe5e0dd7"
+  },
+  "dino_model_dir_default": "/home/zheng/github/LiLa-WAM/dinov3_pretrain/dinov3-vitl16-pretrain-lvd1689m",
+  "external_requirements": [
+    "this Graph-Self-Adapter repository for all prove/tools runtime code",
+    "matching Python/LIBERO runtime",
+    "DINOv3 model directory",
+    "LiLa source and VISUAL_WEIGHTS",
+    "standard LIBERO/robosuite assets"
+  ],
+  "libero_root_default": "/home/zheng/github/Interaction-RSI/data/sources/LIBERO-PRO/libero",
+  "libero_one_shot_root_default": "refs/demo",
+  "lila_checkpoint_default": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/VISUAL_WEIGHTS.pt",
+  "lila_source_default": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/models/vla_model_fm.py",
+  "python_default": "/home/zheng/github/Interaction-RSI/data/runtime/libero-pi05-venv-clean/bin/python",
+  "repo_root_default": "derived_from_task_bundle_location",
+  "rlinf_libero_root_default": "/home/zheng/github/Interaction-RSI/data/sources/RLinf-LIBERO-PRO",
+  "runtime_overlay_default": "/home/zheng/github/Interaction-RSI/data/runtime/p58-vision-deps",
+  "schema": "prove.book-to-caddy-r3.dependencies.v1",
+  "tested_modules": {
+    "einops": "0.8.2",
+    "h5py": "3.16.0",
+    "huggingface-hub": "0.35.3",
+    "mujoco": "3.3.1",
+    "numpy": "1.26.4",
+    "opencv-python": "4.11.0.86",
+    "robosuite": "1.4.1",
+    "safetensors": "0.8.0",
+    "scipy": "1.15.3",
+    "tokenizers": "0.22.1",
+    "torch": "2.7.1",
+    "transformers": "4.56.2"
+  },
+  "tested_python_version": "3.10.20"
+}

@@ -1,0 +1,25 @@
+{
+  "launcher_sha256": {
+    "run.sh": "3860797eea1b5c80da23c10f01cb31d58f35901f1bbf02d25ff8db9f22c50007",
+    "task_bundle.py": "96ff1479acd4a7b1c961dbd292cb6359c5ce55f215c7a4e9b6ad4392e3fe9a92"
+  },
+  "migration_review": {
+    "independence_check": {
+      "path": "migration/INDEPENDENCE_CHECK.json",
+      "sha256": "b9ea7c9cfbb5f788ea00e952ef0aacbb6aecb42deea3484aab2619551d206f29"
+    },
+    "repository": "Graph-Self-Adapter",
+    "scope": "Exact original opened P70 R3 task replay; no new experiment, training, candidate or scientific success-rate claim",
+    "status": "approved"
+  },
+  "physical_execution_authorized": true,
+  "reviewed_utc": "2026-10-04T12:10:48.385976+00:00",
+  "reviewer": "root",
+  "root_reviewed": true,
+  "schema": "prove.book-to-caddy-r3.release.v1",
+  "scope": {
+    "path": "../PACKAGING_SCOPE_V02.json",
+    "sha256": "31186c415ec81826f7e95a260a2fd6f0496153b19669a10807003417793c3acd"
+  },
+  "solution_manifest_sha256": "4ee12a22ea1782a7b3e5e7ac1d6411852b6bf2ed0fbf96eb604fbd95dc44d547"
+}

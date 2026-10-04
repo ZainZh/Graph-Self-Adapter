@@ -1,0 +1,1004 @@
+{
+  "catalog_id": "prove.foundation-primitives/v1.2",
+  "format": "prove.foundation-primitive-catalog.v1",
+  "governance": {
+    "mutation": "manual_append_only_version",
+    "observer_graph_search_enabled": true,
+    "primitive_search_enabled": false,
+    "runtime_gt_access": "forbidden"
+  },
+  "primitives": [
+    {
+      "category": "detection",
+      "deterministic": false,
+      "entrypoint": "tools.interaction_detector.run_grounding_detector:run",
+      "implementation_hash": "sha256:37a01f49e51bd74c104bca3d108df0056da91c9c8a274134adcbe0eb1ac99caf",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "text_query",
+          "type": "text"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "boxes",
+          "type": "boxes_xyxy"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "scores",
+          "type": "float_array"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "labels",
+          "type": "text_array"
+        }
+      ],
+      "primitive_id": "prove.detection.grounding_dino.detect",
+      "sealed_artifacts": [
+        {
+          "byte_size": 693997677,
+          "role": "model_checkpoint",
+          "sha256": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799",
+          "uri": "local-model://Grounded-SAM-2/groundingdino_swint_ogc.pth"
+        }
+      ],
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:37a01f49e51bd74c104bca3d108df0056da91c9c8a274134adcbe0eb1ac99caf",
+        "source_path": "tools/interaction_detector/run_grounding_detector.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "segmentation",
+      "deterministic": false,
+      "entrypoint": "tools.interaction_detector.run_tracker:sam21_outputs",
+      "implementation_hash": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "box_prompt",
+          "type": "box_xyxy"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "mask",
+          "type": "bool_mask"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "mask_score",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.segmentation.sam21.segment_box",
+      "sealed_artifacts": [
+        {
+          "byte_size": 898083611,
+          "role": "model_checkpoint",
+          "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+          "uri": "local-model://Grounded-SAM-2/sam2.1_hiera_large.pt"
+        }
+      ],
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+        "source_path": "tools/interaction_detector/run_tracker.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "tracking",
+      "deterministic": false,
+      "entrypoint": "tools.interaction_detector.run_tracker:sam21_outputs",
+      "implementation_hash": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+      "inputs": [
+        {
+          "name": "rgb_sequence",
+          "type": "rgb_sequence"
+        },
+        {
+          "name": "initial_box",
+          "type": "box_xyxy"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "masks",
+          "type": "bool_mask_sequence"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "track_ids",
+          "type": "integer_array"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "presence_scores",
+          "type": "float_array"
+        }
+      ],
+      "primitive_id": "prove.tracking.sam21.track_video",
+      "sealed_artifacts": [
+        {
+          "byte_size": 898083611,
+          "role": "model_checkpoint",
+          "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+          "uri": "local-model://Grounded-SAM-2/sam2.1_hiera_large.pt"
+        }
+      ],
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+        "source_path": "tools/interaction_detector/run_tracker.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "detection",
+      "deterministic": false,
+      "entrypoint": "sam3.model_builder:build_sam3_image_model",
+      "implementation_hash": "sha256:faba3d0099f3da6d63d3ca49a8bf945d4014657b813e76ad082602d3922d3ff6",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "text_query",
+          "type": "text"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "masks",
+          "type": "bool_mask_array"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "scores",
+          "type": "float_array"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "labels",
+          "type": "text_array"
+        }
+      ],
+      "primitive_id": "prove.detection.sam31.segment_text",
+      "sealed_artifacts": [
+        {
+          "byte_size": 3502755717,
+          "role": "official_model_checkpoint",
+          "sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+          "uri": "hf://facebook/sam3.1/sam3.1_multiplex.pt"
+        }
+      ],
+      "source": {
+        "repository": "https://github.com/facebookresearch/sam3",
+        "revision": "875ed6fa5af25f80e424a2e737940a65e13e8cbf",
+        "source_path": "sam3/model_builder.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "segmentation",
+      "deterministic": false,
+      "entrypoint": "sam3.model_builder:build_sam3_image_model",
+      "implementation_hash": "sha256:faba3d0099f3da6d63d3ca49a8bf945d4014657b813e76ad082602d3922d3ff6",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "box_prompt",
+          "type": "box_xyxy"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "mask",
+          "type": "bool_mask"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "mask_score",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.segmentation.sam31.segment_box",
+      "sealed_artifacts": [
+        {
+          "byte_size": 3502755717,
+          "role": "official_model_checkpoint",
+          "sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+          "uri": "hf://facebook/sam3.1/sam3.1_multiplex.pt"
+        }
+      ],
+      "source": {
+        "repository": "https://github.com/facebookresearch/sam3",
+        "revision": "875ed6fa5af25f80e424a2e737940a65e13e8cbf",
+        "source_path": "sam3/model_builder.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "segmentation",
+      "deterministic": false,
+      "entrypoint": "sam3.model_builder:build_sam3_image_model",
+      "implementation_hash": "sha256:faba3d0099f3da6d63d3ca49a8bf945d4014657b813e76ad082602d3922d3ff6",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "point_prompt",
+          "type": "point_prompt"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "mask",
+          "type": "bool_mask"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "mask_score",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.segmentation.sam31.segment_point",
+      "sealed_artifacts": [
+        {
+          "byte_size": 3502755717,
+          "role": "official_model_checkpoint",
+          "sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+          "uri": "hf://facebook/sam3.1/sam3.1_multiplex.pt"
+        }
+      ],
+      "source": {
+        "repository": "https://github.com/facebookresearch/sam3",
+        "revision": "875ed6fa5af25f80e424a2e737940a65e13e8cbf",
+        "source_path": "sam3/model_builder.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "tracking",
+      "deterministic": false,
+      "entrypoint": "tools.interaction_detector.run_tracker:sam31_outputs",
+      "implementation_hash": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+      "inputs": [
+        {
+          "name": "rgb_sequence",
+          "type": "rgb_sequence"
+        },
+        {
+          "name": "initial_box",
+          "type": "box_xyxy"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "masks",
+          "type": "bool_mask_sequence"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "track_ids",
+          "type": "integer_array"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "presence_scores",
+          "type": "float_array"
+        }
+      ],
+      "primitive_id": "prove.tracking.sam31.track_video",
+      "sealed_artifacts": [
+        {
+          "byte_size": 3502755717,
+          "role": "official_model_checkpoint",
+          "sha256": "0567debeec80ba4ac6369540c6c248025283cb3ff2b92827509e57e2b3541cb6",
+          "uri": "hf://facebook/sam3.1/sam3.1_multiplex.pt"
+        }
+      ],
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:2cf2d41f12479901623d61bc6230ed856774838daaa1a8310ca24e17e8cac3fc",
+        "source_path": "tools/interaction_detector/run_tracker.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "features",
+      "deterministic": false,
+      "entrypoint": "dinov2.hub.backbones:dinov2_vits14",
+      "implementation_hash": "sha256:df26d144197a3a481a564d694d4db5486e631d174823a77d8dda04241cc2c0a3",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "dense_features",
+          "type": "dense_feature_map"
+        }
+      ],
+      "primitive_id": "prove.features.dinov2.encode_dense",
+      "sealed_artifacts": [
+        {
+          "byte_size": 88283115,
+          "role": "model_checkpoint",
+          "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+          "uri": "torchhub://facebookresearch/dinov2/dinov2_vits14_pretrain.pth"
+        }
+      ],
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:df26d144197a3a481a564d694d4db5486e631d174823a77d8dda04241cc2c0a3",
+        "source_path": "tools/observation_evolution/probe_dinov2_cross_view_features.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "features",
+      "deterministic": false,
+      "entrypoint": "transformers.AutoModel:DINOv3ViTModel",
+      "implementation_hash": "sha256:dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "dense_features",
+          "type": "dense_feature_map"
+        }
+      ],
+      "primitive_id": "prove.features.dinov3.encode_dense",
+      "sealed_artifacts": [
+        {
+          "byte_size": 1212559808,
+          "role": "model_checkpoint",
+          "sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+          "uri": "hf://facebook/dinov3-vitl16-pretrain-lvd1689m/model.safetensors"
+        }
+      ],
+      "source": {
+        "repository": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "revision": "sha256:dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+        "source_path": "model.safetensors"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "features",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.features:cosine_feature_match",
+      "implementation_hash": "sha256:8369dce48784e5eaedee1b27602c8a8a49b5acaba78372d3eb20b30f8d294223",
+      "inputs": [
+        {
+          "name": "source_features",
+          "type": "feature_matrix"
+        },
+        {
+          "name": "target_features",
+          "type": "feature_matrix"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "similarity_matrix",
+          "type": "float_matrix"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "mutual_matches",
+          "type": "index_pairs"
+        }
+      ],
+      "primitive_id": "prove.features.cosine_match",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:8369dce48784e5eaedee1b27602c8a8a49b5acaba78372d3eb20b30f8d294223",
+        "source_path": "prove/observation/primitives/features.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.geometry:depth_to_world_points",
+      "implementation_hash": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+      "inputs": [
+        {
+          "name": "depth",
+          "type": "depth_image"
+        },
+        {
+          "name": "intrinsics",
+          "type": "camera_intrinsics"
+        },
+        {
+          "name": "camera_to_world",
+          "type": "pose4x4"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "world_points",
+          "type": "point_cloud"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "valid_ratio",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.geometry.depth_to_world_points",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+        "source_path": "prove/observation/primitives/geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.geometry:mask_to_world_points",
+      "implementation_hash": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "bool_mask"
+        },
+        {
+          "name": "depth",
+          "type": "depth_image"
+        },
+        {
+          "name": "intrinsics",
+          "type": "camera_intrinsics"
+        },
+        {
+          "name": "camera_to_world",
+          "type": "pose4x4"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "world_points",
+          "type": "point_cloud"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "valid_ratio",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.geometry.mask_to_world_points",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+        "source_path": "prove/observation/primitives/geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.geometry:transform_points",
+      "implementation_hash": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+      "inputs": [
+        {
+          "name": "points",
+          "type": "point_cloud"
+        },
+        {
+          "name": "transform",
+          "type": "pose4x4"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "transformed_points",
+          "type": "point_cloud"
+        }
+      ],
+      "primitive_id": "prove.geometry.transform_points",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+        "source_path": "prove/observation/primitives/geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.geometry:robust_centroid",
+      "implementation_hash": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+      "inputs": [
+        {
+          "name": "points",
+          "type": "point_cloud"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "centroid",
+          "type": "optional_vector3"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "dispersion",
+          "type": "optional_float"
+        }
+      ],
+      "primitive_id": "prove.geometry.robust_centroid",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+        "source_path": "prove/observation/primitives/geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.geometry:project_world_points",
+      "implementation_hash": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+      "inputs": [
+        {
+          "name": "world_points",
+          "type": "point_cloud"
+        },
+        {
+          "name": "world_to_camera",
+          "type": "pose4x4"
+        },
+        {
+          "name": "intrinsics",
+          "type": "camera_intrinsics"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "pixels",
+          "type": "pixel_array"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "in_front",
+          "type": "bool_array"
+        }
+      ],
+      "primitive_id": "prove.geometry.project_world_points",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:e9c9eda79c640577958e18316d8cde83c9514d324ffd3a36d55c0be70d2afc6a",
+        "source_path": "prove/observation/primitives/geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "robot_state",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.robot_state:get_eef_pose",
+      "implementation_hash": "sha256:5f7c4e2ac9eafa7b921c919b9219747d522bab852de374e1235b57779e5741c9",
+      "inputs": [
+        {
+          "name": "robot_state",
+          "type": "sanitized_robot_state"
+        },
+        {
+          "name": "actor",
+          "type": "actor_id"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "eef_pose_world",
+          "type": "pose4x4"
+        }
+      ],
+      "primitive_id": "prove.robot.get_eef_pose",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:5f7c4e2ac9eafa7b921c919b9219747d522bab852de374e1235b57779e5741c9",
+        "source_path": "prove/observation/primitives/robot_state.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "robot_state",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.robot_state:get_gripper_state",
+      "implementation_hash": "sha256:5f7c4e2ac9eafa7b921c919b9219747d522bab852de374e1235b57779e5741c9",
+      "inputs": [
+        {
+          "name": "robot_state",
+          "type": "sanitized_robot_state"
+        },
+        {
+          "name": "actor",
+          "type": "actor_id"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "gripper_state",
+          "type": "gripper_state"
+        }
+      ],
+      "primitive_id": "prove.robot.get_gripper_state",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:5f7c4e2ac9eafa7b921c919b9219747d522bab852de374e1235b57779e5741c9",
+        "source_path": "prove/observation/primitives/robot_state.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "relation",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.relation:relative_vector",
+      "implementation_hash": "sha256:79b39d6ee09a751385e78ec49ffc3d05cf58d3af92b8b2c5b9173a72e74feeba",
+      "inputs": [
+        {
+          "name": "target_position",
+          "type": "vector3"
+        },
+        {
+          "name": "reference_position",
+          "type": "vector3"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "relative_vector",
+          "type": "vector3"
+        }
+      ],
+      "primitive_id": "prove.relation.relative_vector",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:79b39d6ee09a751385e78ec49ffc3d05cf58d3af92b8b2c5b9173a72e74feeba",
+        "source_path": "prove/observation/primitives/relation.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "relation",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.relation:relative_drift",
+      "implementation_hash": "sha256:79b39d6ee09a751385e78ec49ffc3d05cf58d3af92b8b2c5b9173a72e74feeba",
+      "inputs": [
+        {
+          "name": "current_relative_vector",
+          "type": "vector3"
+        },
+        {
+          "name": "baseline_relative_vector",
+          "type": "vector3"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "relative_drift",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.relation.relative_drift",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:79b39d6ee09a751385e78ec49ffc3d05cf58d3af92b8b2c5b9173a72e74feeba",
+        "source_path": "prove/observation/primitives/relation.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "temporal",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.temporal:change_point_score",
+      "implementation_hash": "sha256:f4664d470261585d1cb318565dc2ef5948d54475c5da5d181f5151ff888f88e9",
+      "inputs": [
+        {
+          "name": "values",
+          "type": "float_sequence"
+        },
+        {
+          "name": "minimum_scale",
+          "type": "float"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "change_score",
+          "type": "optional_float"
+        }
+      ],
+      "primitive_id": "prove.temporal.change_point_score",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:f4664d470261585d1cb318565dc2ef5948d54475c5da5d181f5151ff888f88e9",
+        "source_path": "prove/observation/primitives/temporal.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "temporal",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.temporal:motion_consistency",
+      "implementation_hash": "sha256:f4664d470261585d1cb318565dc2ef5948d54475c5da5d181f5151ff888f88e9",
+      "inputs": [
+        {
+          "name": "first_motion",
+          "type": "float_vector"
+        },
+        {
+          "name": "second_motion",
+          "type": "float_vector"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "cosine_similarity",
+          "type": "optional_float"
+        }
+      ],
+      "primitive_id": "prove.temporal.motion_consistency",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:f4664d470261585d1cb318565dc2ef5948d54475c5da5d181f5151ff888f88e9",
+        "source_path": "prove/observation/primitives/temporal.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "belief",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.belief:update_multi_hypothesis",
+      "implementation_hash": "sha256:c5091fa9a3a670a8f902923da37dfb4bb95a718e2f9ec94f8821d9bd49aec91d",
+      "inputs": [
+        {
+          "name": "prior",
+          "type": "probability_mapping"
+        },
+        {
+          "name": "likelihood",
+          "type": "probability_mapping"
+        }
+      ],
+      "lifecycle": "frozen_default",
+      "outputs": [
+        {
+          "epistemic_role": "hypothesis",
+          "name": "posterior",
+          "type": "probability_mapping"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "leading_hypothesis",
+          "type": "candidate_id"
+        },
+        {
+          "epistemic_role": "hypothesis",
+          "name": "belief_margin",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.belief.multi_hypothesis_update",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:c5091fa9a3a670a8f902923da37dfb4bb95a718e2f9ec94f8821d9bd49aec91d",
+        "source_path": "prove/observation/primitives/belief.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "geometry",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.container_geometry:upright_pointcloud_envelope",
+      "implementation_hash": "sha256:1830f23e58e32c32ebe8d38a972ec8edb94e4d28261da5a09d259a6253cd285b",
+      "inputs": [
+        {
+          "name": "points",
+          "type": "point_cloud"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "envelope",
+          "type": "optional_upright_envelope"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "valid",
+          "type": "bool"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "support_count",
+          "type": "int"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "reason",
+          "type": "text"
+        }
+      ],
+      "primitive_id": "prove.geometry.upright_pointcloud_envelope",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:1830f23e58e32c32ebe8d38a972ec8edb94e4d28261da5a09d259a6253cd285b",
+        "source_path": "prove/observation/primitives/container_geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "relation",
+      "deterministic": true,
+      "entrypoint": "prove.observation.primitives.container_geometry:point_in_upright_envelope",
+      "implementation_hash": "sha256:1830f23e58e32c32ebe8d38a972ec8edb94e4d28261da5a09d259a6253cd285b",
+      "inputs": [
+        {
+          "name": "point",
+          "type": "vector3"
+        },
+        {
+          "name": "envelope",
+          "type": "upright_envelope"
+        }
+      ],
+      "lifecycle": "qualified_baseline",
+      "outputs": [
+        {
+          "epistemic_role": "propagate",
+          "name": "inside_envelope",
+          "type": "bool"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "horizontal_margin_m",
+          "type": "float"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "above_bottom_m",
+          "type": "float"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "below_rim_m",
+          "type": "float"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "normalized_margin",
+          "type": "float"
+        },
+        {
+          "epistemic_role": "propagate",
+          "name": "point_local_xy",
+          "type": "vector2"
+        }
+      ],
+      "primitive_id": "prove.relation.point_in_upright_envelope",
+      "source": {
+        "repository": "PROVE-Embodied",
+        "revision": "sha256:1830f23e58e32c32ebe8d38a972ec8edb94e4d28261da5a09d259a6253cd285b",
+        "source_path": "prove/observation/primitives/container_geometry.py"
+      },
+      "version": "1.0.0"
+    },
+    {
+      "category": "segmentation",
+      "deterministic": false,
+      "entrypoint": "sam3.model_builder:build_sam3_image_model",
+      "implementation_hash": "sha256:faba3d0099f3da6d63d3ca49a8bf945d4014657b813e76ad082602d3922d3ff6",
+      "inputs": [
+        {
+          "name": "rgb",
+          "type": "rgb_image"
+        },
+        {
+          "name": "box_prompt",
+          "type": "box_xyxy"
+        }
+      ],
+      "lifecycle": "available_unqualified",
+      "outputs": [
+        {
+          "epistemic_role": "measurement",
+          "name": "mask",
+          "type": "bool_mask"
+        },
+        {
+          "epistemic_role": "measurement",
+          "name": "mask_score",
+          "type": "float"
+        }
+      ],
+      "primitive_id": "prove.segmentation.sam3.segment_box",
+      "sealed_artifacts": [
+        {
+          "byte_size": 3450062241,
+          "role": "official_model_checkpoint",
+          "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+          "uri": "local-model://sam3/sam3.pt"
+        }
+      ],
+      "source": {
+        "repository": "https://github.com/facebookresearch/sam3",
+        "revision": "875ed6fa5af25f80e424a2e737940a65e13e8cbf",
+        "source_path": "sam3/model_builder.py"
+      },
+      "version": "1.0.0"
+    }
+  ],
+  "status": "frozen",
+  "version": "1.2.0"
+}

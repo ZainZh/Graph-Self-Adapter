@@ -1,0 +1,655 @@
+{
+  "attempts_per_cell": 1,
+  "automatic_retries": 0,
+  "cells": [
+    {
+      "arm": "bc",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 0,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 1,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 2,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 3,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 4,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 5,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 6,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 7,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 8,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 9,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 10,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 11,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 12,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 13,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 14,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 15,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 16,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 17,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 18,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 19,
+      "scale": 1.0,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 20,
+      "scale": 1.0,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 21,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 22,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "nominal",
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "index": 23,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 24,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 25,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_0",
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "index": 26,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 27,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 28,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_1",
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "index": 29,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 30,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 31,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_2",
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "index": 32,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 33,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 34,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_3",
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "index": 35,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 36,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 37,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_4",
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "index": 38,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    },
+    {
+      "arm": "bc",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 39,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "fixed",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 40,
+      "scale": 0.9,
+      "zmode": "fixed"
+    },
+    {
+      "arm": "online",
+      "condition": "grasp_5",
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "index": 41,
+      "scale": 0.9,
+      "zmode": "observed_feedback"
+    }
+  ],
+  "code_max_actions": 120,
+  "code_position_tolerance": 0.003585,
+  "code_rotation_tolerance": 0.013336262870798326,
+  "condition_interpretation": "Seven existing grasp settings, not seven independent randomized initial states",
+  "conditions": [
+    {
+      "grasp_index": null,
+      "grasp_world_offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "id": "nominal"
+    },
+    {
+      "grasp_index": 0,
+      "grasp_world_offset": [
+        -0.0019565822067720093,
+        0.003919512728406771,
+        7.400717821995822e-10
+      ],
+      "id": "grasp_0"
+    },
+    {
+      "grasp_index": 1,
+      "grasp_world_offset": [
+        0.001101062692965073,
+        0.002648222978935217,
+        1.094991969633001e-10
+      ],
+      "id": "grasp_1"
+    },
+    {
+      "grasp_index": 2,
+      "grasp_world_offset": [
+        0.004158707592702155,
+        0.0013769332294636639,
+        -5.210733882729821e-10
+      ],
+      "id": "grasp_2"
+    },
+    {
+      "grasp_index": 3,
+      "grasp_world_offset": [
+        -0.004158707592702155,
+        -0.0013769332294636639,
+        5.210733882729821e-10
+      ],
+      "id": "grasp_3"
+    },
+    {
+      "grasp_index": 4,
+      "grasp_world_offset": [
+        -0.001101062692965073,
+        -0.002648222978935217,
+        -1.094991969633001e-10
+      ],
+      "id": "grasp_4"
+    },
+    {
+      "grasp_index": 5,
+      "grasp_world_offset": [
+        0.0019565822067720093,
+        -0.003919512728406771,
+        -7.400717821995822e-10
+      ],
+      "id": "grasp_5"
+    }
+  ],
+  "geometry": {
+    "pivot": "original_collision_center",
+    "properties": {
+      "center": [
+        -0.00047,
+        -0.01215,
+        0.06937
+      ],
+      "collision_density": "100",
+      "collision_friction": "0.95 0.3 0.1",
+      "diagonal_inertia": [
+        0.0002975663547129606,
+        0.00018258481628227562,
+        0.0001351910589299441
+      ],
+      "halfsize": [
+        0.01434,
+        0.05519,
+        0.0672
+      ],
+      "inertial_pos": [
+        -0.00041998287737803785,
+        -0.008454665750642928,
+        0.06972839238328847
+      ],
+      "inertial_quat": [
+        0.9999976744292464,
+        -0.0018266465451232464,
+        -5.541051730077061e-05,
+        -0.0011451760443904108
+      ],
+      "mass": 0.15588659191391102,
+      "mesh_scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "scales": [
+      1.0,
+      0.9
+    ],
+    "unchanged": [
+      "book mass",
+      "inertial pose",
+      "diagonal inertia",
+      "friction",
+      "density",
+      "table",
+      "caddy",
+      "robot",
+      "official BDDL and native goal"
+    ]
+  },
+  "later_state_restores": 0,
+  "micro_max_actions": 24,
+  "near_gap_max": 0.00717,
+  "near_position_tolerance": 0.003585,
+  "original_initial_restores": 1,
+  "p52_collection": {
+    "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p52_stage_local_v01/COLLECTION_BINDING.json",
+    "sha256": "122ee860fdb3790786276f91fd65e09df47a6ea296b683f5c7fec9159f64b694"
+  },
+  "parent": {
+    "path": "/home/ubuntu/github/prove-p52-stage-local/evaluations/fast_adapter_p53_micro_insert_v01/full_successor_v01/FULL_TASK_FREEZE.json",
+    "sha256": "843fa1d9edb70e9a38def10a946b74d34bcca462d2b3aa18a3d674034197bdcd"
+  },
+  "prefix_max_actions": 400,
+  "schema": "prove.p54-book-scale-full-task.v1",
+  "scope": "42 paired complete-task pilot episodes: 2 book sizes x 7 existing grasp settings x 3 frozen P53 arms; all failures count, no selection or retraining",
+  "seed": 54,
+  "source_files": {
+    "/home/ubuntu/github/prove-p52-stage-local/tools/task_graph/p54_book_geometry.py": "14b3ccc59155eeb8231b903a0484820d9d1b210728bfac6ee70fc72ff78845cc",
+    "/home/ubuntu/github/prove-p52-stage-local/tools/task_graph/p54_full_task.py": "b0510fca42048ec623fe88650243b833da47dfa78343e1682fb0c98ffc8eed3b"
+  },
+  "total_max_actions": 544
+}

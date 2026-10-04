@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-10-03T11:33:57.590845+00:00",
+  "default_cell": {
+    "execution_seed": 70037,
+    "index": 7,
+    "init_id": 7,
+    "state_sha256": "2f359eaf0499d91a9e34f60059daf9c65b871bdc754a2860f66f07dfd1597fa8"
+  },
+  "files": {
+    "DEPENDENCIES": {
+      "bytes": 1862,
+      "path": "DEPENDENCIES.json",
+      "sha256": "0c77437bcccc8ba519b686ffc7cc80c770b96e7172ed06a9d18c3b054a8c4cc1"
+    },
+    "task_reference.demo_source": {
+      "bytes": 23230132,
+      "path": "refs/demo/book_demo_0.hdf5",
+      "sha256": "92cf890a794a2c3bfe47cb68f0109f76901c3251f7331f6c03c10e258b30b94c"
+    },
+    "controller_config": {
+      "bytes": 5742,
+      "path": "configs/P70_CONTROLLER_CONFIG_R3.json",
+      "sha256": "3d17789bb1afbbd91fec54427e7aa856cf0f64b03e85d073e9c4a3a37c602877"
+    },
+    "controller_file_bindings.grasp_policy.checkpoint": {
+      "bytes": 24695,
+      "path": "refs/grasp_policy/checkpoint/final.pt",
+      "sha256": "0115fac96833dcb26f400c1e4442b5c32f8e369e1197a2da6146b1c8f0fa4155"
+    },
+    "controller_file_bindings.grasp_policy.demo_relations": {
+      "bytes": 3185,
+      "path": "refs/grasp_policy/demo_relations/DEMO_RELATIONS.json",
+      "sha256": "0413732524197e2a00c027392c2f6894a21807206d5237bc2038f82c13e197fb"
+    },
+    "controller_file_bindings.grasp_policy.training_freeze": {
+      "bytes": 3185,
+      "path": "refs/grasp_policy/training_freeze/TRAINING_FREEZE.json",
+      "sha256": "e438f926cbfbea265cfee2275b892283c4837da4609ece1481fef09f461a9811"
+    },
+    "controller_file_bindings.grasp_policy.training_receipt": {
+      "bytes": 3678,
+      "path": "refs/grasp_policy/training_receipt/TRAINING_RECEIPT.json",
+      "sha256": "df5cdc6fe3baa276b4751049cbd68c9a56f02bfc5110bb44747bfcc4df26213f"
+    },
+    "controller_file_bindings.grounding_reference": {
+      "bytes": 2974,
+      "path": "refs/grounding_reference/GROUNDING_REFERENCE_R2_FINAL.json",
+      "sha256": "3ddaa381b5299803e2b3e4bae317c9a4c7e4a0d4e5f1e8c0b84a08977b50aecd"
+    },
+    "controller_file_bindings.grounding_reference.book_reference": {
+      "bytes": 2797,
+      "path": "refs/grounding_reference/book_reference/BOOK_REFERENCE.json",
+      "sha256": "996684b807c77717f76b4be288ad3f735b8e7ea051debe9960fc1b0812a28305"
+    },
+    "controller_file_bindings.grounding_reference.source_demo.private_geometry": {
+      "bytes": 6851,
+      "path": "refs/grounding_reference/source_demo/private_geometry/geometry_0000.json",
+      "sha256": "251b36063e87a1cbdcd36476eae5698e9473e1c788be67cf442273751c8ae7ec"
+    },
+    "controller_file_bindings.grounding_reference.source_demo.public_frame": {
+      "bytes": 347935,
+      "path": "refs/grounding_reference/source_demo/public_frame/frame_0000.npz",
+      "sha256": "0b8254153ad377cb29e37ebfb7062e207541c880b76d2fd41cd63f48644c950e"
+    },
+    "controller_file_bindings.object_relation_targets": {
+      "bytes": 6439,
+      "path": "refs/object_relation_targets/P70_OBJECT_RELATION_TARGETS_v02.json",
+      "sha256": "1b4db1c655632d45216c91df20c1010500fb6f574734f3aae8192a4760ac735d"
+    },
+    "files.a2_head": {
+      "bytes": 79055,
+      "path": "models/a2_head/HEAD.pt",
+      "sha256": "eb8cf09888d3926865dc45a967f429de5972324ba6f8b4a604f1ab569c8c8873"
+    },
+    "files.action_checkpoint": {
+      "bytes": 30499,
+      "path": "models/action_checkpoint/HEAD.pt",
+      "sha256": "deabdecc7f07048341654f464293723e8d0c7d1e567e9e6b82572ef2422343a8"
+    },
+    "files.dino_binding": {
+      "bytes": 542,
+      "path": "configs/SERVER_DINO_BINDING.json",
+      "sha256": "ea86ab4b7beabc7fb9f08304ae5caeb459d6688d7ac0d4b1cec21e1fed957415"
+    },
+    "files.encoder_checkpoint": {
+      "bytes": 180493561,
+      "path": "models/encoder_checkpoint/final.pt",
+      "sha256": "39eb094f5ee28c9ab87efe63818632dbb0102d9043e7c072ae13e8ba751802bb"
+    },
+    "files.precision_head": {
+      "bytes": 65925,
+      "path": "models/precision_head/action_head.pt",
+      "sha256": "cfacab0ec0f95fe800f42cec668bfd9223955249d9a1c6417633b2aa579f6d7d"
+    },
+    "files.priors": {
+      "bytes": 22077,
+      "path": "models/priors/PRIORS.json",
+      "sha256": "2c4edc09ddc8508c80d5c310a6636cf4c51052cc92cff6e2fccb88998b8f2405"
+    },
+    "graph.task_graph": {
+      "bytes": 3717,
+      "path": "graph/task_graph.json",
+      "sha256": "339f1ad6a75275fe22e8b9d015faef5c41a026f64f106b5dd4761a938fda95f4"
+    },
+    "init_scope": {
+      "bytes": 52915,
+      "path": "provenance/INIT_SCOPE.json",
+      "sha256": "87aba1a19b38dba0606f8a9deb09678082f47910e70c51a7140434dff363ede2"
+    },
+    "p55_binding": {
+      "bytes": 20466,
+      "path": "provenance/parent_chain/P55_BINDING.json",
+      "sha256": "cc8ea94d7b3221e0a314617e554e5ba8e65bbc6564da68f1ee1f7907145610fb"
+    },
+    "p69_freeze": {
+      "bytes": 93135,
+      "path": "provenance/P69_PHYSICAL_FREEZE_R2.json",
+      "sha256": "cf22feb46d6360a9b810213782795453aaaa52dfb6744a477134a526be57672f"
+    },
+    "parent_binding_chain.0": {
+      "bytes": 20466,
+      "path": "provenance/parent_chain/00_BINDING_v01.json",
+      "sha256": "cc8ea94d7b3221e0a314617e554e5ba8e65bbc6564da68f1ee1f7907145610fb"
+    },
+    "parent_binding_chain.1": {
+      "bytes": 14593,
+      "path": "provenance/parent_chain/01_BINDING_v01.json",
+      "sha256": "b4d6f0a5e54b87e58f60eb52f4f29cc65895eb85078ff17a00ab29f1fe816897"
+    },
+    "parent_binding_chain.2": {
+      "bytes": 352208,
+      "path": "provenance/parent_chain/02_FULL_TASK_FREEZE.json",
+      "sha256": "843fa1d9edb70e9a38def10a946b74d34bcca462d2b3aa18a3d674034197bdcd"
+    },
+    "parent_binding_chain.3": {
+      "bytes": 361802,
+      "path": "provenance/parent_chain/03_CODE_MICRO_FREEZE_v03.json",
+      "sha256": "b89dad068176cc0ab13ab4b7ae749b767441fa1f1c352108b784977ca794be8f"
+    },
+    "source_freeze": {
+      "bytes": 76604,
+      "path": "provenance/PHYSICAL_FREEZE_R3.json",
+      "sha256": "6fc7e6fa79b1847213b2ba1eac8d9f7f940a7df02d58be89102164e2ff99f446"
+    },
+    "source_review": {
+      "bytes": 571,
+      "path": "provenance/ROOT_PHYSICAL_REVIEW_R3.json",
+      "sha256": "e996e9971d5f6038cda1c13a93a8b35f0aaf7db7884e2288562ce585eb4058b7"
+    }
+  },
+  "notes": "Task-specific solution bundle only; standard simulator assets/base models are external dependencies. RELEASE.json is reviewed separately and binds this manifest hash.",
+  "packaging_scope": {
+    "path": "../PACKAGING_SCOPE_V02.json",
+    "sha256": "31186c415ec81826f7e95a260a2fd6f0496153b19669a10807003417793c3acd"
+  },
+  "schema": "prove.book-to-caddy-r3.solution.v1",
+  "source_freeze_sha256": "6fc7e6fa79b1847213b2ba1eac8d9f7f940a7df02d58be89102164e2ff99f446"
+}

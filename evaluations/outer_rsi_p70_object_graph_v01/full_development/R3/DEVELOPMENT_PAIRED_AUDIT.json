@@ -1,0 +1,541 @@
+{
+  "schema": "prove.p70-r0-r3-postseal-comparison.v1",
+  "rows": [
+    {
+      "index": 0,
+      "init_id": 21,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 410,
+          "new_rows": 410,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 20,
+          "new_rows": 20,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "23a9d98cb5fe0a84172ad52dbae961292336ef1c824b7c91a2f40610cdaadd3e",
+        "R3": "32ed3f1b2eba927b838f8a4df5bd90ee7d4856642c54b60d491fe483a3a7b878"
+      }
+    },
+    {
+      "index": 1,
+      "init_id": 49,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 457,
+          "new_rows": 457,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 20,
+          "new_rows": 20,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "79782f53053625fdc9d9042a94dff854a22c3be4a70919cd7950e82d9d5b63c0",
+        "R3": "6abf2ddea450a40b6a0ca23093e5e51f1e85f972d494509a1d1fb2f75cb66b85"
+      }
+    },
+    {
+      "index": 2,
+      "init_id": 19,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 468,
+          "new_rows": 468,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 21,
+          "new_rows": 21,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "e939bfe98fcd4f9cf2af480c8d925d4292ac546e601c1a3f9645c53560103267",
+        "R3": "3b4bf0aec5e37b4f684116ff2288dba4b2142a51de64c3d753f008558b19f974"
+      }
+    },
+    {
+      "index": 3,
+      "init_id": 33,
+      "old_strict": false,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 222,
+          "new_rows": 450,
+          "first_action_difference_row": 208,
+          "all_actions_equal": false
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 0,
+          "new_rows": 21,
+          "first_action_difference_row": null,
+          "all_actions_equal": false
+        }
+      },
+      "all_old_public_hashes_equal": false,
+      "refine_first": {
+        "t": 214,
+        "controller_t": 208,
+        "stage": "lift_clear",
+        "stage_t": 83,
+        "target": {
+          "stage": "lift_clear",
+          "target_T_world_eef": [
+            [
+              0.9536829586168059,
+              -0.2942553041919302,
+              -0.06247103647940109,
+              -0.22433710503041954
+            ],
+            [
+              -0.2936174130387219,
+              -0.9557268438929449,
+              0.019365294288493998,
+              0.16335142716029688
+            ],
+            [
+              -0.06540358709080604,
+              -0.00012576703060672445,
+              -0.9978588853030822,
+              1.1975703443509929
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "grip": 1.0,
+          "source": "entry_frozen_book_lift_goal"
+        },
+        "action_diagnostics": {
+          "controller": "held_compensated_lift",
+          "lift_clearance_refinement": {
+            "applied": true,
+            "reason": "attached_bilateral_public_goal_reached_but_lift_not_clear",
+            "position_error_m": 0.0014501610235353618,
+            "position_tolerance_m": 0.0017925,
+            "rotation_error_rad": 0.00082447634522003,
+            "rotation_tolerance_rad": 0.17453292519943295,
+            "z_increment_m": 0.003585,
+            "original_lift_goal_T_world_book": [
+              [
+                -0.15996165828516012,
+                0.9871232283148147,
+                0.0,
+                -0.2103369376341847
+              ],
+              [
+                -0.9871232283148147,
+                -0.15996165828516012,
+                -0.0,
+                0.16661536024412574
+              ],
+              [
+                -0.0,
+                0.0,
+                1.0,
+                1.071045
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "refined_lift_goal_T_world_book": [
+              [
+                -0.15996165828516012,
+                0.9871232283148147,
+                0.0,
+                -0.2103369376341847
+              ],
+              [
+                -0.9871232283148147,
+                -0.15996165828516012,
+                -0.0,
+                0.16661536024412574
+              ],
+              [
+                -0.0,
+                0.0,
+                1.0,
+                1.07463
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "controller_state": {
+          "stage": "lift_clear",
+          "t": 208,
+          "stage_t": 83,
+          "held_T_eef_book": [
+            [
+              0.1372838611095853,
+              0.9883701291897178,
+              -0.06540358709080601,
+              0.0204341129939003
+            ],
+            [
+              0.9904897339484772,
+              -0.13758659500593812,
+              -0.0001257670306067174,
+              -0.007223590138751762
+            ],
+            [
+              -0.009122961225286899,
+              -0.06476431579328656,
+              -0.9978588853030816,
+              0.12186571702943727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "lift_goal_T_world_book": [
+            [
+              -0.15996165828516012,
+              0.9871232283148147,
+              0.0,
+              -0.2103369376341847
+            ],
+            [
+              -0.9871232283148147,
+              -0.15996165828516012,
+              -0.0,
+              0.16661536024412574
+            ],
+            [
+              -0.0,
+              0.0,
+              1.0,
+              1.07463
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "orient_goal_T_world_book": null,
+          "approach_substage": "pregrasp",
+          "grasp_substage": "direct_close",
+          "latched_T_world_eef_grasp": null,
+          "close_latched_once": false,
+          "held_pose_calibrated": false,
+          "lift_refined_once": true,
+          "frozen_book_delta": {
+            "role": "book",
+            "demo_xy": [
+              -0.20755183499470956,
+              0.17063224782016387
+            ],
+            "current_xy": [
+              -0.2103369376341847,
+              0.16661536024412574
+            ],
+            "delta_xy": [
+              -0.002785102639475141,
+              -0.004016887576038132
+            ],
+            "delta_yaw": 0.2333785914960389,
+            "current_yaw": -1.7314481377517887,
+            "valid": true,
+            "reason": "ok"
+          },
+          "frozen_caddy_delta": {
+            "role": "caddy",
+            "demo_xy": [
+              -0.3967342298133801,
+              -0.13855588752646483
+            ],
+            "current_xy": [
+              -0.3963251396869694,
+              -0.1386532158739628
+            ],
+            "delta_xy": [
+              0.00040909012641066056,
+              -9.732834749795471e-05
+            ],
+            "delta_yaw": -0.013301040590338431,
+            "current_yaw": 1.3424354315844216,
+            "valid": true,
+            "reason": "ok"
+          },
+          "stage_entries": [
+            {
+              "t": 116,
+              "stage": "short_grasp",
+              "reason": "grasp_ready"
+            },
+            {
+              "t": 125,
+              "stage": "lift_clear",
+              "reason": "attached"
+            }
+          ]
+        }
+      },
+      "source_seals": {
+        "R0": "24521332148a2bb09fcbdd00f6413aef474219344e4a138534e645692441eac7",
+        "R3": "754179d6c5b571bb0b95d6aa520160de10bb317dda372c6bd13aeec2e9ef4605"
+      }
+    },
+    {
+      "index": 4,
+      "init_id": 23,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 389,
+          "new_rows": 389,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 18,
+          "new_rows": 18,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "31ace81028363a845bbf3b72b971407011f9a58744cc013ac4d1d687eaa59df2",
+        "R3": "039143eb6ff61c9bdbf93e1e5e35e65a8e689c9497def0fc33e309d27cc0aba2"
+      }
+    },
+    {
+      "index": 5,
+      "init_id": 39,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 427,
+          "new_rows": 427,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 21,
+          "new_rows": 21,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "98635190ca4f378e4c7ce0788b8f83ed132e095eb61369a86eec5224451b1afe",
+        "R3": "fdf16e3d357674eb89c24afcd00861b3c1ed5384704a15b04fe15376310596b3"
+      }
+    },
+    {
+      "index": 6,
+      "init_id": 14,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 418,
+          "new_rows": 418,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 20,
+          "new_rows": 20,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "a798c0239e43124e5b132bbd901ac79142c2674ac7203a6d28216eebd870514a",
+        "R3": "26059ac84ca851a4a47defe928cd0c93cfb15de9fb8472ce0a94951224291e7c"
+      }
+    },
+    {
+      "index": 7,
+      "init_id": 44,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 433,
+          "new_rows": 433,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 21,
+          "new_rows": 21,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "368682a05ec64ac70626b83a8be71cea5f8a20f610c0fdc9fd80708284ac508c",
+        "R3": "9e6c201d0c14512fa05b43442c95a531e6cd7c6b8215f6089916d17a7f52fd95"
+      }
+    },
+    {
+      "index": 8,
+      "init_id": 40,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 429,
+          "new_rows": 429,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 21,
+          "new_rows": 21,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "05c4915f5b122605cd19666fdf023105099b9aa51691b09a7c468b43efebde93",
+        "R3": "ec753eb90edc4baedc0f7f30a6846bbb93a40b67a4b63655ba5ff3e5c7b3049d"
+      }
+    },
+    {
+      "index": 9,
+      "init_id": 42,
+      "old_strict": true,
+      "strict": true,
+      "commands": {
+        "prefix/PUBLIC_SETTLING_TRACE.jsonl": {
+          "old_rows": 6,
+          "new_rows": 6,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "prefix/controller/TRACE.jsonl": {
+          "old_rows": 392,
+          "new_rows": 392,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "old_rows": 20,
+          "new_rows": 20,
+          "first_action_difference_row": null,
+          "all_actions_equal": true
+        }
+      },
+      "all_old_public_hashes_equal": true,
+      "refine_first": null,
+      "source_seals": {
+        "R0": "ce6505d46edcccdf1aa886891583ab980c20077815f55e766332d9352f6a7cdc",
+        "R3": "6316511d79c7df2bbf16668e95ee7ef87e419f24ea7f2947d06de719959d36df"
+      }
+    }
+  ],
+  "old_successes_identical_actions": true,
+  "old_successes_identical_public": true
+}

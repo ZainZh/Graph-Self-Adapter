@@ -1,0 +1,79 @@
+{
+  "active_controller_module": "prove.task_graph.p70_object_controller.P70ObjectController",
+  "budgets": {
+    "micro_max_actions": 24,
+    "p68_micro_max_actions": 24,
+    "placement_verification_max_actions": 3,
+    "stop_after": null,
+    "total_max_actions": 720
+  },
+  "claims": [
+    "P70 complete continuous task development; frozen beforeeachbatch. Not fresh held-out and no gradient-only causal claim.",
+    "public settled initial grounding plus rigid-held proprioception propagation",
+    "short approach/grasp MLP trained on synthetic relative-error teacher labels; not an RGB end-to-end learned skill",
+    "unchanged P68 short Insert; no gradient causal comparison in this qualification",
+    "R3 changes outer graph clearance recovery only; same frozen grasp/P68 weights; Boolean supervisor remains explicitly allowed; no size or gradient-only claim."
+  ],
+  "controller_config_binding": {
+    "bytes": 5742,
+    "path": "configs/P70_CONTROLLER_CONFIG_R3.json",
+    "sha256": "3d17789bb1afbbd91fec54427e7aa856cf0f64b03e85d073e9c4a3a37c602877"
+  },
+  "runner": "tools/task_graph/p70_stage_runner.py",
+  "schema": "prove.book-to-caddy-r3.task-graph.v1",
+  "solver_routing": {
+    "approach_book": "Code above_current_book -> frozen grasp MLP pregrasp",
+    "lift_clear": "Code: P70ObjectController",
+    "near_entry": "Code: P70ObjectController",
+    "orient_clear": "Code: P70ObjectController",
+    "p68_insert": "Fast Adaptive Skill: p69_full_rsi_runner.run_s9_book -> p68_book_runtime.ReferenceBookRuntime (continuous z, H24)",
+    "short_grasp": "frozen grasp MLP direct_close",
+    "transport_above_caddy": "Code: P70ObjectController",
+    "verify_placement": "Code: p70_stage_runner.run_placement_verification (stationary closed hold, max3)"
+  },
+  "source": "P70_CONTROLLER_CONFIG_R3.stage_ids plus frozen P70 runner routing",
+  "stage_ids": [
+    {
+      "entry": "first valid public settled book/caddy grounding",
+      "exit": "StageJudge grasp_ready true after v02 pregrasp relation; internal above_current_book gate precedes MLP",
+      "id": "approach_book"
+    },
+    {
+      "entry": "pregrasp reached/open gripper",
+      "exit": "StageJudge attached true: 3-frame bilateral contact and stable EEF-book relation",
+      "id": "short_grasp"
+    },
+    {
+      "entry": "attached true; capture T_eef_book and freeze lift book goal",
+      "exit": "attached && clear_of_table && actual book bottom at or above frozen cabinet collision top plus minimum book halfsize",
+      "id": "lift_clear",
+      "substage": "If attached but clearance false after public EEF reaches frozen lift goal, once expand clearance by the existing geometry tolerance; independent original clearance gate remains required."
+    },
+    {
+      "entry": "lift_clear",
+      "exit": "attached && safe book bottom height && book orientation matches entry orientation within original tolerance",
+      "id": "orient_clear"
+    },
+    {
+      "entry": "orient_clear",
+      "exit": "StageJudge above_destination_vicinity true",
+      "id": "transport_above_caddy"
+    },
+    {
+      "entry": "above destination vicinity",
+      "exit": "StageJudge near_entry true using P53/P54 mouth geometry",
+      "id": "near_entry"
+    },
+    {
+      "entry": "near_entry",
+      "exit": "unchanged P68 micro runtime",
+      "id": "p68_insert"
+    },
+    {
+      "controller": "Code stationary closed hold; no z or weight updates; at most3 within total720",
+      "entry": "P68 exhausted24 actions but current official goal, bilateral contact and correct target all hold",
+      "exit": "three NEW post-action frames pass original goal+bilateral hold; failure on relation/contact loss",
+      "id": "verify_placement"
+    }
+  ]
+}

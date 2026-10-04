@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-self-adapter"
+version = "0.1.0"
+description = "Object-centered task graphs and stage-local Fast Adapter execution"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+robotics = [
+  "torch>=2.7,<3", "mujoco==3.3.1", "robosuite==1.4.1",
+  "scipy>=1.15,<2", "h5py>=3.13", "opencv-python>=4.11",
+  "einops>=0.8", "transformers==4.56.2", "safetensors>=0.6",
+  "PyYAML>=6", "imageio>=2", "imageio-ffmpeg>=0.5"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["prove*", "tools*"]
+
+[tool.setuptools.package-data]
+"prove.observation" = ["*.json", "*.md"]
+"prove.fast_adapter" = ["*.json", "*.md"]
+"prove.task_graph" = ["*.json", "*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

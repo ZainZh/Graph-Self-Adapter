@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "freeze_sha256": "6fc7e6fa79b1847213b2ba1eac8d9f7f940a7df02d58be89102164e2ff99f446",
+  "physical_execution_authorized": true,
+  "reviewer": "root",
+  "root_reviewed": true,
+  "schema": "prove.p70-root-review.v1",
+  "scope": "P70 frozen four-version regression: ten other-group historical initial states, same-intent complete task, all weights/graph fixed, original success gate, no outcome feedback or retries. Launch requires separate final queue approval.",
+  "scope_sha256": "a03b334b7928ca4fedcb81047dfdd3d01121194438d3068896a83dca9d434e8e"
+}

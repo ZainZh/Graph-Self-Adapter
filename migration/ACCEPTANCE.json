@@ -1,0 +1,133 @@
+{
+  "schema": "graph-self-adapter.migration-acceptance.v1",
+  "completed_date": "2026-10-04",
+  "status": "root_accepted",
+  "scope": "Standalone Graph Self Adapter source, frozen P70 R3 task solution, task-specific references, offline tests, and static dashboard generator",
+  "source_inventory": {
+    "path": "migration/SOURCE_INVENTORY.json",
+    "sha256": "5e6ee2e619cec5f772392a1b98da4f3d5674b2eacffaefec349fb3cb06898655",
+    "primary_tree_python_files": 728,
+    "canonical_closure_python_files": 748,
+    "canonical_closure_bytes": 6196519,
+    "frozen_runtime_sources": 16,
+    "all_canonical_files_match_original": true,
+    "all_frozen_runtime_hashes_match": true,
+    "module_origins_resolve_to_new_repository": true
+  },
+  "solution": {
+    "manifest": {
+      "path": "task_packages/book_to_caddy_r3/solution/MANIFEST.json",
+      "sha256": "4ee12a22ea1782a7b3e5e7ac1d6411852b6bf2ed0fbf96eb604fbd95dc44d547"
+    },
+    "files": 30,
+    "bytes": 205334871,
+    "task_weights": [
+      {
+        "path": "models/a2_head/HEAD.pt",
+        "sha256": "eb8cf09888d3926865dc45a967f429de5972324ba6f8b4a604f1ab569c8c8873",
+        "bytes": 79055
+      },
+      {
+        "path": "models/action_checkpoint/HEAD.pt",
+        "sha256": "deabdecc7f07048341654f464293723e8d0c7d1e567e9e6b82572ef2422343a8",
+        "bytes": 30499
+      },
+      {
+        "path": "models/encoder_checkpoint/final.pt",
+        "sha256": "39eb094f5ee28c9ab87efe63818632dbb0102d9043e7c072ae13e8ba751802bb",
+        "bytes": 180493561
+      },
+      {
+        "path": "models/precision_head/action_head.pt",
+        "sha256": "cfacab0ec0f95fe800f42cec668bfd9223955249d9a1c6417633b2aa579f6d7d",
+        "bytes": 65925
+      },
+      {
+        "path": "refs/grasp_policy/checkpoint/final.pt",
+        "sha256": "0115fac96833dcb26f400c1e4442b5c32f8e369e1197a2da6146b1c8f0fa4155",
+        "bytes": 24695
+      }
+    ],
+    "embedded_demo": {
+      "path": "refs/demo/book_demo_0.hdf5",
+      "sha256": "92cf890a794a2c3bfe47cb68f0109f76901c3251f7331f6c03c10e258b30b94c",
+      "bytes": 23230132
+    },
+    "package_check": "passed",
+    "release_review": "Recorded separately in solution/RELEASE.json after Root reviews this implementation"
+  },
+  "dry_run_rebase": {
+    "status": "passed",
+    "simulator_started": false,
+    "code_sources": "all 16 point under /home/zheng/github/Graph-Self-Adapter",
+    "runner": "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/p70_stage_runner.py",
+    "demo_source": "/home/zheng/github/Graph-Self-Adapter/task_packages/book_to_caddy_r3/solution/refs/demo/book_demo_0.hdf5",
+    "shared_libero": "/home/zheng/github/Interaction-RSI/data/sources/LIBERO-PRO",
+    "generated_review_root_reviewed": false
+  },
+  "zero_integration_runtime_validation": {
+    "materialized_parent_loaded": true,
+    "mujoco_xml_compiled": true,
+    "mujoco_model": {
+      "nq": 23,
+      "nv": 21,
+      "nbody": 26
+    },
+    "simulation_steps": 0,
+    "historical_runtime_paths_remaining": false,
+    "new_repository_data_paths_remaining": false,
+    "encoder_cpu_load": "P64RoleEncoder",
+    "encoder_state_tensors_identical": 162
+  },
+  "tests": {
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /home/zheng/github/Interaction-RSI/data/runtime/libero-pi05-venv-clean/bin/python -m pytest -q tests",
+    "passed": 255,
+    "failed": 0,
+    "simulator_started": false,
+    "training_started": false
+  },
+  "external_dependencies_not_vendored": [
+    "Standard LIBERO and robosuite simulator code and assets",
+    "RLinf-LIBERO-PRO standard initial-state assets",
+    "Shared frozen DINO model directory",
+    "Pretrained LiLa source and VISUAL_WEIGHTS",
+    "Python environment, vision overlay, GPU and EGL drivers",
+    "Historical experiment datasets, raw frames, rollout archives, and non-selected model checkpoints"
+  ],
+  "explicitly_omitted": [
+    "Legacy full-environment bundler and archive",
+    "Whole datasets and simulator environments",
+    "Shared DINO and LiLa pretrained weights",
+    "Historical artifact-dependent execution outputs"
+  ],
+  "physical_rollouts_performed": 0,
+  "root_review": {
+    "reviewer": "root",
+    "reviewed_utc": "2026-10-04T12:12:38.874411+00:00",
+    "independence_check": {
+      "path": "migration/INDEPENDENCE_CHECK.json",
+      "sha256": "b9ea7c9cfbb5f788ea00e952ef0aacbb6aecb42deea3484aab2619551d206f29"
+    },
+    "release": {
+      "path": "task_packages/book_to_caddy_r3/solution/RELEASE.json",
+      "sha256": "5703aa5653c5288b0c75f77f9cab253de5fe8322315793418413094c8b6ad22b"
+    },
+    "real_cpu_model_loading": "encoder, Insert policy and actual configured Grasp policy passed; actual stage runtime freezes all network parameters",
+    "standard_scene_compile": "passed nq23/nv21/nbody26/ngeom152, zero integration steps",
+    "physical_rollouts": 0,
+    "python_wheel_build": "passed without dependency download",
+    "internal_static_import_closure": "no missing prove/tools modules",
+    "active_documentation_links": "passed",
+    "code_symlinks": 0,
+    "dashboard_and_video_http": "200/200; temporary validation server stopped",
+    "whitespace": "Changed/new integration files pass. Eight copied files retain original EOF blank lines to preserve exact source bytes."
+  },
+  "publication": {
+    "repository": "ZainZh/Graph-Self-Adapter",
+    "url": "https://github.com/ZainZh/Graph-Self-Adapter",
+    "private": true,
+    "lfs_objects_uploaded": 6,
+    "payload_kind": "five task checkpoints and one task demonstration",
+    "development_workspace": "/home/zheng/github/Graph-Self-Adapter"
+  }
+}

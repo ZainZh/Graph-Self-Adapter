@@ -1,0 +1,316 @@
+{
+  "schema": "prove.p70-r1-r2-postseal-comparison.v1",
+  "authority": "server full sealed artifacts",
+  "server_root": "/home/ubuntu/github/prove-p70-object-centric/evaluations/outer_rsi_p70_object_graph_v01/full_development",
+  "sealed_r2_files_verified": 9852,
+  "rows": [
+    {
+      "index": 0,
+      "init_id": 21,
+      "old_strict": true,
+      "strict": true,
+      "s9_strict": true,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 430,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "b28b92904d25fd73d4f04ad38dcd7fe9dcd3c6f45a3d602f44fdaa9e5781114e",
+      "seal_sha256": "c78de1102ce9c992f8312bfa54985485b44b99450da3648ce3949a0c4f333bc8"
+    },
+    {
+      "index": 1,
+      "init_id": 49,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 476,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "1eaa85551ba04a18d9f884e02ebc2648b6fd3c51de1846584b9dca02f476c487",
+      "seal_sha256": "e37b12c0a09e2a9ab3039e723eb716dfa6122d5fb15c27c4e87bc6ae38a9bede"
+    },
+    {
+      "index": 2,
+      "init_id": 19,
+      "old_strict": true,
+      "strict": true,
+      "s9_strict": true,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 487,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "7573d4c6525dce68ddce468b67abe971039aff7728f6f36ec67a5805eb53aa1c",
+      "seal_sha256": "9762434f34c238423a1feae568298939e40342b95954410b48063581a566ab6e"
+    },
+    {
+      "index": 3,
+      "init_id": 33,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 560,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 0,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 0,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "aaacffe2757b068586dca06f750db99b1aa0db9c6b6ffb0a068d10eabf87feae",
+      "seal_sha256": "ee38fa8f19b3be9fb8eea5eb7a0b1e49f66f79ecd79d59ee5dfb511e05df89fe"
+    },
+    {
+      "index": 4,
+      "init_id": 23,
+      "old_strict": true,
+      "strict": true,
+      "s9_strict": true,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 408,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 19,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "dca7ce7e35a3f5fcaeb7f9d380b4902469fae62857ef4b34fe5632e4467b9c3c",
+      "seal_sha256": "42003383e579f4510ebda3e633008824936e1099be3200ff4fe2c278f5a46718"
+    },
+    {
+      "index": 5,
+      "init_id": 39,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 1,
+      "action_delta": 1,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 447,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "9865a7365779e00c5f082e047e50ccb34d56ed9286256936bc983da221f70235",
+      "seal_sha256": "2320ad448ad83a1dd3e7401e21bf8626dfcdf19c35ef0e5134bacce8e5fc15dc"
+    },
+    {
+      "index": 6,
+      "init_id": 14,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 439,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "5558cc989d593847acf275101107c49d3a03906902b11afd7ad0405ab1d229da",
+      "seal_sha256": "c535479a42db8a07940c9f78e192b5daae6cb7f83dc0dc20f9b99e05b1a1d45c"
+    },
+    {
+      "index": 7,
+      "init_id": 44,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 1,
+      "action_delta": 1,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 453,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "97c34fa42de9a98abab473629baaa18760fc515f7f5fb401f08e55bfbf15c76e",
+      "seal_sha256": "dcfe00ca8e7500c7d4590658884366d0a9ca9f621c1c8a21d394e8943f564123"
+    },
+    {
+      "index": 8,
+      "init_id": 40,
+      "old_strict": false,
+      "strict": false,
+      "s9_strict": false,
+      "strict_from_verification": false,
+      "verification_actions": 1,
+      "action_delta": 1,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 449,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "3099902c8876ae505c870fe6514d919a46a2960d1ec883813428da7f7c7174c2",
+      "seal_sha256": "0a0463d3eec251bc7aaa488b9f4e1a8405fcb34bd29c37b52e54e65fdcdc948c"
+    },
+    {
+      "index": 9,
+      "init_id": 42,
+      "old_strict": true,
+      "strict": true,
+      "s9_strict": true,
+      "strict_from_verification": false,
+      "verification_actions": 0,
+      "action_delta": 0,
+      "public_file_hash_differences": [],
+      "command_comparisons": {
+        "prefix/controller/TRACE.jsonl": {
+          "count": 411,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/EXECUTED.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        },
+        "s9/public/PREDICTIONS.jsonl": {
+          "count": 25,
+          "same_length": true,
+          "actions_equal": true
+        }
+      },
+      "result_sha256": "1320056f7f3582fb72f99c60b296aa0416e6a7831b2845ae102dd356eb0bf21c",
+      "seal_sha256": "78e31542c9a7587b8adb2ffeb1bba9e0b5d977cd059a7bf33fdbbcf0a0c03f53"
+    }
+  ],
+  "strict": 4,
+  "s9_strict": 4,
+  "strict_from_verification": 0,
+  "rescues": 0,
+  "harms": 0,
+  "extra_actions": 3,
+  "public_prefix_and_s9_hashes_equal": true,
+  "all_actions_equal": true
+}

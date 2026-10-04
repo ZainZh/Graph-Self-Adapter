@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "external_dependencies": {
+    "dino_model_dir": {
+      "exists": true,
+      "path": "/home/zheng/github/LiLa-WAM/dinov3_pretrain/dinov3-vitl16-pretrain-lvd1689m"
+    },
+    "libero_root": {
+      "exists": true,
+      "path": "/home/zheng/github/Interaction-RSI/data/sources/LIBERO-PRO/libero"
+    },
+    "lila_checkpoint": {
+      "exists": true,
+      "path": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/VISUAL_WEIGHTS.pt"
+    },
+    "lila_source": {
+      "exists": true,
+      "path": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/models/vla_model_fm.py"
+    },
+    "repo_root": {
+      "exists": true,
+      "path": "/home/zheng/github/Interaction-RSI"
+    },
+    "runtime_overlay": {
+      "exists": true,
+      "path": "/home/zheng/github/Interaction-RSI/data/runtime/p58-vision-deps"
+    }
+  },
+  "ok": true,
+  "release": {
+    "physical_execution_authorized": true,
+    "reviewer": "root",
+    "root_reviewed": true,
+    "solution_manifest_sha256": "06ac971d9e062bbe9951ee2d3743bfda828c757ca9231e10210177046bcaf569"
+  },
+  "review_authorized": true,
+  "schema": "prove.book-to-caddy-r3.check.v1",
+  "solution": "/tmp/book_to_caddy_r3_task_release_20261003/solution"
+}

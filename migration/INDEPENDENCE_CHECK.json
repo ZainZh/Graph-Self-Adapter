@@ -1,0 +1,121 @@
+{
+  "schema": "graph-self-adapter.independence-check.v1",
+  "created_utc": "2026-10-04T12:08:37.436437+00:00",
+  "physical_steps": 0,
+  "training": false,
+  "module_origins": {
+    "prove": "prove/__init__.py",
+    "prove.fast_adapter.p64_common": "prove/fast_adapter/p64_common.py",
+    "prove.fast_adapter.p68_book_runtime": "prove/fast_adapter/p68_book_runtime.py",
+    "prove.task_graph.p70_object_controller": "prove/task_graph/p70_object_controller.py",
+    "tools.task_graph.p70_stage_runner": "tools/task_graph/p70_stage_runner.py"
+  },
+  "errors": [],
+  "package_check": {
+    "schema": "prove.book-to-caddy-r3.check.v1",
+    "ok": true,
+    "errors": [],
+    "external_dependencies": {
+      "repo_root": {
+        "path": "/home/zheng/github/Graph-Self-Adapter",
+        "exists": true
+      },
+      "dino_model_dir": {
+        "path": "/home/zheng/github/LiLa-WAM/dinov3_pretrain/dinov3-vitl16-pretrain-lvd1689m",
+        "exists": true
+      },
+      "lila_source": {
+        "path": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/models/vla_model_fm.py",
+        "exists": true
+      },
+      "lila_checkpoint": {
+        "path": "/home/zheng/github/Interaction-RSI/data/sources/lila-wam-reference-20260923/VISUAL_WEIGHTS.pt",
+        "exists": true
+      },
+      "libero_root": {
+        "path": "/home/zheng/github/Interaction-RSI/data/sources/LIBERO-PRO/libero",
+        "exists": true
+      },
+      "runtime_overlay": {
+        "path": "/home/zheng/github/Interaction-RSI/data/runtime/p58-vision-deps",
+        "exists": true
+      },
+      "rlinf_libero_root": {
+        "path": "/home/zheng/github/Interaction-RSI/data/sources/RLinf-LIBERO-PRO",
+        "exists": true
+      },
+      "libero_one_shot_root": {
+        "path": "/home/zheng/github/Graph-Self-Adapter/task_packages/book_to_caddy_r3/solution/refs/demo",
+        "exists": true
+      }
+    },
+    "solution": "/home/zheng/github/Graph-Self-Adapter/task_packages/book_to_caddy_r3/solution",
+    "review_authorized": false,
+    "release": {
+      "root_reviewed": false,
+      "physical_execution_authorized": false,
+      "reviewer": "pending_root_migration_review",
+      "solution_manifest_sha256": "4ee12a22ea1782a7b3e5e7ac1d6411852b6bf2ed0fbf96eb604fbd95dc44d547"
+    }
+  },
+  "materialized_freeze_checks_passed": true,
+  "model_checks": {
+    "encoder": {
+      "loaded": true,
+      "task": "book",
+      "parameters": 45108753,
+      "frozen": true
+    },
+    "insert_policy": {
+      "loaded": true,
+      "parameters": 5424,
+      "runtime_frozen": true,
+      "loader_requires_grad_before_runtime": true
+    },
+    "grasp_policy": {
+      "loaded": true,
+      "parameters": 5126,
+      "frozen": true
+    }
+  },
+  "adapter_lifecycle": {
+    "active_after_entry": true,
+    "z_dim": 9,
+    "history_len": 0,
+    "inactive_after_exit": true
+  },
+  "one_shot_demo": {
+    "path": "/home/zheng/github/Graph-Self-Adapter/task_packages/book_to_caddy_r3/solution/refs/demo/book_demo_0.hdf5",
+    "actions": [
+      234,
+      7
+    ]
+  },
+  "standard_scene_compile": {
+    "passed": true,
+    "nq": 23,
+    "nv": 21,
+    "nbody": 26,
+    "ngeom": 152,
+    "integration_steps": 0
+  },
+  "materialized_source_paths": [
+    "/home/zheng/github/Graph-Self-Adapter/prove/fast_adapter/p61_encoder.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/fast_adapter/p64_book_bridge.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/fast_adapter/p64_common.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/fast_adapter/p68_book_runtime.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/fast_adapter/visual_alignment.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p57_public_geometry.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p69_book_silhouette.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p69_public_grounding.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p70_grasp_policy_v02.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p70_object_controller.py",
+    "/home/zheng/github/Graph-Self-Adapter/prove/task_graph/p70_stage_judge.py",
+    "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/collect_libero_demo_gt.py",
+    "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/collect_libero_p52_v02.py",
+    "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/p52_full_task.py",
+    "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/p69_full_rsi_runner.py",
+    "/home/zheng/github/Graph-Self-Adapter/tools/task_graph/p70_stage_runner.py"
+  ],
+  "passed": true
+}

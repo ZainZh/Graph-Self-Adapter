@@ -1,0 +1,5045 @@
+{
+  "schema": "prove.p68-inspection-raw-results.v1",
+  "fetched_utc": "2026-10-01T01:53:04.360254+00:00",
+  "server_root": "/home/ubuntu/github/prove-p68-transfer/evaluations/fast_adapter_p68_cross_task_reference_v01",
+  "tasks": {
+    "book": {
+      "rows": [
+        {
+          "relative_directory": "cells/cell_000",
+          "result_sha256": "7f7483cc836be4bef708e4e3b0ec763921838b7582bde8385111ffbdabb040e4",
+          "result_mtime": 1790766481.2845142,
+          "result": {
+            "cell": {
+              "index": 0,
+              "condition": 0,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "id_62",
+              "group": "id",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 21,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "c60750eb387c90e4f4a6947b840cb78b5e76bce58f77c403f44eb53c3f5336d8"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_001",
+          "result_sha256": "2b53f79391751a955d1cd330385ad91c919648fe436ad3aeb12981f0c04cceb8",
+          "result_mtime": 1790766503.0521455,
+          "result": {
+            "cell": {
+              "index": 1,
+              "condition": 0,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "id_62",
+              "group": "id",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 21,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "fd20c984827ed0d0dd65f7a924c95bb67677fbf6270ca34fa7b162367eafb5cb"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_002",
+          "result_sha256": "6e136ed838153a5a47b52e518b18dc899a2f3188851b97a6bb2a3bb58acb6147",
+          "result_mtime": 1790766522.8038177,
+          "result": {
+            "cell": {
+              "index": 2,
+              "condition": 0,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "id_62",
+              "group": "id",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 17,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "8ac2e7c2812720c9cf65609173ab2bd43212e0f081134b4ff08340b9a1c071d0"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_003",
+          "result_sha256": "b8426882f2861c82f894c3a3c4325c1d357c1db0a7213755f31b9535ecc6b3b3",
+          "result_mtime": 1790766548.0154083,
+          "result": {
+            "cell": {
+              "index": 3,
+              "condition": 0,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "id_62",
+              "group": "id",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 15,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "96e4bdc80651fdeff16cc71aaaddad9690ea432931cf6d2e3e3d21b61cacc116"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_004",
+          "result_sha256": "7b48e593c3a7ef62582f582e97e266c3434d56d544ee8a83785a8f517d03fc4f",
+          "result_mtime": 1790766569.2830703,
+          "result": {
+            "cell": {
+              "index": 4,
+              "condition": 1,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "id_63",
+              "group": "id",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "778af48741597b62be4f947b5225b4945afc15d9af6c568ff032fc10b7a287fd"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_005",
+          "result_sha256": "22be508adbfceb71c85bc72fbb85c977bb15f4b4db5a11c8ec8025195867409f",
+          "result_mtime": 1790766588.926764,
+          "result": {
+            "cell": {
+              "index": 5,
+              "condition": 1,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "id_63",
+              "group": "id",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 19,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "865f879c968c2726d48ad9389cc5b1175a8191189cba416714fb43813cb50d3e"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_006",
+          "result_sha256": "66d9de37e3ca963c9102843b79542137c187782de4c3a1221cde59e8c947770c",
+          "result_mtime": 1790766607.9224727,
+          "result": {
+            "cell": {
+              "index": 6,
+              "condition": 1,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "id_63",
+              "group": "id",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "cceaabb66db7bcc10cd2d8d26927992daae4f5119669e0a9470687798c635463"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_007",
+          "result_sha256": "5cbd89661e7fc3b1ccda532eb1ba7774127c9c140c753d3b62e1e5b824d2c16f",
+          "result_mtime": 1790766633.1940928,
+          "result": {
+            "cell": {
+              "index": 7,
+              "condition": 1,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "id_63",
+              "group": "id",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "3e719b7e3da44745b473554e32d22ad7768f10c8e0b6deaffaaef6e3fb6e2a08"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_008",
+          "result_sha256": "75b76a4b0f4ba9b5f1f8fb17a8a0c9ec1c8ed79533e0af2f011e164b1ba79e18",
+          "result_mtime": 1790766652.1258135,
+          "result": {
+            "cell": {
+              "index": 8,
+              "condition": 2,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "id_64",
+              "group": "id",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 19,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "e672cc8171cba42ba9536dd083b95586e0bfe6ddb62553a631bb2510dfdce036"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_009",
+          "result_sha256": "41d37b8a04d07f49f9b8bd86cb341a2dd35b9939e3beb26d0dabf80d681fc9ad",
+          "result_mtime": 1790766672.34552,
+          "result": {
+            "cell": {
+              "index": 9,
+              "condition": 2,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "id_64",
+              "group": "id",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "bdfeb49ea5474cf688bd8001ca88f2a596b095143d6ef1d94ddf9df47d25db9b"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_010",
+          "result_sha256": "30625d052f54aff93420a3cfc0cb21310736fa9c0fd185707a870a3e7ca0e054",
+          "result_mtime": 1790766691.5572457,
+          "result": {
+            "cell": {
+              "index": 10,
+              "condition": 2,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "id_64",
+              "group": "id",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 15,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "643469fcc858b272fc5b90b769de0110ce497c8470c3df3cd76a5cb8e649ceb7"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_011",
+          "result_sha256": "9cbd0246258fcba7ea4a12119074ab8047a8cb453241e6a1c147ac19ea59d2c3",
+          "result_mtime": 1790766716.2368994,
+          "result": {
+            "cell": {
+              "index": 11,
+              "condition": 2,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "id_64",
+              "group": "id",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 15,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "736374df1aba0e5ad49e5ef30f5dd572165c6219908b768e7b0ebdc3d9f1c38a"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_012",
+          "result_sha256": "704dfbc95c09dfc902e70f1bf34cdcd410613511fbb9cf51366320f556c4a1d9",
+          "result_mtime": 1790766718.988861,
+          "result": {
+            "cell": {
+              "index": 12,
+              "condition": 3,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "id_65",
+              "group": "id",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "17c5d15aee2287da870eff2d7ad971f5853db6c5bd1449c3761a53d2f6e7485f"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_013",
+          "result_sha256": "a637108ba3d5bbb64fb3d9cfe7178613f188ffec1d6a791d11c2a2130d68b22f",
+          "result_mtime": 1790766720.9288342,
+          "result": {
+            "cell": {
+              "index": 13,
+              "condition": 3,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "id_65",
+              "group": "id",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "56beb9c8282b16827fcfd269fe5359a454bc9fa182356211936c890bb5e50723"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_014",
+          "result_sha256": "f01dc40fbfc155d1861b4a5d0aa0b1fd83be37d3789b6e9f70c37b3e919d90b0",
+          "result_mtime": 1790766722.1568172,
+          "result": {
+            "cell": {
+              "index": 14,
+              "condition": 3,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "id_65",
+              "group": "id",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "a65d9827e6a9ca82377d804e8e9485f8967cba5d890f3acf98ad3e7c8043bc7d"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_015",
+          "result_sha256": "6e530e2466adaf130f6e76a027389f5d369011e5b1f2ab3cad28c333868c42d8",
+          "result_mtime": 1790766723.3608005,
+          "result": {
+            "cell": {
+              "index": 15,
+              "condition": 3,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "id_65",
+              "group": "id",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "13b28442fab39c88f0ac46ecd51acc91b7652d831f6257c7ec15b6f857d9f4be"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_016",
+          "result_sha256": "420be4794c8ef27f5ffff96795c6758bb8e086b04536cafc35de80be2882de17",
+          "result_mtime": 1790766741.8605466,
+          "result": {
+            "cell": {
+              "index": 16,
+              "condition": 4,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "size_66",
+              "group": "size",
+              "source_index": 66,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "545daf3232444097ce4644976c0982b50e008841a569a88ee78dca5094825dcb"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_017",
+          "result_sha256": "7b8068475671518cd92c35397fb0f12b57b390a77f3bf1b78407017f3d25f79e",
+          "result_mtime": 1790766761.5322804,
+          "result": {
+            "cell": {
+              "index": 17,
+              "condition": 4,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "size_66",
+              "group": "size",
+              "source_index": 66,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "91f2caa4b73cd9d4ef2e10f2b122feecfcca2e2fe713144a0905c2fcf7391c0e"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_018",
+          "result_sha256": "8afc6c5fb3695bb3dc68977356b2468cd45980ee056532e443630b00bcfbab00",
+          "result_mtime": 1790766780.7240243,
+          "result": {
+            "cell": {
+              "index": 18,
+              "condition": 4,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "size_66",
+              "group": "size",
+              "source_index": 66,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 12,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "8c368b5fb4b286635a5e1aea0306f8010dcb311d6ee745c63a68e87a8b36a946"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_019",
+          "result_sha256": "280f33faffa9cae41f690c99c77a04d946678c375239e4087f81e9e5bec29929",
+          "result_mtime": 1790766803.4517257,
+          "result": {
+            "cell": {
+              "index": 19,
+              "condition": 4,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "size_66",
+              "group": "size",
+              "source_index": 66,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 11,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "f11e2d58402c20f53d387395ad4285a199d1d18f9833a57e77cf843932a0c0ea"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_020",
+          "result_sha256": "5118e5a2d59ea2c65fce7f92cf71b252791ccd24273dbe6284e5593085a50c68",
+          "result_mtime": 1790766824.75145,
+          "result": {
+            "cell": {
+              "index": 20,
+              "condition": 5,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "size_67",
+              "group": "size",
+              "source_index": 67,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 19,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "eb2dc61b5c69cc56a7c4c9f6f6c98204e7b24ad9611c168bf29a72130ad15d9f"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_021",
+          "result_sha256": "163d518dd18f1d2df569d628a683b78ec368eb3a223266cb7f1f6ff2ddebb738",
+          "result_mtime": 1790766846.239176,
+          "result": {
+            "cell": {
+              "index": 21,
+              "condition": 5,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "size_67",
+              "group": "size",
+              "source_index": 67,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "0a843f333f3556714852c6e1c364d1e2700d0ee4ea03abf9d0bb0e16a3f28752"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_022",
+          "result_sha256": "658d810a6791c9b83f7b3537a4358a3ec4d5187ca08451f387a3fcd33a8a04a6",
+          "result_mtime": 1790766865.79093,
+          "result": {
+            "cell": {
+              "index": 22,
+              "condition": 5,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "size_67",
+              "group": "size",
+              "source_index": 67,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 12,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "c247cebd3892b30bdca245a831e9e77661fe55ca2600c6e35ba46ac973af0143"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_023",
+          "result_sha256": "3cfdd69936ae64d66ea45f900f720e0f147acd95d8cab92bf27a4baa76a69335",
+          "result_mtime": 1790766888.766645,
+          "result": {
+            "cell": {
+              "index": 23,
+              "condition": 5,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "size_67",
+              "group": "size",
+              "source_index": 67,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.9,
+                0.9,
+                0.9
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 11,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "c2b88ac4cdddee848b7f7874a085ab12a0e691d597c8be1d996f7c9fdfb561b2"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_024",
+          "result_sha256": "bd43049834dc43a0f0f910d785413d3da962d380cc5ac9fcbb5dfdee21cc257a",
+          "result_mtime": 1790766543.5074809,
+          "result": {
+            "cell": {
+              "index": 24,
+              "condition": 6,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "size_70",
+              "group": "size",
+              "source_index": 70,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "30f0dcc85877a5be489cb56fdf682696028e023fc2d23c1ee7bba57af62cc2e0"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_025",
+          "result_sha256": "0562d2d696344b5b5b903dc2b8a1af726e26472f76a7e513decff3da36cdf8fe",
+          "result_mtime": 1790766545.2474527,
+          "result": {
+            "cell": {
+              "index": 25,
+              "condition": 6,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "size_70",
+              "group": "size",
+              "source_index": 70,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "1c15adedb955dc18f27437b3dcc2b1926121c6c4b70f6ef297027f29393d546f"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_026",
+          "result_sha256": "e6f845c340c8cd8f550a692d0162562a62565431f45877551a46f3e4b256d437",
+          "result_mtime": 1790766546.7274292,
+          "result": {
+            "cell": {
+              "index": 26,
+              "condition": 6,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "size_70",
+              "group": "size",
+              "source_index": 70,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "579333fe06602ecb9719ff48c573eaf51bd540bdc05a475dde693c8f92812b4a"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_027",
+          "result_sha256": "afa31fb9250889122f3842041d3b2fa273283fc09e3d746779f1cff5fa572507",
+          "result_mtime": 1790766548.227405,
+          "result": {
+            "cell": {
+              "index": 27,
+              "condition": 6,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "size_70",
+              "group": "size",
+              "source_index": 70,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "6a9d8a6222c88d2c6612b657baacb04ac3b2b93d6742182d43d69c19085d77b9"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_028",
+          "result_sha256": "c9faacaacdacaacb5cba47df9ae703ca020da60bf4ad7b5ea5f45a0ba9798d93",
+          "result_mtime": 1790766566.4591148,
+          "result": {
+            "cell": {
+              "index": 28,
+              "condition": 7,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "size_71",
+              "group": "size",
+              "source_index": 71,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "d75385a85a9764241833dbcfe1245fc922f3857ad4ff532ccaf58c1bd0ba0401"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_029",
+          "result_sha256": "87469854cadef199338cc9e60800d4cc8a606786bf21711120d7450cf7f042b0",
+          "result_mtime": 1790766586.5828004,
+          "result": {
+            "cell": {
+              "index": 29,
+              "condition": 7,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "size_71",
+              "group": "size",
+              "source_index": 71,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 22,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "58c038e8e47a593bfc5de3e8108175827161bab7d6062a4b6e213dbcc4691552"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_030",
+          "result_sha256": "e3b894b998815a598ec67918787c19ace41f7610aad73fc69c0e1ae48dc82a3d",
+          "result_mtime": 1790766606.6064928,
+          "result": {
+            "cell": {
+              "index": 30,
+              "condition": 7,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "size_71",
+              "group": "size",
+              "source_index": 71,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 15,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "8baf639f2866a1901a44bcafbd51a306134c29ae897a8e72c79f3baf3a0cb92f"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_031",
+          "result_sha256": "13571435d5c3bc2187701082267c72055e986006d82770f14912640f6cb294cb",
+          "result_mtime": 1790766630.3301356,
+          "result": {
+            "cell": {
+              "index": 31,
+              "condition": 7,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "size_71",
+              "group": "size",
+              "source_index": 71,
+              "caddy_shift_world_m": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                0.78,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 15,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "443a4b095ee40f2cff8c0cd9ac2ec7400fac35b78f9e88a536e431cb1f2c7a3b"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_032",
+          "result_sha256": "ae002fe29cc160103d14161bb19557ce0878b9cc482280da3d32fe26152f7065",
+          "result_mtime": 1790766650.657835,
+          "result": {
+            "cell": {
+              "index": 32,
+              "condition": 8,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "position_62",
+              "group": "position_shift",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "b6159580e1074d6864215b8d784d66502e7ae8f9c63832e55d810719edad556f"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_033",
+          "result_sha256": "63d0042194b4c7644630d4929ba747b99276d041e3cbc874ddb60da5736f5658",
+          "result_mtime": 1790766671.0135393,
+          "result": {
+            "cell": {
+              "index": 33,
+              "condition": 8,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "position_62",
+              "group": "position_shift",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 20,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "563c13a30f3a162a1e1df0d36efa3dc7aeb0726c85a7a2610b743ec1e4281245"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_034",
+          "result_sha256": "6ccdf8e93c996bf2a0358e9cf7e22308c39cae56ea7cffc09fb0e5c292cd2690",
+          "result_mtime": 1790766691.2732496,
+          "result": {
+            "cell": {
+              "index": 34,
+              "condition": 8,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "position_62",
+              "group": "position_shift",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "f2755d5abc8ba1ef251c7b69206f7bec32ccbf2fdce9aa80df4f7d073c6d83dd"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_035",
+          "result_sha256": "869101cb9d4865af6eefd5acd30782fbb4496e9bf0ef01adc59f1d354b044b4f",
+          "result_mtime": 1790766716.5888944,
+          "result": {
+            "cell": {
+              "index": 35,
+              "condition": 8,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "position_62",
+              "group": "position_shift",
+              "source_index": 62,
+              "caddy_shift_world_m": [
+                0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "91dbdcccb42059f50aae354b83d5f1af3ff62694e1bbfebe76c7a02d267f8e42"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_036",
+          "result_sha256": "40dd3ee590234ff822494c9cb4fd2bbfd8c2f4aa69e9764110d76391550eb95b",
+          "result_mtime": 1790766735.900628,
+          "result": {
+            "cell": {
+              "index": 36,
+              "condition": 9,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "position_63",
+              "group": "position_shift",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                -0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 19,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "8e3368896856700ce75756281bf4a2d256141c0a8ee5d4817eb63b8d64a71144"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_037",
+          "result_sha256": "40fd5965f4f764eb1488a962c6bd581e3f3bd1638e8b6c7f25eae826881a2590",
+          "result_mtime": 1790766756.800344,
+          "result": {
+            "cell": {
+              "index": 37,
+              "condition": 9,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "position_63",
+              "group": "position_shift",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                -0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 19,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "e4c4e4c5aac9c59faacfd183829ac1b723882ec3446066b499fe7a50da71dcc2"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_038",
+          "result_sha256": "4fa02822eab117b15459a99a9214a6a98b73ba90da53771c383a85e3661db1a5",
+          "result_mtime": 1790766779.2040446,
+          "result": {
+            "cell": {
+              "index": 38,
+              "condition": 9,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "position_63",
+              "group": "position_shift",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                -0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "472b88de86dc369791e1bed1dea325caae0d90f1fe8bc4cfc268d114ff686a89"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_039",
+          "result_sha256": "1e31a2e9bafbb151e62fe4ea1892949476274ef6ae0ae93d1318ef312722fa72",
+          "result_mtime": 1790766805.899694,
+          "result": {
+            "cell": {
+              "index": 39,
+              "condition": 9,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "position_63",
+              "group": "position_shift",
+              "source_index": 63,
+              "caddy_shift_world_m": [
+                -0.004,
+                0.0,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": true,
+            "system_success": true,
+            "native_hold3": true,
+            "native_instant_ever": true,
+            "executed_physical_steps": 16,
+            "reason": "official_goal_contact_hold",
+            "full_task_success_evidence": false,
+            "seal_sha256": "fd025d100664bac9c8b52463db4083385f80d324b10d2110027fcf2ddf8d198c"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_040",
+          "result_sha256": "7921bbd27ce9551294bb506b2e02440cf9128461a48dc61b251fa8d813793f97",
+          "result_mtime": 1790766815.2355728,
+          "result": {
+            "cell": {
+              "index": 40,
+              "condition": 10,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "position_64",
+              "group": "position_shift",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "native_instant_ever": false,
+            "executed_physical_steps": 0,
+            "reason": "shifted_or_restored_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "beb55fc1d6de0f466bc3eb79e028db0caec2231091a0bbee7375fbdb0baf11c3"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_041",
+          "result_sha256": "9da38442dfb5264e12507236b2ec3ec0d059c86426d54c381d97e123e060fe05",
+          "result_mtime": 1790766823.507466,
+          "result": {
+            "cell": {
+              "index": 41,
+              "condition": 10,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "position_64",
+              "group": "position_shift",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "native_instant_ever": false,
+            "executed_physical_steps": 0,
+            "reason": "shifted_or_restored_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "d77e804fc622dc3363886c4b32fb94a6234cf7d40328f2829481f46f3f23e78c"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_042",
+          "result_sha256": "f8cf355f3f75a0ffb2182dd781f29d29c3dd7c7f080f47f033f40033b7c5610a",
+          "result_mtime": 1790766832.0593565,
+          "result": {
+            "cell": {
+              "index": 42,
+              "condition": 10,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "position_64",
+              "group": "position_shift",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "native_instant_ever": false,
+            "executed_physical_steps": 0,
+            "reason": "shifted_or_restored_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "ad9bfe04132d804327f75d4d731ac5e2d9f8946107560884b83486eb6a5f556e"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_043",
+          "result_sha256": "e7d6a8b7b9020b5e87fc4516c1b775695e03cf35567f7f24bb08a262d71a6672",
+          "result_mtime": 1790766840.8232448,
+          "result": {
+            "cell": {
+              "index": 43,
+              "condition": 10,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "position_64",
+              "group": "position_shift",
+              "source_index": 64,
+              "caddy_shift_world_m": [
+                0.0,
+                0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "native_instant_ever": false,
+            "executed_physical_steps": 0,
+            "reason": "shifted_or_restored_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "e0029a5c15dd80213638b8c3f4ab19580e4e316bda3c0c545a61a2c93f958bd1"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_044",
+          "result_sha256": "973ee2180ab08dcc75f30e15b3fed42bfb76b8d737d4ea868906573813227ac9",
+          "result_mtime": 1790766842.8112195,
+          "result": {
+            "cell": {
+              "index": 44,
+              "condition": 11,
+              "arm": "frame_fixed"
+            },
+            "condition": {
+              "id": "position_65",
+              "group": "position_shift",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                -0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "f5786ba9489bc94a8aa7715cd6d5b71f25eade881086b467dbd2c20778db27ec"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_045",
+          "result_sha256": "e11e375b011c4c873800f4dd859ef9e7cd84b3d6d88ed4f0a8827b7473625cae",
+          "result_mtime": 1790766844.3672,
+          "result": {
+            "cell": {
+              "index": 45,
+              "condition": 11,
+              "arm": "reference_fixed"
+            },
+            "condition": {
+              "id": "position_65",
+              "group": "position_shift",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                -0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "ff4e2bfc46749bf49ede04922d3c6caa634c4fd94b02d59e18f5d33ac92f2229"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_046",
+          "result_sha256": "3afcca04000e577e9609d1d1b721be0cfbe5efabd6bb5a98182d5f4803f54644",
+          "result_mtime": 1790766846.003179,
+          "result": {
+            "cell": {
+              "index": 46,
+              "condition": 11,
+              "arm": "entry_once"
+            },
+            "condition": {
+              "id": "position_65",
+              "group": "position_shift",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                -0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "be659a90752663ae7d2d1cb7f8f2a901c92909a1c66384986a8827a8678a8c25"
+          }
+        },
+        {
+          "relative_directory": "cells/cell_047",
+          "result_sha256": "85104b5458a0aa43dbc29477d83e1dcb1aa7a83b69e36006a3d0733bd1424aca",
+          "result_mtime": 1790766847.2551632,
+          "result": {
+            "cell": {
+              "index": 47,
+              "condition": 11,
+              "arm": "continuous"
+            },
+            "condition": {
+              "id": "position_65",
+              "group": "position_shift",
+              "source_index": 65,
+              "caddy_shift_world_m": [
+                0.0,
+                -0.004,
+                0.0
+              ],
+              "scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "near_entry_qualified": false,
+            "system_success": false,
+            "native_hold3": false,
+            "executed_physical_steps": 0,
+            "reason": "original_entry_failed",
+            "full_task_success_evidence": false,
+            "seal_sha256": "127d58e381e022a16581d5c5c0de992137969bfd201fcf9947d95f175db2429a"
+          }
+        }
+      ],
+      "finished_unix": 1790766888.766645
+    },
+    "insert": {
+      "rows": [
+        {
+          "relative_directory": "cells/00_id_680100_frame_fixed",
+          "result_sha256": "67d3344cf249020f497e17ce9e814f0f1f53a17e8333e0a0bf36bf16a25b0d89",
+          "result_mtime": 1790766678.2414353,
+          "result": {
+            "admitted_contour_frames": 54,
+            "angle": 0.2734921945590765,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 0,
+              "condition_seed": 680100,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "id",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 0,
+            "depth": -0.0026061185049764657,
+            "elapsed_seconds": 36.070807979000165,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.015318769882143401,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 1.3546698283755354e-05,
+            "max_last10_penetration": 5.93220270421992e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "afbe69e650baa33cc39d6149843a46643287e3d3a20b379f9d3dd64acc7afca2",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/01_id_680100_reference_fixed",
+          "result_sha256": "78e6131cd62dbeb2b63004f38f8fff491229003c81493d1d2c514964c9998907",
+          "result_mtime": 1790766790.831891,
+          "result": {
+            "admitted_contour_frames": 38,
+            "angle": 0.19164767358748866,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 0,
+              "condition_seed": 680100,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "id",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 1,
+            "depth": -0.00263900445765525,
+            "elapsed_seconds": 44.3378999029992,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.006752115240731846,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 5.31041601301626e-05,
+            "max_last10_penetration": 6.098781199110129e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "9957f3580917f3cfd799d01b93e9eddf4ff3253a5c231ac82d0f7f898096a805",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/02_id_680100_entry_once",
+          "result_sha256": "cdd415a18b8fefb507f40a8260d82cc15da15fb6e9011e5b4a45b1d2e52032ca",
+          "result_mtime": 1790766829.9473834,
+          "result": {
+            "admitted_contour_frames": 38,
+            "angle": 0.18620948040349788,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 0,
+              "condition_seed": 680100,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "id",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 2,
+            "depth": 0.019210712125618836,
+            "elapsed_seconds": 37.584677212000315,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0018916275674410194,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.861051996662474e-05,
+            "max_last10_penetration": 2.861051996662474e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "6f08ede2626ff0983334f2cc56daa8178ff5c651bafd5df1512f460ce0299ce1",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/03_id_680100_continuous",
+          "result_sha256": "0a791ff6c6ec0ce878a6b807a60a315f3395d1ffb166e9abd0992855ca8b3677",
+          "result_mtime": 1790766882.4107234,
+          "result": {
+            "admitted_contour_frames": 37,
+            "angle": 0.18612708158632038,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 0,
+              "condition_seed": 680100,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "id",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 3,
+            "depth": 0.019225034808104894,
+            "elapsed_seconds": 50.989897778999875,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 75,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0018991211123123523,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.85484525142726e-05,
+            "max_last10_penetration": 2.85484525142726e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "281b696863224cce062fb0f7c6c216cd6024676d330258d9d1bb17988ec52670",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 25,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/04_id_680101_frame_fixed",
+          "result_sha256": "f0d193923c838cbadc741a5bee07a2601615f8d40b80a1a368b682bde3882a8a",
+          "result_mtime": 1790766902.622475,
+          "result": {
+            "admitted_contour_frames": 240,
+            "angle": 0.2650322054666545,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 1,
+              "condition_seed": 680101,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 4,
+            "depth": -0.04997773384824306,
+            "elapsed_seconds": 18.70247549099986,
+            "final_controller_phase": "align",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.030150236710419283,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "f977b8c15f474ce7bfdf014b11e19ea7d843b6655b5067ba1fd39f55a6c9b6ff",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/05_id_680101_reference_fixed",
+          "result_sha256": "ea02357f15969d41af3a9c83937e5f32de038237b6f28dbf2664febb1fc4fb12",
+          "result_mtime": 1790766931.1661294,
+          "result": {
+            "admitted_contour_frames": 60,
+            "angle": 0.20275455348611465,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 1,
+              "condition_seed": 680101,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 5,
+            "depth": -0.0023333355012322326,
+            "elapsed_seconds": 27.07891194900003,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.02340133918812679,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 8.581643341481668e-05,
+            "max_last10_penetration": 6.401253731862054e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "6217a7613e57095c339ac45e11ea3714dff6a16561f75529452d764bebbdd624",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/06_id_680101_entry_once",
+          "result_sha256": "198cad45cdafe3e970a525137f9daac222c0a421f1ab19778218edaa2faed97b",
+          "result_mtime": 1790766960.0577853,
+          "result": {
+            "admitted_contour_frames": 52,
+            "angle": 0.19887045845838774,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 1,
+              "condition_seed": 680101,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 6,
+            "depth": 0.02420133131679573,
+            "elapsed_seconds": 27.435552138000276,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0022249587176578363,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.5259538221500545e-05,
+            "max_last10_penetration": 3.539679585994162e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "f117876c69873dfee04c8d1541b018f900be7fbe40de53f852c5dccc2a7b84b6",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/07_id_680101_continuous",
+          "result_sha256": "79bff2ed2a00154f3f90fbcd762fb17111e63bd9b0b0a67345be8563566e6084",
+          "result_mtime": 1790767012.8211713,
+          "result": {
+            "admitted_contour_frames": 52,
+            "angle": 0.19494322431897085,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 1,
+              "condition_seed": 680101,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 7,
+            "depth": 0.025189833777104733,
+            "elapsed_seconds": 51.27299228099946,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 120,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0024644252384511613,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 3.180963124207739e-05,
+            "max_last10_penetration": 3.180963124207739e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "a9ecb1af2570aab64e96c20aa163b7f532fca4c72b7173cb8e418d7961df6ed5",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 40,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/08_id_680102_frame_fixed",
+          "result_sha256": "b9820e582e2f7a758ab0797666581ecedd4658999e3b9b6dfd076c73244f683c",
+          "result_mtime": 1790767032.9569414,
+          "result": {
+            "admitted_contour_frames": 46,
+            "angle": 0.13853952930371133,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 2,
+              "condition_seed": 680102,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 8,
+            "depth": -0.0014001125304849793,
+            "elapsed_seconds": 18.68366164800136,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.015222309581611552,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 7.793861165829596e-05,
+            "max_last10_penetration": 3.027316726520676e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "bf773c163b287e3fda7148fd479c2d5f3d023c6940e1f56fe60095a35fcf3396",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/09_id_680102_reference_fixed",
+          "result_sha256": "fc295ec05136e69d9e51467edaca84f2fbc70f85cc1b3661af98d71222f81b9e",
+          "result_mtime": 1790767061.5806186,
+          "result": {
+            "admitted_contour_frames": 38,
+            "angle": 0.10595367132200947,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 2,
+              "condition_seed": 680102,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 9,
+            "depth": -0.0012083360283464844,
+            "elapsed_seconds": 27.165352514000915,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.005908405073114332,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.45231993309661e-05,
+            "max_last10_penetration": 3.090438633205142e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "f170e3ecfcf00b63508307f57c9fd6a1bee8164d4cbdad022886917196c578eb",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/10_id_680102_entry_once",
+          "result_sha256": "9203b049a672464fb0194f34ce959600031ef4c5005c1ba8714ee8cbcaba9b11",
+          "result_mtime": 1790767090.3362992,
+          "result": {
+            "admitted_contour_frames": 37,
+            "angle": 0.10237064202228141,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 2,
+              "condition_seed": 680102,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 10,
+            "depth": 0.03650454768421175,
+            "elapsed_seconds": 27.392880884000988,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0011834312798005443,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 7.843841502046321e-06,
+            "max_last10_penetration": 7.265842465421757e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "491d86807da0387b85526937a00cc8a386aa22849076a1fb2937a170aa81f0de",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/11_id_680102_continuous",
+          "result_sha256": "fd760526fa3088384c07ff931b036c80b1889114154920c3d930bef4f24f5272",
+          "result_mtime": 1790767132.235841,
+          "result": {
+            "admitted_contour_frames": 37,
+            "angle": 0.10073809613327937,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 2,
+              "condition_seed": 680102,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 11,
+            "depth": 0.03692173789495806,
+            "elapsed_seconds": 40.437332342000445,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 75,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0015334488543814325,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.204339174543013e-06,
+            "max_last10_penetration": 9.204339174543013e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "e031c70389026280342e482cde3ca9b175049b48d9194a93aa39e11a7db02286",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 25,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/12_id_680103_frame_fixed",
+          "result_sha256": "0a70b6c9707116fe1fa73ff1faaf27f716aa0cccba87d0d5855a0ee06108d788",
+          "result_mtime": 1790767152.3956237,
+          "result": {
+            "admitted_contour_frames": 240,
+            "angle": 0.1352789795232219,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 3,
+              "condition_seed": 680103,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 12,
+            "depth": -0.00035747723006265386,
+            "elapsed_seconds": 18.688896480998665,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.02182429416960731,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 6.22612144185955e-05,
+            "max_last10_penetration": 5.93127327309777e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "ace1a9934671d0e375804fa751feaf199d0c08384e3e58a7478945382e5fb534",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/13_id_680103_reference_fixed",
+          "result_sha256": "805bd67d252f7b65069dc34f8ba89ad747081a369db465adce457c35f48c5797",
+          "result_mtime": 1790767180.9993184,
+          "result": {
+            "admitted_contour_frames": 43,
+            "angle": 0.1247410340325275,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 3,
+              "condition_seed": 680103,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 13,
+            "depth": -0.0013428636270628204,
+            "elapsed_seconds": 27.153118722999352,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.009863934130834431,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.857088975640349e-05,
+            "max_last10_penetration": 6.069859261586402e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "b7c117ebb322dc25d63421d996dabc97930f5c8fa1bddb855afafece39cefae9",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/14_id_680103_entry_once",
+          "result_sha256": "7a9697dac5ad487a104479737d185e7ed9a665a3e5508aa7ad15c8a0fdd9232c",
+          "result_mtime": 1790767209.759015,
+          "result": {
+            "admitted_contour_frames": 41,
+            "angle": 0.11832692762704085,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 3,
+              "condition_seed": 680103,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 14,
+            "depth": 0.03613531074739529,
+            "elapsed_seconds": 27.427306760999272,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.002182127649165567,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 1.0489980414864286e-05,
+            "max_last10_penetration": 1.0489980414864286e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "835542f57e20cfe81de1beb6962575f1cfdbdc302f43143f7b4c6ac24ef24877",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/15_id_680103_continuous",
+          "result_sha256": "4913363471a1ffc954a0f0c0af4d4e5332c87c494263e7574ec1713dfc688e1c",
+          "result_mtime": 1790767254.974545,
+          "result": {
+            "admitted_contour_frames": 42,
+            "angle": 0.11841785798881328,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 3,
+              "condition_seed": 680103,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "id",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 15,
+            "depth": 0.03641802224719266,
+            "elapsed_seconds": 43.75126391000049,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 90,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0019584475693040825,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 1.0433289635566195e-05,
+            "max_last10_penetration": 1.0433289635566195e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "8e091523fd315328bb787bac13ad41c1585f667cdee8d6fd583064348bf5552a",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 30,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/16_size_680200_frame_fixed",
+          "result_sha256": "74511dd6758142ddca303dd3614dc5b279e59ef3e7e93b8d8cdd97d525f561f8",
+          "result_mtime": 1790767284.3062441,
+          "result": {
+            "admitted_contour_frames": 28,
+            "angle": 0.23322888537385292,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 4,
+              "condition_seed": 680200,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "size",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 16,
+            "depth": -0.004028128701185561,
+            "elapsed_seconds": 27.866063969000606,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0076347216000633485,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.529269347341946e-05,
+            "max_last10_penetration": 6.039814631151638e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "27186c8fc5e8451f449dfa251a4f28a2135a020ecc3e3da9f2bc67e980497cc3",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.024047320108632253,
+                0.004000000000000001
+              ],
+              "length": 0.08696110467951243,
+              "pixel_residual": 4.902209811780256,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/17_size_680200_reference_fixed",
+          "result_sha256": "657a0a4d10ff38f0c5eb025ab5e2b047d428a35f5d9f096cdd170baa07b56d24",
+          "result_mtime": 1790767321.2058702,
+          "result": {
+            "admitted_contour_frames": 27,
+            "angle": 0.18485401563496512,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 4,
+              "condition_seed": 680200,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "size",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 17,
+            "depth": -0.0023383394005395916,
+            "elapsed_seconds": 35.43268867199913,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0036624517012623778,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 6.818971353748107e-05,
+            "max_last10_penetration": 6.150149543198907e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "a270084d763d24b760e6cd44169ea5292d6425f97356fcdd0b41c1dd091071de",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.024047320108632253,
+                0.004000000000000001
+              ],
+              "length": 0.08696110467951243,
+              "pixel_residual": 4.902209811780256,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/18_size_680200_entry_once",
+          "result_sha256": "755710d4de7b382ca367fa7a7fcb196b27ccf4b9240264ebac4e5913db84fb04",
+          "result_mtime": 1790767358.8174934,
+          "result": {
+            "admitted_contour_frames": 28,
+            "angle": 0.18072532076321995,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 4,
+              "condition_seed": 680200,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "size",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 18,
+            "depth": 0.016391379050336333,
+            "elapsed_seconds": 36.104769994999515,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0017716311977904564,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 5.6022563089189235e-05,
+            "max_last10_penetration": 1.975605731589238e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "220b2fbb2297ed6b32927f2012d17cec6c72c92bb283d777e73036c62047495c",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.024047320108632253,
+                0.004000000000000001
+              ],
+              "length": 0.08696110467951243,
+              "pixel_residual": 4.902209811780256,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/19_size_680200_continuous",
+          "result_sha256": "802e94e54b60f88f645bd54386ded62a833eb8ba2b80a9598640aca601059d2d",
+          "result_mtime": 1790767402.1970644,
+          "result": {
+            "admitted_contour_frames": 27,
+            "angle": 0.18025039783897967,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 4,
+              "condition_seed": 680200,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "size",
+              "task": "insert",
+              "video": true
+            },
+            "cell_index": 19,
+            "depth": 0.01665165337049634,
+            "elapsed_seconds": 41.88366548799968,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 45,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0017115772440849653,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.1961329229207714e-05,
+            "max_last10_penetration": 2.1961329229207714e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "f89cf570c5b02c6f8e4eb9c9d1aef79bbfa5824f4cf9fdf1ddfe2a5813de6f1b",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.024047320108632253,
+                0.004000000000000001
+              ],
+              "length": 0.08696110467951243,
+              "pixel_residual": 4.902209811780256,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 15,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/20_size_680201_frame_fixed",
+          "result_sha256": "ac7fee4b1c71b76aa2cc27e17401bbe393ced7c6114f180bcd4bbb33c680e02a",
+          "result_mtime": 1790767422.3400953,
+          "result": {
+            "admitted_contour_frames": 50,
+            "angle": 0.2785710062508253,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 5,
+              "condition_seed": 680201,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 20,
+            "depth": -0.003633597175867125,
+            "elapsed_seconds": 18.67558895900038,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.03164093313933993,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 8.111183370546147e-05,
+            "max_last10_penetration": 6.182678280407143e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "553cba4e4a65ea45adce55c8f7fa75d5dfa2b7f5f729d0781876a3901f270d92",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.02364033435881615,
+                0.004000000000000001
+              ],
+              "length": 0.07333898961593913,
+              "pixel_residual": 3.6320393713824415,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/21_size_680201_reference_fixed",
+          "result_sha256": "ed6c64b7c0d8c163050a2db77235c41d2414663160c36a8144b65db7d50bbdd3",
+          "result_mtime": 1790767450.9585989,
+          "result": {
+            "admitted_contour_frames": 53,
+            "angle": 0.20950157983316323,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 5,
+              "condition_seed": 680201,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 21,
+            "depth": -0.0026097340615050305,
+            "elapsed_seconds": 27.160047081999437,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.031831358992173646,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.00011258518906333387,
+            "max_last10_penetration": 6.444853630279826e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "eb83604ee0d6168bd5c975361f1bbbb4e45e2b7086a9c395ffbc35f2a0c538b6",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.02364033435881615,
+                0.004000000000000001
+              ],
+              "length": 0.07333898961593913,
+              "pixel_residual": 3.6320393713824415,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/22_size_680201_entry_once",
+          "result_sha256": "7caa80aa4f909643b4655a8934ec5d9793fb904d87071cac0d3f27e91040405d",
+          "result_mtime": 1790767479.9211426,
+          "result": {
+            "admitted_contour_frames": 49,
+            "angle": 0.20930982396981831,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 5,
+              "condition_seed": 680201,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 22,
+            "depth": -0.003423092347985718,
+            "elapsed_seconds": 27.476522937999107,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.02019783285852577,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.11331762258182e-05,
+            "max_last10_penetration": 6.404931585513755e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "efc277ada75b893b1067cdf3b8834d5b02904403406c006b86e29836264fbc0c",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.02364033435881615,
+                0.004000000000000001
+              ],
+              "length": 0.07333898961593913,
+              "pixel_residual": 3.6320393713824415,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/23_size_680201_continuous",
+          "result_sha256": "3dee7e751f067c85efc8c995824b006a3cdbd3177bb07834fb1bce90733dbece",
+          "result_mtime": 1790767524.5270066,
+          "result": {
+            "admitted_contour_frames": 41,
+            "angle": 0.20745212220527626,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 5,
+              "condition_seed": 680201,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 23,
+            "depth": 0.011773072330613274,
+            "elapsed_seconds": 43.140265436000846,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 87,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0006894497037722032,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.1865156115468987e-05,
+            "max_last10_penetration": 6.4642941722853516e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "fe90fc82fc1e748a25f287c2f71f48f22b0840ff7dbc2af975bd494800f9fcfb",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.02364033435881615,
+                0.004000000000000001
+              ],
+              "length": 0.07333898961593913,
+              "pixel_residual": 3.6320393713824415,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 29,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/24_size_680202_frame_fixed",
+          "result_sha256": "78b01db0b29d355f21f61191890f7c41d018f986f7585ec22bf2282627125eda",
+          "result_mtime": 1790766772.77613,
+          "result": {
+            "admitted_contour_frames": 27,
+            "angle": 0.12281506254564259,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 6,
+              "condition_seed": 680202,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 24,
+            "depth": -0.00265776504175691,
+            "elapsed_seconds": 25.325942053999825,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.008960760992915524,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 3.704392019902511e-05,
+            "max_last10_penetration": 3.0790694574220345e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "2233ea3e2ba9397a9981119b81409c61026db5a0d1c962ad7a0ef623a9c0daad",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022897161580868183,
+                0.004000000000000001
+              ],
+              "length": 0.0872631627368654,
+              "pixel_residual": 5.63754635130051,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/25_size_680202_reference_fixed",
+          "result_sha256": "79ca711e871c0faf88972255f9c97a7b4a5f8c02afd257aa12e65a68d19a6203",
+          "result_mtime": 1790766802.3157406,
+          "result": {
+            "admitted_contour_frames": 27,
+            "angle": 0.09963991197469593,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 6,
+              "condition_seed": 680202,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 25,
+            "depth": -0.0016064003674604328,
+            "elapsed_seconds": 28.035759487000178,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.00964030878538305,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.2651900352012884e-05,
+            "max_last10_penetration": 6.183735243692201e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "0b8c12a4bd99defc13071a95d6fba765b98d9f6e901d4397d98eb12281c85f99",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022897161580868183,
+                0.004000000000000001
+              ],
+              "length": 0.0872631627368654,
+              "pixel_residual": 5.63754635130051,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/26_size_680202_entry_once",
+          "result_sha256": "01eaf927ea616836cddb5cf73cfdbc965555a8e2097e33ecb35f7272dc7ee430",
+          "result_mtime": 1790766831.4113648,
+          "result": {
+            "admitted_contour_frames": 26,
+            "angle": 0.09936952927937684,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 6,
+              "condition_seed": 680202,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 26,
+            "depth": -0.0015948523530131633,
+            "elapsed_seconds": 27.62588582099852,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0042506037471019,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 5.183955768728321e-05,
+            "max_last10_penetration": 6.1957340151269635e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "254558b143e64eb85e8d5ab73f874b54cae30a54e88418ce3af28e5dd0d883ad",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022897161580868183,
+                0.004000000000000001
+              ],
+              "length": 0.0872631627368654,
+              "pixel_residual": 5.63754635130051,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/27_size_680202_continuous",
+          "result_sha256": "3e5cf55a57aeeb4795285644210f09b453965cb4458abd465c7fbe606d6f4f21",
+          "result_mtime": 1790766866.4069223,
+          "result": {
+            "admitted_contour_frames": 25,
+            "angle": 0.09554336420464894,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 6,
+              "condition_seed": 680202,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 27,
+            "depth": 0.03702221974304515,
+            "elapsed_seconds": 33.45127244300056,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 39,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 10,
+            "lateral": 0.0013723600310312249,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 1.2065227018960673e-05,
+            "max_last10_penetration": 5.348493687363197e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "validated_success",
+            "physical_qualified": true,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "c253081f1f62e62e86fd018cabe2f93bc08a6d8d1fcf3fe3b3465bac8174204d",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": true,
+            "sustained_native_success": true,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022897161580868183,
+                0.004000000000000001
+              ],
+              "length": 0.0872631627368654,
+              "pixel_residual": 5.63754635130051,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 13,
+            "validated_success": true
+          }
+        },
+        {
+          "relative_directory": "cells/28_size_680203_frame_fixed",
+          "result_sha256": "0f3ef0bfd7fa49a5952b165e101ab2889e638412a488b2b805b9097e5424af35",
+          "result_mtime": 1790766887.4426613,
+          "result": {
+            "admitted_contour_frames": 38,
+            "angle": 0.13793410065672337,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 7,
+              "condition_seed": 680203,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 28,
+            "depth": -0.002334150184619486,
+            "elapsed_seconds": 19.63394562100075,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.012845883180915556,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 6.771464163427621e-05,
+            "max_last10_penetration": 5.98636244386361e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "9d9d87afa373dd69c87fc01c1c306131ea8b5754846e3f1e5add562af9729299",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022038534706582073,
+                0.004000000000000001
+              ],
+              "length": 0.07470844899677237,
+              "pixel_residual": 3.6290240056514707,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/29_size_680203_reference_fixed",
+          "result_sha256": "73683895c055e8d94316d1d4718d9be4fd6505968a632198d06768cc3fd01b67",
+          "result_mtime": 1790766918.746279,
+          "result": {
+            "admitted_contour_frames": 36,
+            "angle": 0.0928122560785238,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 7,
+              "condition_seed": 680203,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 29,
+            "depth": -0.0008223092947979525,
+            "elapsed_seconds": 29.71789072899992,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.015318102049184964,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.010159486808702e-05,
+            "max_last10_penetration": 6.171028730055377e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "9eccd5557dfbf17c68e8ce5c39c3b396624c770f9830cc94480a10384aa09aff",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022038534706582073,
+                0.004000000000000001
+              ],
+              "length": 0.07470844899677237,
+              "pixel_residual": 3.6290240056514707,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/30_size_680203_entry_once",
+          "result_sha256": "034439dce9479c270a5b333cb39e7cf2001f25926bfdd30771e5e981728b1d94",
+          "result_mtime": 1790766948.4739225,
+          "result": {
+            "admitted_contour_frames": 31,
+            "angle": 0.09290999254142265,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 7,
+              "condition_seed": 680203,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 30,
+            "depth": -0.0003815150170469158,
+            "elapsed_seconds": 28.239831234999656,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0038208741991706844,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.656519816647441e-05,
+            "max_last10_penetration": 6.1549760885417005e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "66bfe2bd1227194cb065d6f58a14ff1c72e9cdf963706b3ddff1f53dc2a15919",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022038534706582073,
+                0.004000000000000001
+              ],
+              "length": 0.07470844899677237,
+              "pixel_residual": 3.6290240056514707,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/31_size_680203_continuous",
+          "result_sha256": "2d3edb9d2cad7d9fcbaaddefd46bdbf418e955570b5c58e152355da9c0825f44",
+          "result_mtime": 1790766987.7614605,
+          "result": {
+            "admitted_contour_frames": 31,
+            "angle": 0.09176614189504889,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 7,
+              "condition_seed": 680203,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "size",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 31,
+            "depth": 0.03992790529072616,
+            "elapsed_seconds": 37.94329893199938,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 57,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 10,
+            "lateral": 0.0014961797930740474,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 3.3744873436229207e-06,
+            "max_last10_penetration": 8.924145898178302e-07,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "validated_success",
+            "physical_qualified": true,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "bb70c65a96236f3bef7bdebc9ee2c77e3e03b0c1515b8e38a2772a261b39342b",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": true,
+            "sustained_native_success": true,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.022038534706582073,
+                0.004000000000000001
+              ],
+              "length": 0.07470844899677237,
+              "pixel_residual": 3.6290240056514707,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 19,
+            "validated_success": true
+          }
+        },
+        {
+          "relative_directory": "cells/32_position_680300_frame_fixed",
+          "result_sha256": "3b17688c5f2446bd4df60907010cdcd2e5108f452cb148a3f5bd438eae350abf",
+          "result_mtime": 1790767008.233224,
+          "result": {
+            "admitted_contour_frames": 24,
+            "angle": 0.3090521947399326,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 8,
+              "condition_seed": 680300,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 32,
+            "depth": 0.04332994468977494,
+            "elapsed_seconds": 19.008033619000344,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.044358045684656996,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "116e458ddfd35167e65de770d895f75f451aca9b3df695e55bf5cf74d54dad69",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/33_position_680300_reference_fixed",
+          "result_sha256": "97895281df985d664c6c6c1acb865dd7158b475b0530e62c875e8f0c9de06638",
+          "result_mtime": 1790767036.5849001,
+          "result": {
+            "admitted_contour_frames": 27,
+            "angle": 0.176017015150961,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 8,
+              "condition_seed": 680300,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 33,
+            "depth": 0.04142308371885112,
+            "elapsed_seconds": 26.890939240998705,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.04169449463988661,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "7917b217432bbeed53685f884e0d203f41d104987266ae0d2285ffc486bfc93c",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/34_position_680300_entry_once",
+          "result_sha256": "83cb92321a9dbfd8a64312fe6cb1e17d1274c7e794856846d7312bb3a8d04866",
+          "result_mtime": 1790767063.8245935,
+          "result": {
+            "admitted_contour_frames": 22,
+            "angle": 0.17617754178056513,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 8,
+              "condition_seed": 680300,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 34,
+            "depth": 0.0008693558961517303,
+            "elapsed_seconds": 25.87018949999947,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.032050150849180746,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.875510863683642e-05,
+            "max_last10_penetration": 3.0684869301780736e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "74b83a424571faa8840c36d0431b4b4fae39e1f02b9d7dde17c3a9d1437d114f",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/35_position_680300_continuous",
+          "result_sha256": "aba400365b046cebfa59bd00f9b49c776446222c3ce3b020b4bc9e77e024da08",
+          "result_mtime": 1790767102.3841665,
+          "result": {
+            "admitted_contour_frames": 31,
+            "angle": 0.1685272901924517,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 8,
+              "condition_seed": 680300,
+              "encoder": "task_trained_lila",
+              "family": 0,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 35,
+            "depth": 0.021740424614314444,
+            "elapsed_seconds": 37.08829479800079,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 57,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0017483392332300533,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.95954005315939e-05,
+            "max_last10_penetration": 2.95954005315939e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "217e9104bb56947a5b7c61bbfa19a2d1a87eb965553bbaec9b605e28612cef03",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215712321055,
+                0.004000000000000001
+              ],
+              "length": 0.058876960889226886,
+              "pixel_residual": 3.3963445250520232,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 19,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/36_position_680301_frame_fixed",
+          "result_sha256": "e325a5f8b6382a7ee84716bead4d259189833faa5cf52f6b212f35261f288530",
+          "result_mtime": 1790767122.9839413,
+          "result": {
+            "admitted_contour_frames": 240,
+            "angle": 0.3010776014512616,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 9,
+              "condition_seed": 680301,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 36,
+            "depth": 0.02729844751872203,
+            "elapsed_seconds": 19.116370733998338,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.06471597721155468,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "af2a687bf9add5201e10261ca75470ee6f1a7d3fc2067933d6cc45ac89d1a1db",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/37_position_680301_reference_fixed",
+          "result_sha256": "9ced14a0071d723f186857e36fec18cac9cef0c7991f04a33dbb5cf099820c6f",
+          "result_mtime": 1790767152.247625,
+          "result": {
+            "admitted_contour_frames": 71,
+            "angle": 0.2093775045610741,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 9,
+              "condition_seed": 680301,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 37,
+            "depth": 0.03320246852884457,
+            "elapsed_seconds": 27.89129767799932,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.053084152557555886,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "318dc3b21f107905d7f2b902cdf65035ce1a1b992e1c688ae8878544cacab663",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/38_position_680301_entry_once",
+          "result_sha256": "a9d368514589cc137753e2599722083a0772b2f4fea46536da52c8717b6aba76",
+          "result_mtime": 1790767182.0113077,
+          "result": {
+            "admitted_contour_frames": 60,
+            "angle": 0.20848843081399043,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 9,
+              "condition_seed": 680301,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 38,
+            "depth": -0.002695276064248443,
+            "elapsed_seconds": 28.300946752999153,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.02273784791286506,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 7.017102103330989e-05,
+            "max_last10_penetration": 6.323509294401055e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "85e487711fe4e13d2f2be745579deef7087559fd5c76ccca0042879ba313549d",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/39_position_680301_continuous",
+          "result_sha256": "fc8752fabce48855a9f28d3741e4f3e21c0bcd89cdf380feb0d96959ec240c71",
+          "result_mtime": 1790767239.8547013,
+          "result": {
+            "admitted_contour_frames": 58,
+            "angle": 0.20225242270829039,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 9,
+              "condition_seed": 680301,
+              "encoder": "task_trained_lila",
+              "family": 1,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 39,
+            "depth": 0.024802266727133468,
+            "elapsed_seconds": 56.37575402599941,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 138,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0025788787071917324,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.5854341404283682e-05,
+            "max_last10_penetration": 2.5854341404283682e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "a3c6fa883c6c03771941752dbb434c5d7ae0e3010681632493e430d2ec9aeb8c",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.015617215704353031,
+                0.004000000000000001
+              ],
+              "length": 0.05033020146841103,
+              "pixel_residual": 3.396344525052004,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 46,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/40_position_680302_frame_fixed",
+          "result_sha256": "f0e7884ccf095225ab9404efba4aeec24ca5ee54f22cbbe13342cad36e6934bf",
+          "result_mtime": 1790767260.4584885,
+          "result": {
+            "admitted_contour_frames": 240,
+            "angle": 0.09096409769225683,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 10,
+              "condition_seed": 680302,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 40,
+            "depth": 0.03331370318014094,
+            "elapsed_seconds": 19.13581244800116,
+            "final_controller_phase": "hold",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.055765410851860535,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 0.0,
+            "max_last10_penetration": 0.0,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "405c49b74e39dd0a86d11246361e6b29042cce7b4f986a7ca2d8663ff44c7af3",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/41_position_680302_reference_fixed",
+          "result_sha256": "598deafd4f3d680a45b90ad334ec544023245a5edd739536af70c1e7bcd07cd5",
+          "result_mtime": 1790767290.0101862,
+          "result": {
+            "admitted_contour_frames": 47,
+            "angle": 0.13852957645366326,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 10,
+              "condition_seed": 680302,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 41,
+            "depth": -0.0010921199280514754,
+            "elapsed_seconds": 28.180677426998955,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.015030085718124309,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 9.655005640965017e-05,
+            "max_last10_penetration": 6.289394600553499e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "45888a1ea51c839da4d32e12d1bd537bae6d4b1fda110c21b476a88efa9dae04",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/42_position_680302_entry_once",
+          "result_sha256": "1da44c9c97c0525d6cefda8cde9fc6d56f131be68e1627a18686b904d1d2f339",
+          "result_mtime": 1790767319.9458828,
+          "result": {
+            "admitted_contour_frames": 51,
+            "angle": 0.13429909032195161,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 10,
+              "condition_seed": 680302,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 42,
+            "depth": 0.017095522789035904,
+            "elapsed_seconds": 28.471620210000765,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.001241524942652373,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 4.337206545098065e-05,
+            "max_last10_penetration": 1.2577289975244932e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "af13bb8152d9f1337dcd9fae041714e96dd4a5ad47e7b91772a826dd1a0e7ac7",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/43_position_680302_continuous",
+          "result_sha256": "df7e10d1142ffa8a679783c4d8bea4854e173ba26cd93e79ef8e0f3b9c2d4f28",
+          "result_mtime": 1790767373.6173465,
+          "result": {
+            "admitted_contour_frames": 52,
+            "angle": 0.13142402765171612,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 10,
+              "condition_seed": 680302,
+              "encoder": "task_trained_lila",
+              "family": 2,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 43,
+            "depth": 0.0182128417686977,
+            "elapsed_seconds": 52.20773752700006,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 120,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.001106701000964238,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 2.029131595565072e-05,
+            "max_last10_penetration": 2.029131595565072e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "eab4b10706067d41c980c8552fe2478d6a3039ba2804cacb9b66b395ffa7698d",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.0150048938716158,
+                0.004000000000000001
+              ],
+              "length": 0.059974463639164796,
+              "pixel_residual": 4.0276829646216,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 40,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/44_position_680303_frame_fixed",
+          "result_sha256": "9745eb4b81116a23105572aa9cc0f4e024226fa7023c71289a9ab98f00dac23a",
+          "result_mtime": 1790767394.125144,
+          "result": {
+            "admitted_contour_frames": 46,
+            "angle": 0.19967779065962946,
+            "cell": {
+              "arm": "frame_fixed",
+              "condition_index": 11,
+              "condition_seed": 680303,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 44,
+            "depth": -0.002095924186073801,
+            "elapsed_seconds": 19.043899539999984,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.019066626014426477,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 6.78926966722827e-05,
+            "max_last10_penetration": 5.86167728696588e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": null,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "e6b6b2e574910d490f26344013891a0e8d395ea3f8455458f79d1505e17797b7",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/45_position_680303_reference_fixed",
+          "result_sha256": "819c745568db6212f488798d06be0df71f37e0763f6f487d30f7c0c1f5771c5e",
+          "result_mtime": 1790767423.812017,
+          "result": {
+            "admitted_contour_frames": 45,
+            "angle": 0.179981630610054,
+            "cell": {
+              "arm": "reference_fixed",
+              "condition_index": 11,
+              "condition_seed": 680303,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 45,
+            "depth": -0.0021156045563071116,
+            "elapsed_seconds": 28.231768089999605,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 0,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.019825403179766953,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 6.713137537012565e-05,
+            "max_last10_penetration": 5.870486688584288e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "3c1ba8682a8d92dce0ea96dd74a7dff8a70640baf7d2e7500b8cf8b01198da71",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 0,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/46_position_680303_entry_once",
+          "result_sha256": "53f5258e450e71eb3c987dde4f0d4c052f83250313910b41801e9e783daaf133",
+          "result_mtime": 1790767453.6824596,
+          "result": {
+            "admitted_contour_frames": 45,
+            "angle": 0.18026733788712224,
+            "cell": {
+              "arm": "entry_once",
+              "condition_index": 11,
+              "condition_seed": 680303,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 46,
+            "depth": -0.00014210306140194004,
+            "elapsed_seconds": 28.376858101000835,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 3,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.003007620685633075,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 8.39189006125739e-05,
+            "max_last10_penetration": 5.83679309747788e-06,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "3f1d6d0d9ec800d64572708d64d36b8201325bab4be4fb74c879baa1446d81ee",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 1,
+            "validated_success": false
+          }
+        },
+        {
+          "relative_directory": "cells/47_position_680303_continuous",
+          "result_sha256": "2a0e52022f13073e68a8ea17e42b017f918441f9a39c5ebe17548f56a8f72a98",
+          "result_mtime": 1790767502.2680569,
+          "result": {
+            "admitted_contour_frames": 45,
+            "angle": 0.17588065366831596,
+            "cell": {
+              "arm": "continuous",
+              "condition_index": 11,
+              "condition_seed": 680303,
+              "encoder": "task_trained_lila",
+              "family": 3,
+              "split": "position",
+              "task": "insert",
+              "video": false
+            },
+            "cell_index": 47,
+            "depth": 0.02703652385942986,
+            "elapsed_seconds": 47.23022945000048,
+            "final_controller_phase": "insert",
+            "fresh_test_claim": false,
+            "frozen_neural_weights_unchanged": true,
+            "gradient_steps": 99,
+            "inactive_rotation_z_exact_zero": true,
+            "last10_successes": 0,
+            "lateral": 0.0024637749745943065,
+            "max_arm_joint_limit_violation_rad": 0.0,
+            "max_finger_joint_limit_violation_m": 0.0,
+            "max_full_trajectory_contact_penetration": 1.708207018636925e-05,
+            "max_last10_penetration": 1.708207018636925e-05,
+            "mechanical_valid": true,
+            "neural_precision_commands": 228,
+            "outcome_class": "ordinary_task_failure",
+            "physical_qualified": false,
+            "reference_t": 0,
+            "runtime_pixel_inputs": [
+              "rgb",
+              "actor_mask",
+              "held_object_mask",
+              "goal_mask"
+            ],
+            "runtime_public_fields": [
+              "K",
+              "camera_position",
+              "camera_rotation",
+              "position",
+              "rotation"
+            ],
+            "schema": "prove.p68-insert-physical-result.v1",
+            "seal_sha256": "1cdff5de8b9d539cd37f22e6c6f88525731527dee61c4fb4aaadb803325f4834",
+            "secure_grasp_assumed": true,
+            "steps": 240,
+            "success": false,
+            "sustained_native_success": false,
+            "task_success_denominator_included": true,
+            "tool_calibration": {
+              "half": [
+                0.014562637795801432,
+                0.004000000000000001
+              ],
+              "length": 0.05150752008937344,
+              "pixel_residual": 3.213430650357753,
+              "source": "RGB visible-mask bbox plus known own-tool pose"
+            },
+            "trajectory_finite": true,
+            "update_events": 33,
+            "validated_success": false
+          }
+        }
+      ],
+      "finished_unix": 1790767524.5270066
+    }
+  }
+}

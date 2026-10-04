@@ -1,0 +1,24 @@
+# Machine-local dependencies and outputs
+local/
+data/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.cache/
+.DS_Store
+.env
+.env.*
+# New experiments and replay outputs are staged deliberately when frozen
+runs/
+outputs/
+task_packages/*/runs/
+task_packages/*/materialized/
+task_packages/*/task_runs/
+# Task solution models and historical acceptance files ARE versioned.

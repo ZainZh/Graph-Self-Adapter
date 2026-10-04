@@ -1,0 +1,31 @@
+"""Explicit candidate binding for reused P29 functions; no change to sealed v1 code.
+
+A candidate JSON chooses task-local base checkpoint, meta-training bank and adapter
+round. Dependency injection happens before importing the selected pipeline module.
+Every referenced input is hash-checked. It never changes physical task/evaluation.
+"""
+import argparse,json,runpy,sys
+from pathlib import Path
+import torch
+from prove.fast_adapter.object_interaction_adapter import ObjectSkill
+
+def configure(path):
+    import tools.fast_adapter.p29_common as common
+    cfg=json.loads(Path(path).read_text())
+    for b in cfg['bindings']:assert common.digest(b['path'])==b['sha256'],b['path']
+    old_base=common.load_base
+    def selected_base(task,round_name='base_final'):
+        if task!=cfg['task'] or round_name!='base_final':return old_base(task,round_name)
+        net=ObjectSkill().cuda();net.load_state_dict(torch.load(cfg['base_checkpoint'],map_location='cpu',weights_only=True)['state'])
+        return net.eval().requires_grad_(False)
+    common.load_base=selected_base
+    import tools.fast_adapter.p29_data as data
+    old_load=data.load_stage
+    def selected_stage(task,stage,role=None):
+        if task==cfg['task'] and stage=='meta':stage=cfg['meta_stage']
+        return old_load(task,stage,role)
+    data.load_stage=selected_stage
+    return cfg
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--candidate',required=True);p.add_argument('module');p.add_argument('args',nargs=argparse.REMAINDER);a=p.parse_args();configure(a.candidate)
+    sys.argv=[a.module,*a.args];runpy.run_module(a.module,run_name='__main__')

@@ -1,0 +1,23 @@
+{
+  "claims": "Selection only from completed development; final all four versions retained; no further graph/weight updates. Not fresh held-out.",
+  "criterion": "Highest development strict success; cost then earlier version break ties",
+  "denominator_per_version": 10,
+  "development_strict": {
+    "R0": 9,
+    "R1": 4,
+    "R2": 4,
+    "R3": 10
+  },
+  "final_scope_sha256": "a03b334b7928ca4fedcb81047dfdd3d01121194438d3068896a83dca9d434e8e",
+  "r3_total_actions": 4516,
+  "recommended_version": "R3",
+  "reviewer": "root",
+  "schema": "prove.p70-development-selection.v1",
+  "sources": {
+    "R0": "1f03a747d157fe222d6a675d14b7666400303c03a1766745db57241287441ecc",
+    "R1": "7c3a2b8398ac238bebdf81874ae6b3598d0b95480a2dac81e5596a1eb9ef99af",
+    "R2": "657aeb6f95af6e474deeecfeebc9627d01652b06e2e53ebd35017fc633313c0d",
+    "R3": "74085cb2e3f8cd8adcd93c3b3d68eb2b5e2f716c5f945a47ab5dbbfc163f16d2"
+  },
+  "status": "sealed_before_final_execution"
+}

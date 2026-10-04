@@ -1,0 +1,84 @@
+{
+  "additional_outer_updates_authorized": false,
+  "all_40_final_completed_no_errors": true,
+  "archive": {
+    "does_not_start_physics": true,
+    "no_agent_monitor_required": true,
+    "receipt_directory": "evaluations/outer_rsi_p70_object_graph_v01/archive_return_v01",
+    "service": "prove-p70-remaining-archive-v01.service",
+    "status": "finite_background_return_in_progress"
+  },
+  "bindings": {
+    "FINAL_REGRESSION_SCOPE.md": "a03b334b7928ca4fedcb81047dfdd3d01121194438d3068896a83dca9d434e8e",
+    "PLAN.md": "feb5505001ed3ecfaba5b008850607d65c0961da8da47ffd0a0351d5175ba86b",
+    "ROOT_REPORT_ZH.md": "82c2d28c41dda333b27865fe4c833c7e9b41a3333e61569f59f02b549ddd3bd3",
+    "final_v01/DEVELOPMENT_SELECTION.json": "b6a85f743250ede8a11988e22aabf0ff8a17b64f6bdf8f74ea6ffc52b0331be0",
+    "final_v01/LOCAL_RETURN_RECEIPT.json": "c543249bc4f392300f168bb0960d44810a66807eaffa6994a5f20af8c558e024",
+    "final_v01/PAIRED_SUMMARY.json": "33fa65b298291dcfd6c373eb441d34b9963110930889f9b1c2fd9af097b43582",
+    "final_v01/RETURN_AUDIT.json": "d6ab92352c998e653a081171b41c4317eb1ad2f18912917fcc779c53834d05ef",
+    "final_v01/ROOT_SEMANTIC_AUDIT.json": "5fa974fb82793a4b4bbbd86443674f28c744d842dca46045f1cbab7570e96c82",
+    "full_development/R3/DEVELOPMENT_PAIRED_AUDIT.json": "891631832a096c8f0144e4dc015e17041cafec6148c835f188bab85af60bbe83",
+    "presentation_rescue_init33_v01/paired/MANIFEST.json": "a95006f8eef68f60e87477e3952e802474cf7a5ca7d4efee4f73bda7002a5f9a"
+  },
+  "development": {
+    "R0": [
+      9,
+      10
+    ],
+    "R1": [
+      4,
+      10
+    ],
+    "R2": [
+      4,
+      10
+    ],
+    "R3": [
+      10,
+      10
+    ]
+  },
+  "fast_adapter_core_changed": false,
+  "frozen_regression": {
+    "R0": [
+      8,
+      10
+    ],
+    "R1": [
+      4,
+      10
+    ],
+    "R2": [
+      4,
+      10
+    ],
+    "R3": [
+      9,
+      10
+    ]
+  },
+  "local_result_and_metadata_returned": true,
+  "not_claimed": [
+    "fresh held-out",
+    "monotonic iteration improvement",
+    "gradient-only contribution",
+    "arbitrary object/size transfer",
+    "real robot",
+    "from scratch one-shot learning"
+  ],
+  "physical_workers_finished": true,
+  "primary_paired_r3_vs_r0": {
+    "harms": [],
+    "rescues": [
+      7
+    ]
+  },
+  "public_gt_masks_and_boolean_supervisor_disclosed": true,
+  "recommended_version_selected_before_regression": "R3",
+  "reviewer": "root",
+  "runtime_continuous_object_gt_for_actions": false,
+  "schema": "prove.p70-root-final-acceptance.v1",
+  "scientific_work_complete": true,
+  "server_sealed_raw_hash_audit_pass": true,
+  "status": "completed_valid_bounded_outer_repair_with_negative_candidates"
+}
