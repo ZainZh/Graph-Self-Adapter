@@ -1,0 +1,450 @@
+{
+  "dry_run": false,
+  "files": [
+    {
+      "path": "FINAL_SELECTION.json",
+      "sha256": "e8e3a616f0a5d3d540139940e6fdf82b8dc4d620fd1dc0a895406ab9bffe4040"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7c06c3e3f1c1e0b5f778502286f33dd7f00b8540867bba8923278c868ac374d1"
+    },
+    {
+      "path": "provenance/INPUT_SELECTION.json",
+      "sha256": "5fdfe17b2bbba9f62a8b7c352f73e50c1832e980af90f7603ee83e2b7109036e"
+    },
+    {
+      "path": "provenance/development_evidence/000_R0_REPORT.json",
+      "sha256": "8933b269da0d4f9c8cc4f478d2b1185608005f3a6afa3ba3b993f33387a21bfb"
+    },
+    {
+      "path": "provenance/development_evidence/001_R1_REPORT.json",
+      "sha256": "a275ff7fd5a1e373e070bead7a23f5732a475cfff30b09fd2c7a01d12a230f2e"
+    },
+    {
+      "path": "provenance/development_evidence/002_R2_REPORT.json",
+      "sha256": "05955a8f6eca0af61223037f74e754f3591569ce2a41ff384ce67d18f4ccba75"
+    },
+    {
+      "path": "provenance/development_evidence/003_R3_REPORT.json",
+      "sha256": "957fb6f117a4c57a53e985127a47931439975c9b9cdfe6706d47489d49248724"
+    },
+    {
+      "path": "run.sh",
+      "sha256": "32618ae79b2986f8408d5ac2fb9835ec234309aeeb83dc90521f66cf579c1f57"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/SOURCE_FREEZE.json",
+      "sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/EXTERNAL_ASSET_BINDINGS.json",
+      "sha256": "647cd20cac0a2b7e1f5f8e171af1f432cc3efec7b510a1c8e94379e5b9ff121f"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/R2_FEEDBACK_CONTRACT.json",
+      "sha256": "db279f7170707c61717f7b5cd20cc1fe5c3d71ce6cf6ae83be9f50b85b93716a"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/R3_DRAWER_TRANSLATION_DIAGNOSTIC.json",
+      "sha256": "72a096c965aade52e292a1eba736ad6cead276def13fdecb173e10711596cde5"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/R3_OVERRIDES.json",
+      "sha256": "c9ef7eabfe54c8825cfea07c7a6a4533abb452e892a9b4b90c48752a221ee22e"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/R3_VALIDATION_SCOPE.json",
+      "sha256": "70d39e381a8eb53ce2f845e9c20bfc65531c94d165e5990394844f01632266ce"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/ROOT_TASK_PLAN.json",
+      "sha256": "0f52c9a87f7414e4d2b2fad2d8a5e7d2d4892feb2ab3546a55943cac54bba9bf"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/evaluations/twin_rsi_v01/SCOPE.json",
+      "sha256": "8e5e7ce4d01757bd4be7d9b8ba03a52a58fe0988a252794f5d5947265e3d2a31"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/prove/fast_adapter/twin_local_skill.py",
+      "sha256": "7aa549ed71dd29bbfbe5542d57031a4f0ee36f2ffbc2da5ec773cb57f8a2a9fd"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/prove/task_graph/twin_graph.py",
+      "sha256": "09a51bc92bc3aed7f0faae56b3cca84d748b0ae4865e4d173fe6672485e713ca"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/prove/task_graph/twin_physics.py",
+      "sha256": "e056d24401b52a3b13e8ec267d17733d6277ba9c593139fd209a2810dfcd2cbc"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/tools/task_graph/twin_rsi.py",
+      "sha256": "5bdca85558e4d1151f0108d6aff26ebac2085cdeec9c96097ea5e8833514e39f"
+    },
+    {
+      "path": "source_snapshots/2c7f3041793edb43/tools/task_graph/twin_train_skills.py",
+      "sha256": "9b627ae5e795b866be1bb53ba9211953341545a220760e06e8556b1ed753afd9"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/SOURCE_FREEZE.json",
+      "sha256": "702725abfe97487f4dc81630e4b23e5536364d867cff2dd9edb2478b200e6c55"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/EXTERNAL_ASSET_BINDINGS.json",
+      "sha256": "647cd20cac0a2b7e1f5f8e171af1f432cc3efec7b510a1c8e94379e5b9ff121f"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/R2_FEEDBACK_CONTRACT.json",
+      "sha256": "db279f7170707c61717f7b5cd20cc1fe5c3d71ce6cf6ae83be9f50b85b93716a"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/R2_OVERRIDES.json",
+      "sha256": "57730dcbd72bd2523d5a7534bf5411ea6fd77362ed906d1d71e155549660622d"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/R2_VALIDATION_SCOPE.json",
+      "sha256": "0e13c46a12da7fd498ba2aae30906b5b6a5cb1b143efc71547137bef8cb1d159"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/ROOT_TASK_PLAN.json",
+      "sha256": "0f52c9a87f7414e4d2b2fad2d8a5e7d2d4892feb2ab3546a55943cac54bba9bf"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/evaluations/twin_rsi_v01/SCOPE.json",
+      "sha256": "8e5e7ce4d01757bd4be7d9b8ba03a52a58fe0988a252794f5d5947265e3d2a31"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/prove/fast_adapter/twin_local_skill.py",
+      "sha256": "7aa549ed71dd29bbfbe5542d57031a4f0ee36f2ffbc2da5ec773cb57f8a2a9fd"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/prove/task_graph/twin_graph.py",
+      "sha256": "57eac7ab4c30319e54aee1bfefc3d56b3610b9297d54c5aec80adefda3e685fc"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/prove/task_graph/twin_physics.py",
+      "sha256": "15dcb7995f5841b92a2bf910e3d83e0bf2b443cda7877ce161f5f0dcfec8f1b8"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/tools/task_graph/twin_rsi.py",
+      "sha256": "3af7b9f00f76e94d3751464475b8b8dc56fdd98b6ed54370401f8eb407089045"
+    },
+    {
+      "path": "source_snapshots/702725abfe97487f/tools/task_graph/twin_train_skills.py",
+      "sha256": "e5ecf64840faf8c51be4a84fe8b7211c7e71ea86b04950a6230263ee01826f44"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/CANDIDATE_FREEZE.json",
+      "sha256": "1b6a031db73ed612595bf83d6bc5eec0b46f3fde9cc450b00347d6084b586359"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "853c22720e7badbfbced15b32376562fbd57aaccdf95b810879e5f644a2ac09b"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/MANIFEST.json",
+      "sha256": "206454f676bcec061c11ec97c7ab052719dd684cc276e6ffff7ffa5f7a85185a"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/graph/task_graph.json",
+      "sha256": "d75f363f089b6211ce543e4b8be3964605f8447472387475fabc904651bcddcb"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/models/local_skill.npz",
+      "sha256": "59c3eddb1e9fef986f0394a9164110228361dbb04e7dbeb17f7e631c7c5b199e"
+    },
+    {
+      "path": "tasks/twin_collect_apple/solution/refs/visible_centroids.json",
+      "sha256": "0424a2614e31eca4b361a6311706d93e5e002d298e429b4beabd962c249dcef2"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/CANDIDATE_FREEZE.json",
+      "sha256": "36d5aaea70afb03725f41e6f4ffe9b81794225d5543160cb293f1867235f047c"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "8a343e864470c2ca927a9b612495157fde49594cd9d5429a6668c8256c24a12a"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/MANIFEST.json",
+      "sha256": "3e43dc09fcce94302a55674b1ab2b814497d99ce105b3229bb03e89ffd12145d"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/graph/task_graph.json",
+      "sha256": "d976f26d65a3004c8b562f5b7d365909f067eba6e4d88c6e83e32bf408ef4e16"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/models/local_skill.npz",
+      "sha256": "709ca2a196710b07e33452b68f909aa0bd8bbccbabe3762250aedfef2ab4b46d"
+    },
+    {
+      "path": "tasks/twin_collect_cubes/solution/refs/visible_centroids.json",
+      "sha256": "7282398bfc4b3f51329c969fda346b6baebc8ff19085c25596af7b81f1fb0ed0"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/CANDIDATE_FREEZE.json",
+      "sha256": "e1b77b5694e39293982bf0a1995e57fa5d73bb62f7b9d57611193666629e8cbe"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "c718296ed9c6967efc0f1f9f4e3617e30da2ab190a39c09c19aa090039bb0a83"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/MANIFEST.json",
+      "sha256": "f77e4e252c3c9b3e40776bb44a5b133f0f59d2460f22d88b21f2266d09ff001d"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/graph/task_graph.json",
+      "sha256": "e829b4a5360cf0c47c6bd49f76d090359c959ddd6e683b154e9d1fee6199cc60"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/models/local_skill.npz",
+      "sha256": "842bed8552c89ff09ca327585f91a16d10ca4730b43db3c10907c986f05617a1"
+    },
+    {
+      "path": "tasks/twin_hanging_mug/solution/refs/visible_centroids.json",
+      "sha256": "9c6522f2287ee9256a502d8efe3bd22236b3f44589035bb5a72fc29fb82e675f"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/CANDIDATE_FREEZE.json",
+      "sha256": "c538458276cd9338d396666e6d975fe58aef8975ac41538b19e03d4f2c7e4ff9"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "649a307dcecc7db5d5d3de49a01dbb3cfb91b1c6f45022fe27b48235d5959ded"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/MANIFEST.json",
+      "sha256": "c9effaf51521aa6b73d2e145537fd7c057de040734dc5e90df3d65cd49913677"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/graph/task_graph.json",
+      "sha256": "28d0b762fc1884ac8b8d678a4ab9c9d1b79442a8a0734e1406e02caec1b2eb5a"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/models/local_skill.npz",
+      "sha256": "9ae27ff97e2d1bec1626df8db5330f55194fc8300d7031469f4896d577e604a2"
+    },
+    {
+      "path": "tasks/twin_open_drawer_and_place_object/solution/refs/visible_centroids.json",
+      "sha256": "3732c4360fb0e55e93af6d4ce450ea4b97b0dae99372882b848402f43880c38d"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/CANDIDATE_FREEZE.json",
+      "sha256": "d21ab0f19962a3d483940af095b1c9dda7fecadc1d36a9438196e3e55ebef6d9"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "e41ff5cf3f33f2b5c9d3d290e8e9da300dae7edc346c548f8c3185e8a4b27c29"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/MANIFEST.json",
+      "sha256": "e157faae3a0ca71b6027a27750b718c8e9925d17961476ab148539759b9f257e"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/graph/task_graph.json",
+      "sha256": "72a10aaf680bc002596bd6721a66fd371335badf02b3329122ab8cfdd62fd453"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/models/local_skill.npz",
+      "sha256": "bd3bd1005d00d81ccd5015627c6b2f883289e6f5426349e05cf09e36cb696e20"
+    },
+    {
+      "path": "tasks/twin_put_knife_board_new/solution/refs/visible_centroids.json",
+      "sha256": "2c61fe437991c64a483e4705159c747c6597bc2e02fd7319527f1359bd91b3a3"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/CANDIDATE_FREEZE.json",
+      "sha256": "5d7a087bc5b2eb85bf8d280ddd416d0a500df218a6ddb139fd0fdf2b1f7b6547"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "33e4e82e0ada90b1cc8dc64f4f85bc1743bf70cdb507c9961b7d8f8d468c8ea7"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/MANIFEST.json",
+      "sha256": "cc170d4926dca7d3b60eac0bbeb0bda12cecfc65d8180857d24b651dd7684d19"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/graph/task_graph.json",
+      "sha256": "2fd4ca7a0cdec6a487b8696efb0110c4e62a540a6dd1ccaecfcd83a08decfbeb"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/models/local_skill.npz",
+      "sha256": "5e1514b257e24742da53b883f495bc194b35f8fd22aca02be8127f4297ab946f"
+    },
+    {
+      "path": "tasks/twin_put_mug_on_box/solution/refs/visible_centroids.json",
+      "sha256": "c2dc29ad1646bf80d4566002881adf2621985bc41f0f1166feaa5a3751a63356"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/CANDIDATE_FREEZE.json",
+      "sha256": "cb25c3dd6d883cc2c6fc1fc29d0b1f9f0458e01ef2f934b724f039ed1e199323"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "4866a04d8f2ccbc5de558cc71958b46b83de1654d4929c68831cb2385063c721"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/MANIFEST.json",
+      "sha256": "85ab32f9fb341be79a000d7f091003878d642d1b49e36c5e6e5f424ed6724354"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/graph/task_graph.json",
+      "sha256": "6d359cfec17e35848568f107cdadcc550f528f0c5217f40c2667cc87185b9fe8"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/models/local_skill.npz",
+      "sha256": "896118b74f153ee2c7e97a216764df56ad3acb70432f8a50877be494b01a3be0"
+    },
+    {
+      "path": "tasks/twin_sort_two_spoon/solution/refs/visible_centroids.json",
+      "sha256": "9cbfdde491ab834027193ebc55b75c2611db8c268532609e2f29c0ac736d14bd"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/CANDIDATE_FREEZE.json",
+      "sha256": "f3bb6d67051517ee86cdefe0689f6496c6ffe8b0f362bac3675876b45eb4aa18"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "f851bf36109643a331792d068f588a373bff56222dc308d205c627baa0975dac"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/MANIFEST.json",
+      "sha256": "b13385706b3d26074a83fe1e0c08cf7e27a762a61aba16d0bfd38455bf6fc3e2"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/graph/task_graph.json",
+      "sha256": "c385fa121e131e1d7cfd92a05846366cff271202c895bc35e9248771f2d0ca24"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/models/local_skill.npz",
+      "sha256": "230d6cc7919cb99dd59ecc58b56553c5ec2f615ab6cbdd35c173d06c2948de64"
+    },
+    {
+      "path": "tasks/twin_sorting_cube_bimanual/solution/refs/visible_centroids.json",
+      "sha256": "e2f4845924db5fbac03b370971e0830c433b34ca56022deb5eeb6e5ea0d3220e"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/CANDIDATE_FREEZE.json",
+      "sha256": "8f7bb035658188dee0174e16a6d278e92d147249191c5ed1536d3ac8fce21067"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "87e06a6f1b98993ba6c7df3bbb8f996b2d1c0bd457904e93498445fe820fc5e1"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/MANIFEST.json",
+      "sha256": "8af326126c9c3761d3e1489b1fb2025139fd23d2064ecfc2ab213e1e583f8a07"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/graph/task_graph.json",
+      "sha256": "0fe30e14668fb9468272b2d4c15b9fb024f860a32bf1179cb5795403ebb41ed6"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/models/local_skill.npz",
+      "sha256": "5a70220d5a196739680aa276cff6561041e7e8e6c5da3e2ca588ce2ec884bc9f"
+    },
+    {
+      "path": "tasks/twin_stack_cups/solution/refs/visible_centroids.json",
+      "sha256": "66b7aad5d1d8fec2884ba695ba3bf9f1d154677c8ae566bcf94945b74155c924"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/CANDIDATE_FREEZE.json",
+      "sha256": "2d3ffb6b6cc9c83ea450fe8dfad2318717f95fbb83a2d8073420b050645a95cb"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/EXTERNAL_BINDINGS.json",
+      "sha256": "098e56a86e03dd112a4b074ab36633b3e294f10b289a298dc6f599e4b3a27a4f"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/MANIFEST.json",
+      "sha256": "87dd4c345df67f7f032a6d13c9fdebf742f5e3e106c8d9d2e58389a67245acbe"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/graph/task_graph.json",
+      "sha256": "57e62aaaafff2f021a44332305e36affa46d608c9a41e98068048679b3f233d4"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/models/local_skill.npz",
+      "sha256": "cc73e8b096d1d2c87bfcbe73a907d4ff8aa84c7301560905f77bf4a5026134b4"
+    },
+    {
+      "path": "tasks/twin_sweep_objects/solution/refs/visible_centroids.json",
+      "sha256": "3931e0d0f2da558d5c43f08a2481267b3faa3ae207437da7bbe6482887764e79"
+    },
+    {
+      "path": "tools/task_graph/twin_export_packages.py",
+      "sha256": "5efce1c059554379e5eebdae98ef2a3885225052fb3f7618e304b267e8b205c7"
+    }
+  ],
+  "input_selection": {
+    "path": "provenance/INPUT_SELECTION.json",
+    "sha256": "5fdfe17b2bbba9f62a8b7c352f73e50c1832e980af90f7603ee83e2b7109036e"
+  },
+  "normalized_selection": {
+    "path": "FINAL_SELECTION.json",
+    "sha256": "e8e3a616f0a5d3d540139940e6fdf82b8dc4d620fd1dc0a895406ab9bffe4040"
+  },
+  "omitted": [
+    "training datasets",
+    "MuJoCo scenes and meshes",
+    "demonstrations",
+    "Python interpreters and environments"
+  ],
+  "output": "/home/zheng/github/Graph-Self-Adapter/task_packages/twin_rsi_v01",
+  "schema": "graph-self-adapter.twin-package-export.v1",
+  "source_snapshots": 2,
+  "tasks": [
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "collect_apple"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "collect_cubes"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "hanging_mug"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "open_drawer_and_place_object"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "put_knife_board_new"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "put_mug_on_box"
+    },
+    {
+      "candidate_id": "r2_draft01",
+      "snapshot": "702725abfe97487f",
+      "task": "sort_two_spoon"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "sorting_cube_bimanual"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "stack_cups"
+    },
+    {
+      "candidate_id": "r3_draft01",
+      "snapshot": "2c7f3041793edb43",
+      "task": "sweep_objects"
+    }
+  ]
+}

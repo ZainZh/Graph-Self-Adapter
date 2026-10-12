@@ -1,0 +1,188 @@
+{
+  "arms": [
+    "fixed_z",
+    "online_z"
+  ],
+  "backend_equivalence": {
+    "path": "/home/zheng/github/Graph-Self-Adapter/evaluations/twin_rsi_v01/FINAL_SPOON_BACKEND_EQUIVALENCE.json",
+    "sha256": "434772c9a5507ba7d4de830c37266ae8038f23e5d4ff76bcf5e3316f104f3ade"
+  },
+  "candidate_id": "per_task_selected_R0_to_R3",
+  "conditions": {
+    "family": "table_plane_position_ood_3_to_8mm",
+    "includes_nominal_case": false,
+    "test_seed": 71005,
+    "trials_per_task_per_arm": 10
+  },
+  "development_evidence": [
+    {
+      "path": "provenance/development_evidence/000_R0_REPORT.json",
+      "sha256": "8933b269da0d4f9c8cc4f478d2b1185608005f3a6afa3ba3b993f33387a21bfb"
+    },
+    {
+      "path": "provenance/development_evidence/001_R1_REPORT.json",
+      "sha256": "a275ff7fd5a1e373e070bead7a23f5732a475cfff30b09fd2c7a01d12a230f2e"
+    },
+    {
+      "path": "provenance/development_evidence/002_R2_REPORT.json",
+      "sha256": "05955a8f6eca0af61223037f74e754f3591569ce2a41ff384ce67d18f4ccba75"
+    },
+    {
+      "path": "provenance/development_evidence/003_R3_REPORT.json",
+      "sha256": "957fb6f117a4c57a53e985127a47931439975c9b9cdfe6706d47489d49248724"
+    }
+  ],
+  "external_evaluator_sources": [
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/twin/physics_evaluation.py",
+      "sha256": "ac5b1ee87c41b89292f03353183f55b515a8e767dd4d996abe09fe82a07a1adf"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/twin/oneshot_tracking.py",
+      "sha256": "4af230c3ccaeeb41557fb8581ad4f32a5d287240a3efeaa22701afa813da6abd"
+    }
+  ],
+  "frozen_at_utc": "2026-10-05T04:01:54.153909+00:00",
+  "inputs": "Calibrated visible RGB-D/masks, proprioception, fixed one-shot priors and declared Boolean supervisors; no continuous evaluator truth in action/loss",
+  "schema": "graph-self-adapter.twin-final-selection.v1",
+  "scope_binding": {
+    "path": "/home/zheng/github/Graph-Self-Adapter/evaluations/twin_rsi_v01/SCOPE.json",
+    "sha256": "8e5e7ce4d01757bd4be7d9b8ba03a52a58fe0988a252794f5d5947265e3d2a31"
+  },
+  "selection_rule": "Maximum fixed-z development successes over R0/R1/R2/R3; latest candidate breaks ties; no held-out-based selection",
+  "status": "frozen",
+  "success_definition": "original task goal AND original numerical safety AND complete valid graph",
+  "tasks": [
+    {
+      "candidate_freeze_sha256": "1b6a031db73ed612595bf83d6bc5eec0b46f3fde9cc450b00347d6084b586359",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 10,
+      "development_fixed_trials": 10,
+      "graph_sha256": "d75f363f089b6211ce543e4b8be3964605f8447472387475fabc904651bcddcb",
+      "model_sha256": "59c3eddb1e9fef986f0394a9164110228361dbb04e7dbeb17f7e631c7c5b199e",
+      "packages": "tasks/twin_collect_apple/solution",
+      "reference_sha256": "0424a2614e31eca4b361a6311706d93e5e002d298e429b4beabd962c249dcef2",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "collect_apple"
+    },
+    {
+      "candidate_freeze_sha256": "36d5aaea70afb03725f41e6f4ffe9b81794225d5543160cb293f1867235f047c",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 9,
+      "development_fixed_trials": 10,
+      "graph_sha256": "d976f26d65a3004c8b562f5b7d365909f067eba6e4d88c6e83e32bf408ef4e16",
+      "model_sha256": "709ca2a196710b07e33452b68f909aa0bd8bbccbabe3762250aedfef2ab4b46d",
+      "packages": "tasks/twin_collect_cubes/solution",
+      "reference_sha256": "7282398bfc4b3f51329c969fda346b6baebc8ff19085c25596af7b81f1fb0ed0",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "collect_cubes"
+    },
+    {
+      "candidate_freeze_sha256": "e1b77b5694e39293982bf0a1995e57fa5d73bb62f7b9d57611193666629e8cbe",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 9,
+      "development_fixed_trials": 10,
+      "graph_sha256": "e829b4a5360cf0c47c6bd49f76d090359c959ddd6e683b154e9d1fee6199cc60",
+      "model_sha256": "842bed8552c89ff09ca327585f91a16d10ca4730b43db3c10907c986f05617a1",
+      "packages": "tasks/twin_hanging_mug/solution",
+      "reference_sha256": "9c6522f2287ee9256a502d8efe3bd22236b3f44589035bb5a72fc29fb82e675f",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "hanging_mug"
+    },
+    {
+      "candidate_freeze_sha256": "c538458276cd9338d396666e6d975fe58aef8975ac41538b19e03d4f2c7e4ff9",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 9,
+      "development_fixed_trials": 10,
+      "graph_sha256": "28d0b762fc1884ac8b8d678a4ab9c9d1b79442a8a0734e1406e02caec1b2eb5a",
+      "model_sha256": "9ae27ff97e2d1bec1626df8db5330f55194fc8300d7031469f4896d577e604a2",
+      "packages": "tasks/twin_open_drawer_and_place_object/solution",
+      "reference_sha256": "3732c4360fb0e55e93af6d4ce450ea4b97b0dae99372882b848402f43880c38d",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "open_drawer_and_place_object"
+    },
+    {
+      "candidate_freeze_sha256": "d21ab0f19962a3d483940af095b1c9dda7fecadc1d36a9438196e3e55ebef6d9",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 3,
+      "development_fixed_trials": 10,
+      "graph_sha256": "72a10aaf680bc002596bd6721a66fd371335badf02b3329122ab8cfdd62fd453",
+      "model_sha256": "bd3bd1005d00d81ccd5015627c6b2f883289e6f5426349e05cf09e36cb696e20",
+      "packages": "tasks/twin_put_knife_board_new/solution",
+      "reference_sha256": "2c61fe437991c64a483e4705159c747c6597bc2e02fd7319527f1359bd91b3a3",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "put_knife_board_new"
+    },
+    {
+      "candidate_freeze_sha256": "5d7a087bc5b2eb85bf8d280ddd416d0a500df218a6ddb139fd0fdf2b1f7b6547",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 5,
+      "development_fixed_trials": 10,
+      "graph_sha256": "2fd4ca7a0cdec6a487b8696efb0110c4e62a540a6dd1ccaecfcd83a08decfbeb",
+      "model_sha256": "5e1514b257e24742da53b883f495bc194b35f8fd22aca02be8127f4297ab946f",
+      "packages": "tasks/twin_put_mug_on_box/solution",
+      "reference_sha256": "c2dc29ad1646bf80d4566002881adf2621985bc41f0f1166feaa5a3751a63356",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "put_mug_on_box"
+    },
+    {
+      "candidate_freeze_sha256": "cb25c3dd6d883cc2c6fc1fc29d0b1f9f0458e01ef2f934b724f039ed1e199323",
+      "candidate_id": "r2_draft01",
+      "development_fixed_successes": 10,
+      "development_fixed_trials": 10,
+      "graph_sha256": "6d359cfec17e35848568f107cdadcc550f528f0c5217f40c2667cc87185b9fe8",
+      "model_sha256": "896118b74f153ee2c7e97a216764df56ad3acb70432f8a50877be494b01a3be0",
+      "packages": "tasks/twin_sort_two_spoon/solution",
+      "reference_sha256": "9cbfdde491ab834027193ebc55b75c2611db8c268532609e2f29c0ac736d14bd",
+      "source_freeze_sha256": "702725abfe97487f4dc81630e4b23e5536364d867cff2dd9edb2478b200e6c55",
+      "source_snapshot": "source_snapshots/702725abfe97487f",
+      "task": "sort_two_spoon"
+    },
+    {
+      "candidate_freeze_sha256": "f3bb6d67051517ee86cdefe0689f6496c6ffe8b0f362bac3675876b45eb4aa18",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 4,
+      "development_fixed_trials": 10,
+      "graph_sha256": "c385fa121e131e1d7cfd92a05846366cff271202c895bc35e9248771f2d0ca24",
+      "model_sha256": "230d6cc7919cb99dd59ecc58b56553c5ec2f615ab6cbdd35c173d06c2948de64",
+      "packages": "tasks/twin_sorting_cube_bimanual/solution",
+      "reference_sha256": "e2f4845924db5fbac03b370971e0830c433b34ca56022deb5eeb6e5ea0d3220e",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "sorting_cube_bimanual"
+    },
+    {
+      "candidate_freeze_sha256": "8f7bb035658188dee0174e16a6d278e92d147249191c5ed1536d3ac8fce21067",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 9,
+      "development_fixed_trials": 10,
+      "graph_sha256": "0fe30e14668fb9468272b2d4c15b9fb024f860a32bf1179cb5795403ebb41ed6",
+      "model_sha256": "5a70220d5a196739680aa276cff6561041e7e8e6c5da3e2ca588ce2ec884bc9f",
+      "packages": "tasks/twin_stack_cups/solution",
+      "reference_sha256": "66b7aad5d1d8fec2884ba695ba3bf9f1d154677c8ae566bcf94945b74155c924",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "stack_cups"
+    },
+    {
+      "candidate_freeze_sha256": "2d3ffb6b6cc9c83ea450fe8dfad2318717f95fbb83a2d8073420b050645a95cb",
+      "candidate_id": "r3_draft01",
+      "development_fixed_successes": 10,
+      "development_fixed_trials": 10,
+      "graph_sha256": "57e62aaaafff2f021a44332305e36affa46d608c9a41e98068048679b3f233d4",
+      "model_sha256": "cc73e8b096d1d2c87bfcbe73a907d4ff8aa84c7301560905f77bf4a5026134b4",
+      "packages": "tasks/twin_sweep_objects/solution",
+      "reference_sha256": "3931e0d0f2da558d5c43f08a2481267b3faa3ae207437da7bbe6482887764e79",
+      "source_freeze_sha256": "2c7f3041793edb43a7d781421b00d7441f181dc59516d99a6f6bce4e9e1e8b97",
+      "source_snapshot": "source_snapshots/2c7f3041793edb43",
+      "task": "sweep_objects"
+    }
+  ],
+  "test_opened_before_freeze": false
+}

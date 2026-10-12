@@ -1,0 +1,80 @@
+{
+  "portable_package": "/home/zheng/github/Graph-Self-Adapter/evaluations/xtrainer_laptop_v01/portable/cup",
+  "runtime": {
+    "schema": "graph-self-adapter.xtrainer-config.v1",
+    "hardware_safety_reviewed": false,
+    "root_identity": "codex-current-root-sam-shared-v01",
+    "robot_ips": {
+      "left": "192.168.5.1",
+      "right": "192.168.5.2"
+    },
+    "left_calibration": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_left_global.yaml",
+    "right_calibration": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_right_global.yaml",
+    "sdk_file": "/home/zheng/github/RoboTwin_bin_pick/include/xtrainer_clover/dobot_control/robots/dobot_api.py",
+    "known_initial_gripper_commands": [
+      0.9852864742279053,
+      0.9706380367279053
+    ],
+    "initial_gripper_state_confirmed": false,
+    "initial_q_tolerance_rad": 0.025,
+    "command_dt_sec": 0.1,
+    "safety": {
+      "max_age_sec": 0.25,
+      "max_velocity_rad_sec": 0.5,
+      "max_step_rad": 0.04,
+      "max_tracking_rad": 0.05,
+      "joint_min_rad": [
+        -3.14,
+        -3.14,
+        -3.14,
+        -3.14,
+        -3.14,
+        -3.14
+      ],
+      "joint_max_rad": [
+        3.14,
+        3.14,
+        3.14,
+        3.14,
+        3.14,
+        3.14
+      ],
+      "workspace_min_m": [
+        -0.8,
+        -1.1,
+        0.0
+      ],
+      "workspace_max_m": [
+        0.8,
+        0.2,
+        0.8
+      ]
+    },
+    "vision": {
+      "sam_utility": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/sam2_tracking_utils.py",
+      "sam_root": "/home/zheng/github/SAM2_streaming",
+      "sam_checkpoint": "/home/zheng/Datasets/sam2/sam2.1_hiera_base_plus.pt",
+      "sam_config": "sam2.1/sam2.1_hiera_b+.yaml",
+      "sam_device": "cuda",
+      "role_boxes": {},
+      "prompt_frame_sha256": null,
+      "prompt_frame_output": "/tmp/cup_sam_initial_RGB.png",
+      "max_age_sec": 0.25,
+      "prompt_reply_path": "/tmp/cup_sam_initial_BOXES.json",
+      "prompt_wall_timeout_sec": 600,
+      "sam_autocast_dtype": "bfloat16"
+    },
+    "hardware_reference_speed_scale": 1.0,
+    "max_root_requests_per_task": 128,
+    "max_task_wall_sec": 3600,
+    "max_stage_wall_sec": 600,
+    "maximum_node_control_updates": 1000,
+    "maximum_hardware_commands": 5000
+  },
+  "sim": {
+    "scene_run": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box",
+    "physics_source": "/home/zheng/github/Graph-Self-Adapter/runs/twin_rsi_v02/A2/source_snapshot/prove/task_graph/twin_physics.py",
+    "evaluator_root": "/home/zheng/github/Mujoco-RSI"
+  },
+  "real_operator_config": "/path/to/Root_reviewed_laptop/local/CONFIG.json"
+}

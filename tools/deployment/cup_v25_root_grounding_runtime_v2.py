@@ -1,0 +1,5 @@
+"""20mm current-visible support control with qualified actual Root initial grounding fallback."""
+from cup_v25_release_clearance_runtime import ReleaseClearanceExecutor
+from cup_v25_root_grounding_vision_v2 import RootFallbackGroundingVision
+SharedCupExecutor=ReleaseClearanceExecutor
+SharedSAMVision=RootFallbackGroundingVision

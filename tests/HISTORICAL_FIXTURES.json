@@ -1,0 +1,14 @@
+{
+  "schema": "graph-self-adapter.historical-fixtures.v1",
+  "fixtures": [
+    {
+      "path": "tests/test_cup_v25_current_goalset.py",
+      "sha256": "68136e9a9f6566ee2fb5194e3d05945542e40b75b03a9bc220bb8adffd0ce0a6",
+      "historical_bound_copy": "task_packages/put_mug_on_box_goalset_v25/source_snapshot/tests/test_cup_v25_current_goalset.py",
+      "reason": "yaw-only toy FK cannot satisfy independent3D rotation equality Jacobian; invalid fixture, not production failure",
+      "original_failure_preserved": true,
+      "replacement": "tests/test_cup_v25_current_goalset_kinematics.py",
+      "active_collection_excluded_explicitly": true
+    }
+  ]
+}

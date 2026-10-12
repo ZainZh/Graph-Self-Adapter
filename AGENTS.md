@@ -6,6 +6,7 @@ Read by task:
 - Research scope or any major change: [spec.md](spec.md).
 - Current work and evidence: [docs/current-work.md](docs/current-work.md), [dashboard/STATUS.json](dashboard/STATUS.json).
 - Architecture and learning boundaries: [docs/architecture.md](docs/architecture.md).
+- Agent context and stage judging: use the phase-specific reading contract in [architecture](docs/architecture.md); read only current-node evidence and related interfaces, expand on uncertainty or structural failure.
 - Runtime setup and checks: [docs/development.md](docs/development.md), [docs/dependencies.md](docs/dependencies.md).
 - Reusing the current task: [task package](task_packages/book_to_caddy_r3/README.md).
 

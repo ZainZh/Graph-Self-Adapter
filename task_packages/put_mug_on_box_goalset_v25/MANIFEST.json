@@ -1,0 +1,963 @@
+{
+  "schema": "graph-self-adapter.accepted-task-package.v1",
+  "task": "put_mug_on_box",
+  "qualification": "Root accepted one opened native nominal full-task engineering pass",
+  "qualification_source": "evaluations/three_task_migration_v25/put_mug_on_box/current_entry_goalset_v01/ROOT_ACCEPTANCE.json",
+  "qualification_sha256": "a583ee414e7251bc3b202ef648024ed1675d4ed350d68e27f5fa3905d606c944",
+  "runtime_sha256": "2232a029047705b2fac101c6b795a8fb8e4f61ec6d05ed7b0dbb6b090a74518e",
+  "entry_module": "cup_v25_current_goalset_one_command",
+  "source_snapshots_executable_dependencies": true,
+  "launcher_uses_canonical_repo_source_bindings": true,
+  "files": [
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/agent.py",
+      "sha256": "1f8e8a7b7d3e42be50caa08fb7e710aa3a1323499fe37893c05455f507b4fdc9",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/io.py",
+      "sha256": "d2a42eecc992089769c410cb33a388bec8ff40a8f441fa5a1b374cfce14f5b25",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/mock.py",
+      "sha256": "a5d647e4c9462a05d261d9536a4515277e0fc8b61c04ca09a6e192ef509f1e78",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/perception.py",
+      "sha256": "42b6f2559ba5811f1a96a2b6ca483504b9e467e6c2a1e7eaa9836c10ecb477c2",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/portable.py",
+      "sha256": "84b9cd0262bd570b240e85bbd78122eda559d2a88642ef20cd5e4aa2c97001c1",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/prove/xtrainer/runtime.py",
+      "sha256": "9457a2b3b45f1ce053ea0e6cc47413899264eddecc90dbade2161dafdf39255b",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/source/frozen_twin_local_skill.py",
+      "sha256": "7aa549ed71dd29bbfbe5542d57031a4f0ee36f2ffbc2da5ec773cb57f8a2a9fd",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/tools/task_graph/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/evaluations/xtrainer_laptop_v01/portable/cup/tools/task_graph/xtrainer_portable.py",
+      "sha256": "722b3e00bc73ca6ed581a6dc0b241dff10cce6eab727f2a681af81a76d3b76ab",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/prove/task_graph/twin_sensor_adapter.py",
+      "sha256": "39c4e701bcb0af4627aebc5173bb4b0a3b60114950f7b1328386d50f8b09a731",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/prove/xtrainer/agent.py",
+      "sha256": "1f8e8a7b7d3e42be50caa08fb7e710aa3a1323499fe37893c05455f507b4fdc9",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/prove/xtrainer/io.py",
+      "sha256": "d2a42eecc992089769c410cb33a388bec8ff40a8f441fa5a1b374cfce14f5b25",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/prove/xtrainer/perception.py",
+      "sha256": "42b6f2559ba5811f1a96a2b6ca483504b9e467e6c2a1e7eaa9836c10ecb477c2",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/prove/xtrainer/runtime.py",
+      "sha256": "9457a2b3b45f1ce053ea0e6cc47413899264eddecc90dbade2161dafdf39255b",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/runs/twin_rsi_v02/A2/source_snapshot/prove/task_graph/twin_physics.py",
+      "sha256": "3e508562e5544613ad91fd7e7a1373b9b236ba9d9aec5e07a984ce919b6e4dce",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tests/test_all_code_stage_runtime.py",
+      "sha256": "ad0d43d352e32a85a4d1f20ea809e159d350bbc8d332cfc4810d7a062dce774c",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_autonomous_sam_grounding.py",
+      "sha256": "5a7e8b208f97ee119702e31b04753e9edce2498555f48fb4156c6e3eaab7d3b5",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_autonomous_stage_runtime.py",
+      "sha256": "2bbe9b59cb44280f10640360b4d68c880ec837c2d754553dfc15384ab01ce979",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_current_goalset.py",
+      "sha256": "68136e9a9f6566ee2fb5194e3d05945542e40b75b03a9bc220bb8adffd0ce0a6",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_fair_public_io.py",
+      "sha256": "48936431fb7b54133acd017c14d1a62e8a63637de55b57465ef4dc1ecfb88518",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_real_capability.py",
+      "sha256": "089ef5894eb0c0f80a67300a413b62d4fad1a4e2daa817ef23edbbb0ad6e81dc",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_root_grounding_v2.py",
+      "sha256": "66e7d5bef1523c9033a426931b890a49214f8a63a620fefc7af8eaf29d554401",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_root_grounding_v3.py",
+      "sha256": "0c684006ac5e9dc58931bcb253e2872c79c3c3724790ee2db1ca841aedbf11f8",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_stage_judge.py",
+      "sha256": "bdf2ddeb6b433bbae3272afd726c3a14078f9e3b20086ffdd9c797d62b12983b",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_cup_v25_visible_support.py",
+      "sha256": "3d369e602a3b7558043cfe1a0783f7c9d32f385cc36fb4e65566918647e8fefd",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_direct_white_runtime.py",
+      "sha256": "233a35fd7def53deea1f087e0cb8f888fa02b41b5bad09010c520acd1fc9de68",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_manual_sam_first_frame.py",
+      "sha256": "8bd1c2ad95839deed489c5afb39bcbaf2eeeedd4fef6fc3ac8afa53ee300e9e7",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tests/test_three_task_v25_public_io.py",
+      "sha256": "8d6acc8c0545113513d4a8a07e6169b2b764119cba0af459d8a981ff84eff79b",
+      "role": "historical frozen verification source"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/all_code_stage_route.py",
+      "sha256": "445bac581d0747df02501c748573bbecc7218013e38133b0476a9ca6fed6e5ac",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/all_code_stage_runtime.py",
+      "sha256": "d138bfab65d607078b0af34ddb9ca457c4f399295e681eb43e378de4ff54e823",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/all_code_stage_sim_entry.py",
+      "sha256": "87d60bce5b4fc28168c07cbff7101bcf286c756621abeae353780c3fad455745",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/all_code_stage_trajectory.py",
+      "sha256": "1b3fef7969c80c3c684e68ca3263ce99ca6bdfc7e16ee6d2797570e9ac54ffdd",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_live_view.py",
+      "sha256": "203d2c50613bdbd94ddbf4fc67905342f8be8f06f0baac94f4ef251b60a3d9a8",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_sam_grounding.py",
+      "sha256": "3b14598ca3f9ddf0d235807a54f01979e805678595f6c629129e2b0de71f36ee",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_entry.py",
+      "sha256": "6a85d84a23730bf2562da3b3689fd071fb8bab29cd7b19e750512f715447f107",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime.py",
+      "sha256": "fd46a1ed32239c4c2a17719142c25660f8badff4f6249bd795349e5d19443dc6",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime_box_support.py",
+      "sha256": "99dafa279440421be0b8c1e868319b9ba7fab4ef11540f70508f6e2d5ee080b3",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime_grasp_transition.py",
+      "sha256": "888ac06acd9b432266bd5e660b77ca7ce90054246d57ffe5e7ad2fe71c8f1b01",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime_initial_part.py",
+      "sha256": "689934eaec6901ccb32dddf8cb4b3798636232bcbda9c21bca7d46d879200139",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime_object_yaw.py",
+      "sha256": "54ff568298db23112912abeda6943ca3ae555b687abe151292395fec3b0d4c3c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/autonomous_stage_runtime_white_move.py",
+      "sha256": "4366ef197d9ade727459d0ffc0e348b137cdf5a7fe211ed7a2aa33cc8dabe2ca",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/compact_stage_judge_v24.py",
+      "sha256": "df7b6f47376aa2e3084659cc70037ca09c871a22db41076a107383fc81f7d1fa",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/compact_stage_judge_v24_grasp_transition.py",
+      "sha256": "d25ea4111e9f7640f86790af80bdcff66336e80536b0c7c0817539927a4477bf",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/compact_stage_judge_v24_transition.py",
+      "sha256": "366ebf18be8bea14e97f82eda458c3bd8b754daff42e47ce4248156d95ab23b5",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_combined_support_entry.py",
+      "sha256": "94518326c1a2e588a094b29235420a78936caeece6ab482fd87ccfa2c196d39e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_combined_support_one_command.py",
+      "sha256": "41e90269b8aad88b3333175e11e4caf8e804487d3c0a3afeb6b4476f86929499",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_combined_support_runtime.py",
+      "sha256": "9ea6227b4a3450158e60c9d2655dc3ec1b9ffcdb5b6c407b46fd245027902065",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_compact_judge.py",
+      "sha256": "c1908fc36998b1e40024db5e8d72a06b87a5ad0d2b029b11634b952baf81ad01",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_current_goalset_entry.py",
+      "sha256": "de155dac4c9995cf58b5e75e37a548a8fdd27d647f3b8354de58cde0c05e88e1",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_current_goalset_one_command.py",
+      "sha256": "4abee29b0471bc6a36e42d1b281ff941de49379bf63e28e5f256e8d82ca6996f",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_current_goalset_runtime.py",
+      "sha256": "788a8bac3e8851407e4c207930168585a4a0475ea87d3773ce817814351fdcd0",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_current_goalset_solver.py",
+      "sha256": "558219a48393b14dec5bce61d3a0dfe5b1247152fcb696fb1cbedf0c13fa6daf",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_entry.py",
+      "sha256": "cf587fcb71a6e0e5080580e9b8861e3c5f07771de52fa4ade68d112e2a41eaab",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_fair_public_entry.py",
+      "sha256": "1739bcf089c54d35219ffd018968c575adf2522c064b26c40f55ff9c2de0dc9f",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_fair_public_one_command.py",
+      "sha256": "d7ed0ec4527cbecf6f1ed85395dfe3e670ce0ba05defd6c1d4bb450f57299035",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_fair_public_sim_io.py",
+      "sha256": "ed4e496f1a4a1f2901b0c53b1086c9fcf5fcbc248e84d06c352309b6046f8f84",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_full_support_envelope.py",
+      "sha256": "c5925df8cb8432af844e98491917acf3945d4e544f28379647ede0bfc167e226",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_one_command.py",
+      "sha256": "b59b87c4ea5ae2b5abe97e64978015536fedbc8ba1ba03a092403b8de0b0f90e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_own_history_retreat_entry.py",
+      "sha256": "7afe491bbedce47d4c4d2ae3166a7b0eba06f314e1f698d6bac3a992601e11a9",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_own_history_retreat_one_command.py",
+      "sha256": "ee21a1baea8bbd38da773d719e52526720668f6dd94d1c616606be00956117dd",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_own_history_retreat_runtime.py",
+      "sha256": "000a388c91e0846861321c9bbaf9b7c411c5dcdb9338ac8ddd5bdacf079dc79f",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_real_capability_entry.py",
+      "sha256": "c9cfc73c78b272ba390fae71cb2c15acd3e16b69c1c2af827f9888683ab3ea8d",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_real_capability_one_command.py",
+      "sha256": "c399e24d956ca06a8d36605b9ba07866af9066b626ac5a14a0f7b50c50d4ce80",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_real_capability_sim_io.py",
+      "sha256": "417058f8004b9f95ebc4c5cbf592d89a234180738c37331cbdf93cf811aea28a",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_release_clearance_entry.py",
+      "sha256": "3fbd428ee43d74565b7eccff3138bbc703438c5a7e4cc304c4b8d1917286d11a",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_release_clearance_one_command.py",
+      "sha256": "9651417014173dce3c4ab25c7cd49a456acc067444de45495ea615779df3839a",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_release_clearance_runtime.py",
+      "sha256": "6243723b6d81beee290290d3e3f29857a00ee84ff91fdd8cf6b8e3e3b6ab3ab9",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_bridge.py",
+      "sha256": "19e3ef9ca1c57ee6bcbb3dac28fd89aa77d99fcfce944da3c2c2fa825dd58381",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_entry.py",
+      "sha256": "e2540c51c868211dbf3e81a44c2002147593c36b0065f20797a36076c2932b20",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_entry_v2.py",
+      "sha256": "afe1531866da5fa9894b4b64baba00c3008c73912a76780ea14d2ca03b37a15e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_entry_v3.py",
+      "sha256": "525800c07f88a2cc874501c4a3ca5136ba6fa2a26643038ce0d03a2a4ad2f37c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_one_command.py",
+      "sha256": "b002f0a51e768b68174451e3e1c7f2b9dc9461cd3d8479ce3583ff60a33202ae",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_one_command_v2.py",
+      "sha256": "6eb5e6ec0e684c62efbc6e3218cb80586f6f549e1aa70b8ec44bca0ca6635fda",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_one_command_v3.py",
+      "sha256": "ff48b34c97228cbaba4a55435497ed0c67ae322bcea3f04782193ff3dd6a5d97",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_runtime.py",
+      "sha256": "5d65c3168b0c40945ae2369294597c60bc4cd06a0bfce1243bd0e87c0db4d3c5",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_runtime_v2.py",
+      "sha256": "d61079454e26dfdf05f313379f81bc598206f2502d573e08401c3237dbcf4f3e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_runtime_v3.py",
+      "sha256": "b23951ca8ee7ea78b82948f724cefa5307226a69b055ff61ef97f97dde705958",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_vision.py",
+      "sha256": "290b90fa70a12356247ac3706b6c2a0b9394afbd6bf9f34430b1ef86809e3d43",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_vision_v2.py",
+      "sha256": "94f2a8798887462afd46564c4ecb815ea70212c06c8f65506e453a407c7d425c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_root_grounding_vision_v3.py",
+      "sha256": "e273dc2f37b6e0e4215e718ec338d69a5ba7417ba0dd757813c9a8b9cccfa37f",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_stage_judge.py",
+      "sha256": "6f1c4219acec471dc98cdc79859c82b8113104b9f2bd6f30bdcd54d36f6f652c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_support_stage_judge.py",
+      "sha256": "6c8a2d8f75d3747b73780fa5f6be56f1ec48dfcf04c728fdd6d709bb19a1bf8c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_visible_support_geometry.py",
+      "sha256": "bf2655d667fa1dd944242e961059c93cf1ee1234c02986477c9eead8765b5919",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/cup_v25_visible_support_runtime.py",
+      "sha256": "57618d5a86f21e865190dd589bbcecba434d1db0dae5f3937e9915ddbc9a4e70",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/direct_white_entry.py",
+      "sha256": "e7904a3f7b8f4119607b46e8adf7c9b3f1ad94dfbd7e993c3d775f4bc026f02b",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/direct_white_geometry.py",
+      "sha256": "63b9a99cfc941e96a9c54ea3e37439f30e2346ec836a00386c5424bae9a8982a",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/direct_white_route.py",
+      "sha256": "c4d1dc981f2ca3ca777b24190357e4da8d861f87942f8254e65a85638af5b8fb",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/direct_white_runtime.py",
+      "sha256": "53261c56595e7bda4fb43a07e99572c580be3bc43ef422061fd0e132bfa361e5",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/gemini_stage_judge_v24.py",
+      "sha256": "de8a55a7f3068e678e7d2307a46b187490b085a1cccb5160a22b07044d74a829",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/gemini_stage_judge_v24_grasp_transition.py",
+      "sha256": "8c5bf5dd0da4c9fe4661d113646c1735e0031db33d7a08728c33aa975403de9e",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/gemini_stage_judge_v24_transition.py",
+      "sha256": "40df7148de3ebf1e8d507d5facda69b7f5abbb07a7467825bd5dfc2b345fd412",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_full_route_plan.py",
+      "sha256": "27c5ce15afc30e7ed07f2cde7e57c290ebc5c809a081281ff2980ad82584f168",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_full_runtime.py",
+      "sha256": "8980a8c11c523dcd9751c11abc863572b06806abb01be8fdb1fccb45d9280e9c",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_local_candidate_v4.py",
+      "sha256": "e0332c1da39687b1da88532324fa26c0bcc24b7a1ee4c751ab76271d5b3fb6bb",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_local_driver_v4r4.py",
+      "sha256": "a5bc84455dc70386086fc36b2115201493788f34cb875a22b7d8f99bb1af6074",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_macro_entry.py",
+      "sha256": "6b949af6cbd1efb29693605992c3a37402360389c825b888951bb491876e9c4a",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_macro_route.py",
+      "sha256": "c1df6ef63dbeccbb8100c214f24beda5a71164b4377328455c1ec42c4cd30abd",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/handle_macro_runtime.py",
+      "sha256": "6a796cfb70e585d8a8ac9beea3344425a64fb27fd4a2cf16080885e795989d05",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/manual_sam_first_frame.py",
+      "sha256": "779649405a71925c01348830fb7e11c929d3502465adf2e5bbd5e3f5294221d5",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/object_centered_runtime.py",
+      "sha256": "874b29aa07a377299e748e312b31cbdcb31c5a2736069bf7a879998dcfdab8ee",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/operator_launcher.py",
+      "sha256": "55d0d62e83f8a813a2fc737da5635b11f3cec4c9b0eb5a1a183887332cd991f3",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/preview_saved_sam_masks.py",
+      "sha256": "ca5ec21f0f31fced0e7f1cdfacc9520e61e1867067a861ba7e65c59ab634e23b",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/real_feedback_stream.py",
+      "sha256": "d1f95f5c3c1ea472c8bd1c7411d17b727e325fdb04407f4fbfd3d2161efdaaad",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/rgbd_capture_retry.py",
+      "sha256": "1a39dfedc904e25f2a658e81c671eb0b0188fa9bd6dd026a9247d8d49fd671ec",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/shared_cup_entry.py",
+      "sha256": "f15be8e339fef199f03bd0c3db69bf7a3b75496b166c3547820d2e5f84bdc840",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/shared_cup_runtime.py",
+      "sha256": "46cf52a0e2ff00c9d77ab55ac92842137160c9f77e45290b375c6ef0133fefba",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/shared_cup_vision.py",
+      "sha256": "84da0c07c7d9bfe8b892312af9b12c3ad1ed00631f21988ab30c22d675412097",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/sim_robot_io.py",
+      "sha256": "3c664a6d215b79fd25e453c79db0092def629bc746a1d1bde87700f813648d14",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/three_task_v25.py",
+      "sha256": "f86d2028727c8c1d2ec6e87474c234dac0c5a7b7f01091d035f4a92f99b6658d",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/three_task_v25_public_io.py",
+      "sha256": "075b34952372e943e853c12856159526611ec4fb97ad2119d1bfbbe0a29d94f4",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "source_snapshot/tools/deployment/wait_for_manual_sam.py",
+      "sha256": "84e4489defef5510a13040dd39512daa3d932310084f58f177b547f9c2d0c2cc",
+      "role": "frozen runtime dependency"
+    },
+    {
+      "path": "solution/models/local_skill.npz",
+      "sha256": "5e1514b257e24742da53b883f495bc194b35f8fd22aca02be8127f4297ab946f",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "solution/refs/visible_centroids.json",
+      "sha256": "edff841fa265dd9ba3617235b9a56724de91aacdbc38e0303bb36fb3ba76c554",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "solution/refs/motor_targets.npz",
+      "sha256": "a4044cb523ea008385c585218f8ffa2d1be73c4a95668f4b4dd38f7c75176042",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "data/TASK_GRAPH.json",
+      "sha256": "20daaab058d43f45889622db64c4d20de0f31459c9e0d8cc90bd16939952e972",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "data/ROBOT_PAD_GEOMETRY.json",
+      "sha256": "6662fbcf7fc2da39fa7140610ef35e693a6dc359882c4208edbda420a386ebff",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "data/SAM_STATIC_REFERENCE.json",
+      "sha256": "1f24456daa3d78f265a41c73333b8940579aa6b2700fb685c9fdd69047122f3f",
+      "role": "task-specific model/reference/graph/robot geometry"
+    },
+    {
+      "path": "evidence/ROOT_ACCEPTANCE.json",
+      "sha256": "a583ee414e7251bc3b202ef648024ed1675d4ed350d68e27f5fa3905d606c944",
+      "role": "Root full-task nominal acceptance"
+    },
+    {
+      "path": "evidence/RESULT.json",
+      "sha256": "bd2e0336e3e201f3219bf11c831cbf95492fa254b33e802ba401d03966f0361a",
+      "role": "sealed full-task result"
+    },
+    {
+      "path": "evidence/PREDICTIONS_SEALED.json",
+      "sha256": "9f0e984a4be700325a062c9dce4500a5a088a5fabbdddef7309bb5874c34bed3",
+      "role": "prediction seal"
+    },
+    {
+      "path": "evidence/EXECUTION_FREEZE.json",
+      "sha256": "d1278d832c61f4f3eeeb562f92877887938687e062cfd8295ae2c3a0691bb3a9",
+      "role": "result-free exact execution freeze"
+    },
+    {
+      "path": "verification/test_cup_v25_current_goalset_kinematics.py",
+      "sha256": "007464c595b553f134fcec17806db7a3c47e7bcf1568cead0bcbd97fa247b91f",
+      "role": "active full6DOF verifier"
+    },
+    {
+      "path": "verification/HISTORICAL_FIXTURES.json",
+      "sha256": "8ea9ece02616332b6af1f9352954243d3c5b89d3094be415cab32db2da7fc057",
+      "role": "historical fixture provenance"
+    },
+    {
+      "path": "operator_source/three_task_v26.py",
+      "sha256": "1e2f23174da2514cfcbe27e085405830ce8ec74d05e8f564bedc74a00a1642fa",
+      "role": "unbound shared operator frontend"
+    },
+    {
+      "path": "operator_source/three_task_v26_operator_scope.py",
+      "sha256": "4b1fcb78ed06e9416f00cb5215f34957cc9a3c50e38e9f1040429317416541f3",
+      "role": "independent engineering scope frontend"
+    },
+    {
+      "path": "operator_source/REGISTRY_V26.json",
+      "sha256": "6349beec6bd15ddd94d2201a63008b0b10a07e04aa6b02d34349e291829dea8d",
+      "role": "selected accepted/experimental task registry"
+    },
+    {
+      "path": "run.sh",
+      "sha256": "fa236626bab86bf606f9e9adb7fa2abf9b1ad607a8fc036fd0e7bd545af07245",
+      "role": "local task startup/documentation"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e10557909d293609619e268af34f39561bf2fa216655d2c4366e00f53562c5e6",
+      "role": "local task startup/documentation"
+    }
+  ],
+  "external_dependency_bindings": [
+    {
+      "path": "/home/zheng/Datasets/sam2/sam2.1_hiera_small.pt",
+      "sha256": "6d1aa6f30de5c92224f8172114de081d104bbd23dd9dc5c58996f0cad5dc4d38"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_00.obj",
+      "sha256": "101ae77729220daa65730e6938e66d67faa5d0f052e1d6f0766f4e60796960b6"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_01.obj",
+      "sha256": "efc6d801b11e8ff9ee54fab0f0a7bddf4362b0f2c793bba75bd79434d781152d"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_02.obj",
+      "sha256": "bb18448dd035847a9a00b8a967e78bf740227aac982cc0545e2e8de26cc99437"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_03.obj",
+      "sha256": "f2490c2886f15fe1de0cfd1bfc9cd1cf84a7c6523c2b656878a9614926c3325f"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_04.obj",
+      "sha256": "a2902436e87f198c609ea1bd17d3a277ffbc5ef551bed0c8deaacc05d357078c"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_05.obj",
+      "sha256": "a3b72b05a5397c751850f22218148aab3f1d64ca9dba8eb2ca5e9f04b0a4368d"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_06.obj",
+      "sha256": "f0d3611f6518f1b08ded726050cea88fc8b25bb8d62478bd2b50f0525259ceb3"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_07.obj",
+      "sha256": "dd3ea73f64509d453a2a21dc250f3f3055ed46a06f293bfee11698ca5d58fea2"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_08.obj",
+      "sha256": "db95c0518a398e47f1fec565eaa81f481cfd82fe0066f7a1607498bd44fe4eed"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_09.obj",
+      "sha256": "c673563af5577c86b7c99d9af4801ba6537321a07c857a60c1cf2c2383c774e1"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_10.obj",
+      "sha256": "d299a7e452872545c4fe396f06c8bff5356bf3757a0635b832af722c1b637f20"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_11.obj",
+      "sha256": "10b8ed6be95b5c1cfb5e3d02c97e427f2aa36e059e4a1955ebdb2895aa8f9c33"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_12.obj",
+      "sha256": "2e2f2e2f766f5ea29d408a261c6c3bb9859112d3ca5f92af308b1620365786c6"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_13.obj",
+      "sha256": "6f87a7432b63819028217f90fbc6faf343b99010f0a4ae523d783883e5892d95"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_14.obj",
+      "sha256": "892da9eb7b145fbf3de0f3df5b6bb4d78395cdb24d41982d0179fb5d5f962f0c"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_15.obj",
+      "sha256": "4982f168a1a115e727d09e59a1d4495d7e96c359dd3d7f583d8ba67c084d5a02"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_16.obj",
+      "sha256": "ceabbd18a7f00e647903613e00521b8f5fc0740c5b640a181f720e000815198e"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_17.obj",
+      "sha256": "c9c782a41bdfffdb1c9fbdd6c5d7045091cb054d663969d721f3b45631728999"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_18.obj",
+      "sha256": "3221afe557535d3c237171685c82d8a584184592e38424726e9cd670dc25cb67"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_19.obj",
+      "sha256": "f97a1f267870cab4c782df3802b7819d10aa4ed8fa3cfa07924d5be7238e160d"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_20.obj",
+      "sha256": "320f51df92c50f9afaac4a05520473ceec54608cd10708d0a32320160dd4052a"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_21.obj",
+      "sha256": "d1ca87e32ac4c31e264d258a9759beeda4b67bab8d028195017a4359b2a4360c"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_22.obj",
+      "sha256": "a7596987405942d3d044f230d22aa9d2db951bea80fdfafbae8cd0742ae09d86"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_6_part_23.obj",
+      "sha256": "3f0bb4b1cb6c52b95edd99f9034b031ce032d3e635848bdeddccea71b81c7df0"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_7_part_00.obj",
+      "sha256": "d73d3acac1ab000f98eed1b2ad0d9bcf593ca84ce9f10f91c338fa8e6bcb8ca0"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_7_part_01.obj",
+      "sha256": "afe117042ad78884fbc03ba3f70c26b6676fdcc140b77d7f17b47edb435bb645"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_7_part_02.obj",
+      "sha256": "a93c46e472ee8bb6f2207dbdd097a7c051e011f0b5264941b4c678790c55ac33"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_7_part_03.obj",
+      "sha256": "2b4892df071169d2f22c6dc88166459d1fe89e9bc93c1525c151d8109918e525"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_8_part_00.obj",
+      "sha256": "0a3567b5bc2b79450fcaaaf863422c248ae0c7cb7456c0c429d356cc15fcbc6a"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_8_part_01.obj",
+      "sha256": "d8269a4f1ffd882a0cb56799f932985d84827f3e9ca8f104d4c161a917461c39"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_8_part_02.obj",
+      "sha256": "bfa4c8f16a80474f920a4aa6c6288e15695fa4ab754c776630006946de58bf42"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/collision_meshes/J1_8_part_03.obj",
+      "sha256": "f615a4fb2657cae2274cb05e36921a61dea723fe94046ded8df069bedefac7e9"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/contact_parts/J1_7_03_00.obj",
+      "sha256": "964e7f5802f7b54e293e8b65c2103287ad9dbe0a206557755d4b5b9f2f6573c9"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/contact_parts/J1_7_03_01.obj",
+      "sha256": "736d46f6f50299f45944154f21518be2f2b24777970cf8927d2fa0a62f7253ca"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/contact_parts/J1_8_03_00.obj",
+      "sha256": "26a0a29ee5a4cc0efb508cbcfe14b99815a7a80868a3b379007a14beaf839a9e"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_1.obj",
+      "sha256": "c354fadabbbc25ea2b4c2f0f7b2d76d495faad8c3e3cc1d461121a5dd4e656ca"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_2.obj",
+      "sha256": "5fbc6034aede6811871e7d327e58d25e025fa679cef339b37bc30df31611975d"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_3.obj",
+      "sha256": "976ab7f298b44a917c5a66598e6515de38d6071c5789dae584664f76b02c2f63"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_4.obj",
+      "sha256": "4d5fc4e1e6fac89fc785c0c059010ae6de20c65ea2f98ac7a32496be24b078eb"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_5.obj",
+      "sha256": "cde62d9a0a18dda975cc4905316d8f0928230c6756303d9d2c182a1441e535de"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_6.obj",
+      "sha256": "d64b18a3ecead33980718f3030d146b5f4e5f6dde8e447b1491a1892dff699fa"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_7.obj",
+      "sha256": "5eb38c751f2b0894442357264643d3959818376e51ead944e8306b1fe5270f55"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/J1_8.obj",
+      "sha256": "7c894547b4c4ecc34ea6f6a31221161d703f902a70435295a875d9de2f6c7a3f"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/robot/meshes/base_link.obj",
+      "sha256": "3d63cac7279ab6c8cf65a8cfa72e82e5b857d7730d3713305811bc7b07a41016"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/assets/ycb/025_mug/google_16k/texture_map.png",
+      "sha256": "1131a0ee591d59e0a77e55ff9d72aeac07af76a0f9ed09cbd01489498649ef1f"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/dynamics.npz",
+      "sha256": "54819b474d1039c318c9e740f38a5bf2faed6cc338a1fe1e084202d2e75bb8b3"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_0.obj",
+      "sha256": "e4125f005c626fca4ac9ba4cef47b099316e46c786a6e00b4c5ac7339aeff825"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_1.obj",
+      "sha256": "99568b03b9dcd204079f57ce73705204a8bf29579ad4f2bf6c5ccbd2f5a168bd"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_2.obj",
+      "sha256": "149a621681b88801e7860c28368563f3cc04ec5ef8cb2ccb940cee878ab3df2b"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_3.obj",
+      "sha256": "d06bb4c6cbbfc3ac0debdd6319e6ecde0d96910ba5c7d293345acff62119ef56"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_4.obj",
+      "sha256": "4bfa621ece154a9ad33479642df0102f40a343e85bbadfae5e4fa0043fd865f9"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_5.obj",
+      "sha256": "3aacbb1b22d2e248da2c5b1f05ef2e18f18bacc50f04573a76b7eab69806033a"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/box_part_6.obj",
+      "sha256": "64c2b1e56e725fbd66fb0b61620168e85ec058d76a7352c6363577098abb40cf"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/red_mug_part_0.obj",
+      "sha256": "c7f7260edd4764218f767f9b6ef4cd1d6fb7174acd5a54265bbcdde72072a04f"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/meshes/white_mug_part_0.obj",
+      "sha256": "c7f7260edd4764218f767f9b6ef4cd1d6fb7174acd5a54265bbcdde72072a04f"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/motor_targets.npz",
+      "sha256": "a4044cb523ea008385c585218f8ffa2d1be73c4a95668f4b4dd38f7c75176042"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/physics_validation.json",
+      "sha256": "e1880f85f5e8547b159d828d73cfa3b1325f1da3ef7f0fc7cbd4de92096715a9"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/reconstruction.json",
+      "sha256": "23e33385fbbe13bbb43f8c9a637070ded88018e4addb8364abf7b5b45cceb835"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/reference.npz",
+      "sha256": "23ef7110fde53b0878167f9c14abf801a560f8e3034e1a83baeac0d6b9ad4994"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/runs/physics_v2/put_mug_on_box/scene.xml",
+      "sha256": "680a2bcb2f7bad8e93813a3c33bb0af429375044bec813c09aa1b7c74442627c"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/twin/oneshot_tracking.py",
+      "sha256": "4af230c3ccaeeb41557fb8581ad4f32a5d287240a3efeaa22701afa813da6abd"
+    },
+    {
+      "path": "/home/zheng/github/Mujoco-RSI/twin/physics_evaluation.py",
+      "sha256": "ac5b1ee87c41b89292f03353183f55b515a8e767dd4d996abe09fe82a07a1adf"
+    },
+    {
+      "path": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_left_global.yaml",
+      "sha256": "bc2076620b9908ce5c463e51f4517e522d2c7062b4fb63b274401043f54efa14"
+    },
+    {
+      "path": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_right_global.yaml",
+      "sha256": "53673dc8b79f295745d8485dfc12fabe0630092f246f2d5af349f8bd07594358"
+    },
+    {
+      "path": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/sam2_tracking_utils.py",
+      "sha256": "e053024f7aa4f342040966023e3adcbf7b11922ef9e010c993989aa360774f8c"
+    },
+    {
+      "path": "/home/zheng/github/SAM2_streaming/configs/sam2.1/sam2.1_hiera_s.yaml",
+      "sha256": "0f36b91e86e58d06c87e42997166212468b88b98b60e4d816d5e4d4d088b6f55"
+    },
+    {
+      "path": "/home/zheng/github/SAM2_streaming/sam2/build_sam.py",
+      "sha256": "d62a1f2388486223aafdfcf1dd7aab4a07f00751f484421224cba47a5a6df229"
+    },
+    {
+      "path": "/home/zheng/github/SAM2_streaming/sam2/sam2_camera_predictor.py",
+      "sha256": "b2d9ed9a3a6e5d74c45d78260e915ce13767dbcd77b6d33f92536a66c51ef182"
+    },
+    {
+      "path": "/home/zheng/github/xtrainer_clover/dobot_control/robots/dobot_api.py",
+      "sha256": "6518f8b159a3dc2e303945523abd28b94d02827912ea78e3ef0e73c95b8d82ee"
+    }
+  ],
+  "standard_scene_assets_packaged": false,
+  "hardware_execution_enabled": false,
+  "actual_Root_judgement_required": true,
+  "upright_white_cup_claim": false,
+  "success_video": "media/cup_current_goalset_v25/annotated_nominal_success_4x.mp4",
+  "source_test_fixture_limitation": "invalid historical yaw-only fixture preserved; replacement6DOF test passed",
+  "presentation": {
+    "video": "media/cup_current_goalset_v25/annotated_nominal_success_4x.mp4",
+    "sha256": "0cacbde5dc97d1b78f4abc5c05eb497781ff4f7fbcd6c09ceac25377b6a7354f",
+    "manifest": "media/cup_current_goalset_v25/annotated_nominal_success_4x.json",
+    "label": "annotated post-seal reconstruction; action4x and judge waitscompressed; not live/newrollout"
+  },
+  "historical_fixture_manifest": "verification/HISTORICAL_FIXTURES.json"
+}

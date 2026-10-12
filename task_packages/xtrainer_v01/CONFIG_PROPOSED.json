@@ -1,0 +1,69 @@
+{
+  "schema": "graph-self-adapter.xtrainer-config.v1",
+  "hardware_safety_reviewed": false,
+  "root_identity": "current-root-must-review-live-frames",
+  "robot_ips": {
+    "left": "192.168.5.1",
+    "right": "192.168.5.2"
+  },
+  "left_calibration": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_left_global.yaml",
+  "right_calibration": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/calibration/robot_camera_apriltag_right_global.yaml",
+  "sdk_file": "/home/zheng/github/RoboTwin_bin_pick/include/xtrainer_clover/dobot_control/robots/dobot_api.py",
+  "known_initial_gripper_commands": [
+    1.0,
+    1.0
+  ],
+  "initial_gripper_state_confirmed": false,
+  "initial_q_tolerance_rad": 0.025,
+  "command_dt_sec": 0.1,
+  "safety": {
+    "max_age_sec": 0.25,
+    "max_velocity_rad_sec": 0.5,
+    "max_step_rad": 0.04,
+    "max_tracking_rad": 0.05,
+    "joint_min_rad": [
+      -3.14,
+      -3.14,
+      -3.14,
+      -3.14,
+      -3.14,
+      -3.14
+    ],
+    "joint_max_rad": [
+      3.14,
+      3.14,
+      3.14,
+      3.14,
+      3.14,
+      3.14
+    ],
+    "workspace_min_m": [
+      -0.8,
+      -1.1,
+      0.0
+    ],
+    "workspace_max_m": [
+      0.8,
+      0.2,
+      0.8
+    ]
+  },
+  "vision": {
+    "sam_utility": "/home/zheng/github/RoboTwin_bin_pick/script/real_zed_collection/sam2_tracking_utils.py",
+    "sam_root": "/home/zheng/github/SAM2_streaming",
+    "sam_checkpoint": "/home/zheng/Datasets/sam2/sam2.1_hiera_large.pt",
+    "sam_config": "sam2.1/sam2.1_hiera_l.yaml",
+    "sam_device": "cuda",
+    "role_boxes": {},
+    "prompt_frame_sha256": null,
+    "prompt_frame_output": "/tmp/xtrainer_actual_first_frame.png",
+    "max_age_sec": 0.25,
+    "prompt_reply_path": "/tmp/xtrainer_actual_first_frame_boxes.json",
+    "prompt_wall_timeout_sec": 300,
+    "sam_autocast_dtype": "bfloat16"
+  },
+  "hardware_reference_speed_scale": 0.1,
+  "max_root_requests_per_task": 128,
+  "max_task_wall_sec": 3600,
+  "max_stage_wall_sec": 600
+}
